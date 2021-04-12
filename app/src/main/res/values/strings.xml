@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Green</string>
+
+    <string name="intro_text_1">يقال لصاحب القرأن يوم القيامه ارتقى ورتل فأن منزلتك عند اخر ايه تقراها</string>
+    <string name="intro_text_2">اعطاء اجازه متصله بالسند</string>
+    <string name="intro_text_3">"هل من مشمر الى الجنه "</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="password">كلمه المرور</string>
+    <string name="forget_password">هل لديك حساب ونسيت كلمه المرور؟</string>
+    <string name="login">دخول</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="volunteer">متبرع</string>
+    <string name="worth_donation">طالب تبرع</string>
+    <string name="new_member_registration">تسجل عضو جديد متبرع</string>
+    <string name="name">الاسم</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="governorate">المحافظه</string>
+    <string name="city">المدينه</string>
+    <string name="location">اللوكيشن</string>
+    <string name="conditions_of_registration">شروط التسجيل</string>
+    <string name="do_you_have_an_account">هل لديك حساب ؟ سجل</string>
+    <string name="new_member_registration_need_donation">تسجيل عضو جديد  طالب تبرع</string>
+    <string name="resend_verification_code">اعاده ارسال كود التفعيل</string>
+    <string name="skip">تخطى</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_nav"
+    app:startDestination="@id/regisLoginFragment">
+
+    <fragment
+        android:id="@+id/regisLoginFragment"
+        android:name="com.muhammad.green.registration.RegisLoginFragment"
+        android:label="regis_login_fragment"
+        tools:layout="@layout/regis_login_fragment" >
+        <action
+            android:id="@+id/action_regisLoginFragment_to_regisUserTypeFragment"
+            app:destination="@id/regisUserTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regisNeedDonationFragment"
+        android:name="com.muhammad.green.registration.RegisNeedDonationFragment"
+        android:label="regis_need_donation_fragmnet"
+        tools:layout="@layout/regis_need_donation_fragmnet" >
+        <action
+            android:id="@+id/action_regisNeedDonationFragment_to_verificationCodeFragment"
+            app:destination="@id/verificationCodeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/verificationCodeFragment"
+        android:name="com.muhammad.green.registration.VerificationCodeFragment"
+        android:label="regis_verification_code_fragment"
+        tools:layout="@layout/regis_verification_code_fragment" />
+    <fragment
+        android:id="@+id/regisVolunteerInfoFragmnet"
+        android:name="com.muhammad.green.registration.RegisVolunteerInfoFragmnet"
+        android:label="regis_user_type_fragmnet"
+        tools:layout="@layout/regis_volunteer_info_fragmnet" >
+        <action
+            android:id="@+id/action_regisVolunteerInfoFragmnet_to_verificationCodeFragment"
+            app:destination="@id/verificationCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regisUserTypeFragment"
+        android:name="com.muhammad.green.registration.regisUserTypeFragment"
+        android:label="regisUserTypeFragment"
+        tools:layout="@layout/regis_user_type_fragmnet">
+        <action
+            android:id="@+id/action_regisUserTypeFragment_to_regisNeedDonationFragment"
+            app:destination="@id/regisNeedDonationFragment" />
+        <action
+            android:id="@+id/action_regisUserTypeFragment_to_regisVolunteerInfoFragmnet"
+            app:destination="@id/regisVolunteerInfoFragmnet" />
+    </fragment>
+
+</navigation>
