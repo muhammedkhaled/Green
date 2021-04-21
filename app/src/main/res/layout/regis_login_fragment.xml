@@ -7,7 +7,7 @@
     tools:context=".registration.RegisLoginFragment">
 
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/whisper"
@@ -37,7 +37,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/mask1" />
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:id="@+id/login_btn"
@@ -71,6 +71,9 @@
         android:text="@string/forget_password"
         android:textSize="14sp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
         app:layout_constraintBottom_toTopOf="@+id/login_btn"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -84,6 +87,9 @@
         android:text="@string/do_you_have_an_account"
         android:textSize="14sp"
         android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
@@ -127,19 +133,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="@string/mobile_number"
-        app:boxCornerRadiusBottomEnd="4dp"
-        app:boxCornerRadiusBottomStart="4dp"
-        app:boxCornerRadiusTopEnd="4dp"
-        app:boxCornerRadiusTopStart="4dp"
-        app:boxStrokeWidthFocused="1dp"
-        app:hintEnabled="true"
+        style="@style/TextInputLayout.EditText.FilledBox"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
-        app:layout_constraintTop_toBottomOf="@id/loginLogo_img"
-        app:boxBackgroundColor="@color/white"
-        app:hintTextColor="@color/ebony_clay"
-        android:textColorHint="@color/ebony_clay"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        app:layout_constraintTop_toBottomOf="@id/loginLogo_img">
 
         <EditText
             android:id="@+id/loginPhoneNum_et"
@@ -151,8 +148,7 @@
             android:paddingEnd="8dp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            />
+            android:textSize="18sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -161,12 +157,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/password"
-        app:boxCornerRadiusBottomEnd="4dp"
-        app:boxCornerRadiusBottomStart="4dp"
-        app:boxCornerRadiusTopEnd="4dp"
-        app:boxCornerRadiusTopStart="4dp"
-        app:boxStrokeWidthFocused="1dp"
-        app:hintEnabled="true"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/forgotPass_tv"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -174,13 +164,11 @@
         app:layout_constraintStart_toStartOf="@+id/guideline1"
         app:layout_constraintTop_toBottomOf="@+id/loginPhoneNum_til"
         app:layout_constraintVertical_chainStyle="spread_inside"
-        app:passwordToggleEnabled="true"
-        app:boxBackgroundColor="@color/white"
-        app:hintTextColor="@color/ebony_clay"
         android:textColorHint="@color/ebony_clay"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        app:passwordToggleTint="@color/gray"
+        style="@style/TextInputLayout.EditText.FilledBox">
 
-        <EditText
+    <EditText
             android:id="@+id/loginPassword_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

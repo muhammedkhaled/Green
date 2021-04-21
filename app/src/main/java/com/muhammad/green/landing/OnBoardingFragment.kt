@@ -15,7 +15,7 @@ class OnBoardingFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (arguments != null) {
-            position = arguments!!.getInt(ARG_POSITION)
+            position = requireArguments().getInt(ARG_POSITION)
         }
     }
 

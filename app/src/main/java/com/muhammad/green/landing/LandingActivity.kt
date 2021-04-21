@@ -11,7 +11,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener
 import com.google.android.material.tabs.TabLayout
-import com.muhammad.green.MainActivity
+import com.muhammad.green.home.MainActivity
 import com.muhammad.green.R
 import com.muhammad.green.registration.RegistrationActivity
 import java.util.*

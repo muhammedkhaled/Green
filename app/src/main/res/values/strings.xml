@@ -23,5 +23,47 @@
     <string name="new_member_registration_need_donation">تسجيل عضو جديد  طالب تبرع</string>
     <string name="resend_verification_code">اعاده ارسال كود التفعيل</string>
     <string name="skip">تخطى</string>
+    <string name="cases_of_donation">حالات التبرع</string>
+    <string name="cases">الحالات</string>
+    <string name="in_kind_donations">تبرعات عينيه</string>
+    <string name="amount_of_surgery">قيمه عمليه جراحيه</string>
+    <string name="my_info">بيانتى</string>
+    <string name="admin_word">كلمه الاداره</string>
+    <string name="about_us">عن الجمعيه</string>
+    <string name="need_money_donation">طلب تبرع نقدى</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="edit_my_info">تعديل بيانتى</string>
+    <string name="donate_to_case">التبرع الى الحاله</string>
+    <string name="case_reports">تقارير الحاله</string>
+    <string name="donate_now">التبرع الأن</string>
+    <string name="notifications">التنبيهات</string>
+    <string name="Age">السن</string>
+    <string name="nationality">الجنسيه</string>
+    <string name="FullAddress">العنوان التفصيلى</string>
+    <string name="national_id">رقم البطاقه</string>
+    <string name="family_members">عدد افراد الاسره</string>
+    <string name="income_source">مصدر الدخل الشهرى</string>
+    <string name="monthly_income">الدخل الشهرى</string>
+    <string name="pension_type">نوع المعاش</string>
+    <string name="help_type">نوع المساعده</string>
+    <string name="attachment">ارفاق ملفات</string>
+    <string name="my_needs">طلباتى</string>
+    <string name="favorite">المفضله</string>
+    <string name="electric_device">أجهزه كهربائيه</string>
+    <string name="donate_a_device">تبرع بجهاز لديك</string>
+    <string name="enter_device_details">ادخال بيانات الجهاز</string>
+    <string name="category">اختيار القسم</string>
+    <string name="device_name">اسم الجهاز</string>
+    <string name="device_details">تفاصيل الجهاز والحاله العامه</string>
+    <string name="device_pictures">صور للجهاز</string>
+    <string name="send">ارسال</string>
+    <string name="do_you_need_it_order_from_here">هل انت فى احتياجه اطلبه من هنا</string>
+    <string name="choose_user_type">اختر نوع العضويه</string>
 
+    <string-array name="stepLabels">
+        <item>Approval</item>
+        <item>Processed</item>
+        <item>Shipped</item>
+        <item>Delivery</item>
+    </string-array>
 </resources>

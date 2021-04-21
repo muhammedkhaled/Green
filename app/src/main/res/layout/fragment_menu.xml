@@ -1,14 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".home.MenuFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
 
-</FrameLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+
+    <TextView
+        android:id="@+id/menu_myInfo_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="@string/my_info"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/ic_person_outline"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableTint="?attr/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/menu_myOrders_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="طلباتى"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/ic_receipt_24px"
+        app:drawableTint="?attr/colorPrimary"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/menu_myInfo_tv" />
+
+    <TextView
+        android:id="@+id/menu_needMoney_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="@string/need_money_donation"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/ic_receipt_24px"
+        app:drawableTint="?attr/colorPrimary"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/menu_myOrders_tv" />
+
+    <TextView
+        android:id="@+id/menu_aboutUs_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="@string/about_us"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/ic_business_24px"
+        app:drawableTint="?attr/colorPrimary"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/menu_needMoney_tv" />
+
+    <TextView
+        android:id="@+id/menu_adminWord_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="@string/admin_word"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/ic_chat_outline"
+        app:drawableTint="?attr/colorPrimary"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/menu_aboutUs_tv" />
+
+    <TextView
+        android:id="@+id/menu_logout_tv"
+        style="@style/textViewShape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:text="@string/logout"
+        android:layout_marginTop="@dimen/_66sdp"
+        app:drawableStartCompat="@drawable/icon_sign_out"
+        app:layout_constraintEnd_toStartOf="@id/guideline_v2"
+        app:layout_constraintStart_toEndOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@+id/menu_adminWord_tv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

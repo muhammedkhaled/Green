@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.23" />
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -80,12 +80,14 @@
             app:layout_constraintStart_toStartOf="@+id/guideline1"
             app:layout_constraintTop_toBottomOf="@+id/guideline3">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/regisVolLocation_btn"
-                style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:cornerRadius="@dimen/_4sdp"
                 android:backgroundTint="@color/white"
                 android:text="@string/location"
                 android:textAlignment="textStart"
@@ -94,12 +96,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/regisVolCity_til" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/regisVolNext_btn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
                 android:textSize="20sp"
+                app:cornerRadius="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/conditions_checkbox" />
@@ -109,8 +112,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:buttonTint="@color/Astral"
-                android:checked="true"
+                android:checked="false"
                 android:text="@string/conditions_of_registration"
+                android:textColor="@color/ebony_clay"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/regisVolPass_til" />
 
@@ -134,25 +138,18 @@
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/regisVolNext_btn" />
+                app:layout_constraintTop_toBottomOf="@+id/regisVolNext_btn"
+                android:clickable="true"
+                android:focusable="true"
+                />
 
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/regisVolName_til"
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                style="@style/TextInputLayout.EditText.FilledBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:hint="@string/name"
-                app:boxCornerRadiusBottomEnd="4dp"
-                app:boxCornerRadiusBottomStart="4dp"
-                app:boxCornerRadiusTopEnd="4dp"
-                app:boxCornerRadiusTopStart="4dp"
-                app:boxStrokeWidthFocused="1dp"
-                app:hintEnabled="true"
-                app:boxBackgroundColor="@color/white"
-                app:hintTextColor="@color/ebony_clay"
-                android:textColorHint="@color/ebony_clay"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolTitle_tv">
@@ -174,18 +171,8 @@
                 android:id="@+id/regisVolPhone_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:hint="@string/phone"
-                app:boxCornerRadiusBottomEnd="4dp"
-                app:boxCornerRadiusBottomStart="4dp"
-                app:boxCornerRadiusTopEnd="4dp"
-                app:boxCornerRadiusTopStart="4dp"
-                app:boxStrokeWidthFocused="1dp"
-                app:hintEnabled="true"
-                app:boxBackgroundColor="@color/white"
-                app:hintTextColor="@color/ebony_clay"
-                android:textColorHint="@color/ebony_clay"
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolName_til">
@@ -205,18 +192,10 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/regisVolGov_til"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                style="@style/TextInputLayout.DropDownMenu.FilledBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:hint="@string/governorate"
-                app:boxCornerRadiusBottomEnd="4dp"
-                app:boxCornerRadiusBottomStart="4dp"
-                app:boxCornerRadiusTopEnd="4dp"
-                app:boxCornerRadiusTopStart="4dp"
-                app:boxStrokeWidthFocused="1dp"
-                app:hintEnabled="true"
-                android:background="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolPhone_til">
@@ -225,27 +204,20 @@
                     android:id="@+id/regisVolGov_actv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
                     android:inputType="none"
                     android:textColor="@color/ebony_clay"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/regisVolCity_til"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                style="@style/TextInputLayout.DropDownMenu.FilledBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:hint="@string/city"
-                app:boxCornerRadiusBottomEnd="4dp"
-                app:boxCornerRadiusBottomStart="4dp"
-                app:boxCornerRadiusTopEnd="4dp"
-                app:boxCornerRadiusTopStart="4dp"
-                app:boxStrokeWidthFocused="1dp"
-                app:hintEnabled="true"
-                android:background="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolGov_til">
@@ -254,7 +226,6 @@
                     android:id="@+id/regisVolCity_et"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
                     android:inputType="none"
                     android:textColor="@color/ebony_clay"
                     android:textSize="14sp" />
@@ -265,18 +236,8 @@
                 android:id="@+id/regisVolPass_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:hint="@string/password"
-                app:boxCornerRadiusBottomEnd="4dp"
-                app:boxCornerRadiusBottomStart="4dp"
-                app:boxCornerRadiusTopEnd="4dp"
-                app:boxCornerRadiusTopStart="4dp"
-                app:boxStrokeWidthFocused="1dp"
-                app:hintEnabled="true"
-                app:boxBackgroundColor="@color/white"
-                app:hintTextColor="@color/ebony_clay"
-                android:textColorHint="@color/ebony_clay"
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolLocation_btn">

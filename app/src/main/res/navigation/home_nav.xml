@@ -1,34 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_nav"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/navigation_home">
+
 
     <fragment
-        android:id="@+id/callUsFragment"
+        android:id="@+id/navigation_menu"
+        android:name="com.muhammad.green.home.MenuFragment"
+        android:label=""
+        tools:layout="@layout/fragment_menu" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.muhammad.green.home.NotificationFragment"
+        android:label=""
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.muhammad.green.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.muhammad.green.home.favoriteFragment"
+        android:label=""
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_callUs"
         android:name="com.muhammad.green.home.CallUsFragment"
-        android:label="fragment_call_us"
+        android:label=""
         tools:layout="@layout/fragment_call_us" />
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.muhammad.green.home.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/detailsFragment"
+        android:name="com.muhammad.green.home.DetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_details" />
     <fragment
-        android:id="@+id/favoriteFragment"
-        android:name="com.muhammad.green.home.favoriteFragment"
-        android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        android:id="@+id/donateDeviceFragment"
+        android:name="com.muhammad.green.home.DonateDeviceFragment"
+        android:label="fragment_donate_device"
+        tools:layout="@layout/fragment_donate_device" />
     <fragment
-        android:id="@+id/notificationFragment"
-        android:name="com.muhammad.green.home.NotificationFragment"
-        android:label="fragment_notification"
-        tools:layout="@layout/fragment_notification" />
+        android:id="@+id/caseDetailsFragment"
+        android:name="com.muhammad.green.home.CaseDetailsFragment"
+        android:label="fragment_case_details"
+        tools:layout="@layout/fragment_case_details" />
     <fragment
-        android:id="@+id/menuFragment"
-        android:name="com.muhammad.green.home.MenuFragment"
-        android:label="fragment_menu"
-        tools:layout="@layout/fragment_menu" />
+        android:id="@+id/aboutUsFragment"
+        android:name="com.muhammad.green.home.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/administrationWordFragment"
+        android:name="com.muhammad.green.home.AdministrationWordFragment"
+        android:label="fragment_administration_word"
+        tools:layout="@layout/fragment_administration_word" />
+    <fragment
+        android:id="@+id/caseReportsFragment"
+        android:name="com.muhammad.green.home.CaseReportsFragment"
+        android:label="fragment_case_reports"
+        tools:layout="@layout/fragment_case_reports" />
+    <fragment
+        android:id="@+id/needInKindDonationFragment"
+        android:name="com.muhammad.green.home.NeedInKindDonationFragment"
+        android:label="fragment_need_in_kind_donation"
+        tools:layout="@layout/fragment_need_in_kind_donation" />
+    <fragment
+        android:id="@+id/volInKindDonationsFragment"
+        android:name="com.muhammad.green.home.VolInKindDonationsFragment"
+        android:label="fragment_vol_in_kind_donations"
+        tools:layout="@layout/fragment_vol_in_kind_donations" />
+    <fragment
+        android:id="@+id/newInfoDonationNeedFragment"
+        android:name="com.muhammad.green.home.NewInfoDonationNeedFragment"
+        android:label="fragment_new_info_donation_need"
+        tools:layout="@layout/fragment_new_info_donation_need" />
+    <fragment
+        android:id="@+id/stateOfOrderFragment"
+        android:name="com.muhammad.green.home.StateOfOrderFragment"
+        android:label="fragment_state_of_order"
+        tools:layout="@layout/fragment_state_of_order" />
+
 </navigation>

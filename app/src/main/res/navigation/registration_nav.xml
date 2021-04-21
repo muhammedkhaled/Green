@@ -6,10 +6,12 @@
     android:id="@+id/registration_nav"
     app:startDestination="@id/regisLoginFragment">
 
+<!--  todo forget pass fragment  -->
+
     <fragment
         android:id="@+id/regisLoginFragment"
         android:name="com.muhammad.green.registration.RegisLoginFragment"
-        android:label="regis_login_fragment"
+        android:label=""
         tools:layout="@layout/regis_login_fragment" >
         <action
             android:id="@+id/action_regisLoginFragment_to_regisUserTypeFragment"
@@ -18,7 +20,7 @@
     <fragment
         android:id="@+id/regisNeedDonationFragment"
         android:name="com.muhammad.green.registration.RegisNeedDonationFragment"
-        android:label="regis_need_donation_fragmnet"
+        android:label=""
         tools:layout="@layout/regis_need_donation_fragmnet" >
         <action
             android:id="@+id/action_regisNeedDonationFragment_to_verificationCodeFragment"
@@ -28,12 +30,12 @@
     <fragment
         android:id="@+id/verificationCodeFragment"
         android:name="com.muhammad.green.registration.VerificationCodeFragment"
-        android:label="regis_verification_code_fragment"
+        android:label=""
         tools:layout="@layout/regis_verification_code_fragment" />
     <fragment
         android:id="@+id/regisVolunteerInfoFragmnet"
-        android:name="com.muhammad.green.registration.RegisVolunteerInfoFragmnet"
-        android:label="regis_user_type_fragmnet"
+        android:name="com.muhammad.green.registration.RegisVolunteerInfoFragment"
+        android:label=""
         tools:layout="@layout/regis_volunteer_info_fragmnet" >
         <action
             android:id="@+id/action_regisVolunteerInfoFragmnet_to_verificationCodeFragment"
@@ -41,8 +43,8 @@
     </fragment>
     <fragment
         android:id="@+id/regisUserTypeFragment"
-        android:name="com.muhammad.green.registration.regisUserTypeFragment"
-        android:label="regisUserTypeFragment"
+        android:name="com.muhammad.green.registration.RegisUserTypeFragment"
+        android:label=""
         tools:layout="@layout/regis_user_type_fragmnet">
         <action
             android:id="@+id/action_regisUserTypeFragment_to_regisNeedDonationFragment"

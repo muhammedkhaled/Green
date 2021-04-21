@@ -12,6 +12,15 @@
     <color name="ebony_clay">#23233C</color>
     <color name="whisper">#F3F4F9</color>
     <color name="emerald">#61D27C</color>
-    <color name="emerd">#8ACD79</color>
+    <color name="emerald_light">#8ACD79</color>
+    <color name="orange">#E36716</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#808080</color>
+
+
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="stpi_default_primary_color">#00b47c</color>
+    <color name="stpi_default_line_color">#b3bdc2</color>
+    <color name="stpi_default_text_color">#000</color>
 
 </resources>

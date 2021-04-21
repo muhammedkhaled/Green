@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".landing.LandingActivity"
     >
-
-
-
     <FrameLayout
         android:id="@+id/fragment_view"
         android:layout_width="match_parent"

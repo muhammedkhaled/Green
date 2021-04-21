@@ -18,14 +18,61 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">@color/Astral</item>
-        <item name="android:textColorSecondary">@color/emerald</item>
-        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/transparent</item>
+        <item name="android:textColorSecondary">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@android:color/transparent</item>
     </style>
 
 
-    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-            &lt;!&ndash; Customize your theme here. &ndash;&gt;
-            <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
-        </style>-->
+    <style name="textViewShape" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App20Percent" parent="">
+        <item name="cornerSize">20%</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App10Percent" parent="">
+        <item name="cornerSize">10%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App5Percent" parent="">
+        <item name="cornerSize">2.5%</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="TextInputLayout.EditText.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusTopEnd">4dp</item>
+        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="hintEnabled">true</item>
+        <item name="hintTextColor">@color/ebony_clay</item>
+        <item name="android:textColorHint">@color/ebony_clay</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="TextInputLayout.DropDownMenu.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusTopEnd">4dp</item>
+        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="hintEnabled">true</item>
+        <item name="hintTextColor">@color/ebony_clay</item>
+        <item name="android:textColorHint">@color/ebony_clay</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
 </resources>
