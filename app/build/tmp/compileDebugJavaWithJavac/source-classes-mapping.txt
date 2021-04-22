@@ -1,0 +1,90 @@
+com/muhammad/green/databinding/FragmentDetailsBinding.java
+ com.muhammad.green.databinding.FragmentDetailsBinding
+com/muhammad/green/databinding/CaseReportItemBinding.java
+ com.muhammad.green.databinding.CaseReportItemBinding
+com/muhammad/green/databinding/FragmentFavoriteBinding.java
+ com.muhammad.green.databinding.FragmentFavoriteBinding
+com/muhammad/green/databinding/FragmentStateOfOrderBinding.java
+ com.muhammad.green.databinding.FragmentStateOfOrderBinding
+com/muhammad/green/databinding/FragmentMenuBinding.java
+ com.muhammad.green.databinding.FragmentMenuBinding
+com/muhammad/green/BuildConfig.java
+ com.muhammad.green.BuildConfig
+com/muhammad/green/databinding/FragmentSplashBinding.java
+ com.muhammad.green.databinding.FragmentSplashBinding
+com/muhammad/green/databinding/InKindDonItemBinding.java
+ com.muhammad.green.databinding.InKindDonItemBinding
+com/muhammad/green/databinding/HomeCasesTypeItemBinding.java
+ com.muhammad.green.databinding.HomeCasesTypeItemBinding
+com/muhammad/green/databinding/FragmentVolInKindDonationsBinding.java
+ com.muhammad.green.databinding.FragmentVolInKindDonationsBinding
+com/muhammad/green/databinding/FragmentCallUsBinding.java
+ com.muhammad.green.databinding.FragmentCallUsBinding
+com/muhammad/green/databinding/FragmentNotificationBinding.java
+ com.muhammad.green.databinding.FragmentNotificationBinding
+com/muhammad/green/databinding/ActivityLandingBinding.java
+ com.muhammad.green.databinding.ActivityLandingBinding
+com/muhammad/green/databinding/RegisVolunteerInfoFragmnetBinding.java
+ com.muhammad.green.databinding.RegisVolunteerInfoFragmnetBinding
+com/muhammad/green/databinding/FragmentOnBoardingBinding.java
+ com.muhammad.green.databinding.FragmentOnBoardingBinding
+com/muhammad/green/databinding/HomeDonationCasesItemBinding.java
+ com.muhammad.green.databinding.HomeDonationCasesItemBinding
+com/muhammad/green/databinding/FragmentMyNeedsBinding.java
+ com.muhammad.green.databinding.FragmentMyNeedsBinding
+com/muhammad/green/databinding/FragmentCaseReportsBinding.java
+ com.muhammad.green.databinding.FragmentCaseReportsBinding
+com/muhammad/green/databinding/FragmentDonateDeviceBinding.java
+ com.muhammad.green.databinding.FragmentDonateDeviceBinding
+com/muhammad/green/databinding/FragmentOrderPager2Binding.java
+ com.muhammad.green.databinding.FragmentOrderPager2Binding
+com/muhammad/green/databinding/FragmentCaseDetailsBinding.java
+ com.muhammad.green.databinding.FragmentCaseDetailsBinding
+com/muhammad/green/databinding/FragmentPageBinding.java
+ com.muhammad.green.databinding.FragmentPageBinding
+com/muhammad/green/databinding/NotificationItemBinding.java
+ com.muhammad.green.databinding.NotificationItemBinding
+com/muhammad/green/databinding/FragmentOrderPager3Binding.java
+ com.muhammad.green.databinding.FragmentOrderPager3Binding
+com/muhammad/green/databinding/RegisVerificationCodeFragmentBinding.java
+ com.muhammad.green.databinding.RegisVerificationCodeFragmentBinding
+com/muhammad/green/databinding/NeedInKindDonItemBinding.java
+ com.muhammad.green.databinding.NeedInKindDonItemBinding
+com/muhammad/green/databinding/ActivityRegistrationBinding.java
+ com.muhammad.green.databinding.ActivityRegistrationBinding
+com/muhammad/green/databinding/FragmentAdministrationWordBinding.java
+ com.muhammad.green.databinding.FragmentAdministrationWordBinding
+com/muhammad/green/databinding/FragmentOrderPager1Binding.java
+ com.muhammad.green.databinding.FragmentOrderPager1Binding
+com/muhammad/green/databinding/FragmentEditeMyInfoBinding.java
+ com.muhammad.green.databinding.FragmentEditeMyInfoBinding
+com/muhammad/green/databinding/FragmentAboutUsBinding.java
+ com.muhammad.green.databinding.FragmentAboutUsBinding
+com/muhammad/green/databinding/FragmentHomeBinding.java
+ com.muhammad.green.databinding.FragmentHomeBinding
+com/muhammad/green/databinding/FragmentNeedInKindDonationBinding.java
+ com.muhammad.green.databinding.FragmentNeedInKindDonationBinding
+com/muhammad/green/databinding/RegisUserTypeFragmnetBinding.java
+ com.muhammad.green.databinding.RegisUserTypeFragmnetBinding
+com/muhammad/green/databinding/RegisNeedDonationFragmnetBinding.java
+ com.muhammad.green.databinding.RegisNeedDonationFragmnetBinding
+com/muhammad/green/databinding/ActivityMainBinding.java
+ com.muhammad.green.databinding.ActivityMainBinding
+com/muhammad/green/databinding/HomeContentBinding.java
+ com.muhammad.green.databinding.HomeContentBinding
+com/muhammad/green/databinding/RegisLoginFragmentBinding.java
+ com.muhammad.green.databinding.RegisLoginFragmentBinding
+com/muhammad/green/StepperIndicator.java
+ com.muhammad.green.StepperIndicator
+ com.muhammad.green.StepperIndicator$1
+ com.muhammad.green.StepperIndicator$OnStepClickListener
+ com.muhammad.green.StepperIndicator$SavedState
+ com.muhammad.green.StepperIndicator$SavedState$1
+com/muhammad/green/databinding/DonationCasesItemBinding.java
+ com.muhammad.green.databinding.DonationCasesItemBinding
+com/muhammad/green/databinding/MyNeedsItemBinding.java
+ com.muhammad.green.databinding.MyNeedsItemBinding
+com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
+ com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
+com/muhammad/green/utiles/CenterZoomLayoutManager.java
+ com.muhammad.green.utiles.CenterZoomLayoutManager

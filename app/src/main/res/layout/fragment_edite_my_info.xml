@@ -3,9 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".home.EditeMyInfoFragment"
     android:background="@color/whisper">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_home_conLL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/whisper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mask_group5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
 
     <TextView
         android:id="@+id/editMyInfo_title_et"
@@ -13,10 +44,9 @@
         android:layout_height="wrap_content"
         android:text="@string/edit_my_info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_h1"
         android:layout_marginStart="@dimen/_28sdp"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:textSize="@dimen/_18ssp"
+        android:textSize="@dimen/_16ssp"
         android:textStyle="bold"
         android:textColor="@color/gray"/>
 
@@ -44,36 +74,42 @@
                 android:paddingBottom="@dimen/_4sdp"
                 android:layout_marginStart="@dimen/_4sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
-                android:layout_marginTop="@dimen/_4sdp">
+                android:layout_marginTop="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <TextView
                     android:id="@+id/fullNameTitle_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:textSize="@dimen/_18ssp"
-                    android:textColor="@color/gray"
-                    android:text="Full Name"
+                    android:layout_marginStart="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
-                    android:layout_marginStart="@dimen/_4sdp"/>
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:text="Full Name"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_14ssp"
+                    app:layout_constraintEnd_toStartOf="@+id/editName_img"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/fullName_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
-                    android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
                     android:ellipsize="end"
                     android:maxLines="1"
+                    android:paddingBottom="@dimen/_4sdp"
                     android:text="Muhammad khaled"
+                    android:textAlignment="viewStart"
                     android:textColor="@color/gray"
-                    android:textSize="@dimen/_14sdp"
+                    android:textSize="@dimen/_12ssp"
                     app:layout_constraintEnd_toStartOf="@+id/editName_img"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/fullNameTitle_tv"
-                    android:paddingBottom="@dimen/_4sdp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/fullNameTitle_tv" />
 
                 <ImageView
                     android:id="@+id/editName_img"
@@ -97,36 +133,42 @@
                 android:layout_marginStart="@dimen/_4sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
                 android:paddingTop="@dimen/_8sdp"
-                android:paddingBottom="@dimen/_4sdp">
+                android:paddingBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <TextView
                     android:id="@+id/addressTitle_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:textSize="@dimen/_18ssp"
-                    android:textColor="@color/gray"
-                    android:text="ِAddress"
+                    android:layout_marginStart="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
-                    android:layout_marginStart="@dimen/_4sdp"/>
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:text="ِAddress"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_14ssp"
+                    app:layout_constraintEnd_toStartOf="@+id/editeAddress_img"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/address_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
-                    android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
                     android:ellipsize="end"
                     android:maxLines="1"
+                    android:paddingBottom="@dimen/_4sdp"
                     android:text="42 Wallabe Way, London, Unit…"
+                    android:textAlignment="viewStart"
                     android:textColor="@color/gray"
-                    android:textSize="@dimen/_14sdp"
+                    android:textSize="@dimen/_12ssp"
                     app:layout_constraintEnd_toStartOf="@+id/editeAddress_img"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/addressTitle_tv"
-                    android:paddingBottom="@dimen/_4sdp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/addressTitle_tv" />
 
                 <ImageView
                     android:id="@+id/editeAddress_img"
@@ -147,36 +189,42 @@
                 android:layout_marginStart="@dimen/_4sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
                 android:paddingTop="@dimen/_8sdp"
-                android:paddingBottom="@dimen/_4sdp">
+                android:paddingBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <TextView
                     android:id="@+id/emailTitle_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:textSize="@dimen/_18ssp"
-                    android:textColor="@color/gray"
-                    android:text="Email"
+                    android:layout_marginStart="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
-                    android:layout_marginStart="@dimen/_4sdp"/>
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:text="Email"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_14ssp"
+                    app:layout_constraintEnd_toStartOf="@+id/email_img"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/email_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
-                    android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
                     android:ellipsize="end"
                     android:maxLines="1"
+                    android:paddingBottom="@dimen/_4sdp"
                     android:text="Muhammedkhaleda@gmail.com"
+                    android:textAlignment="viewStart"
                     android:textColor="@color/gray"
-                    android:textSize="@dimen/_14sdp"
+                    android:textSize="@dimen/_12ssp"
                     app:layout_constraintEnd_toStartOf="@+id/email_img"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/emailTitle_tv"
-                    android:paddingBottom="@dimen/_4sdp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/emailTitle_tv" />
 
                 <ImageView
                     android:id="@+id/email_img"
@@ -197,37 +245,43 @@
                 android:layout_marginStart="@dimen/_4sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
                 android:paddingTop="@dimen/_8sdp"
-                android:paddingBottom="@dimen/_4sdp">
+                android:paddingBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <TextView
                     android:id="@+id/passTitle_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:textSize="@dimen/_18ssp"
-                    android:textColor="@color/gray"
-                    android:text="Password"
+                    android:layout_marginStart="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
-                    android:layout_marginStart="@dimen/_4sdp"/>
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:text="Password"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_14ssp"
+                    app:layout_constraintEnd_toStartOf="@+id/pass_img"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/pass_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
-                    android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
                     android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="asdsadasasdsad"
                     android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="asdsadasasdsad"
+                    android:textAlignment="viewStart"
                     android:textColor="@color/gray"
-                    android:textSize="@dimen/_14sdp"
+                    android:textSize="@dimen/_12ssp"
                     app:layout_constraintEnd_toStartOf="@+id/pass_img"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/passTitle_tv"
-                    android:paddingBottom="@dimen/_4sdp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/passTitle_tv" />
 
                 <ImageView
                     android:id="@+id/pass_img"

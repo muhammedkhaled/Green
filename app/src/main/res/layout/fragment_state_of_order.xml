@@ -6,24 +6,58 @@
     android:layout_height="wrap_content"
     tools:context=".home.StateOfOrderFragment">
 
-    <androidx.viewpager.widget.ViewPager
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_home_conLL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/whisper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mask_group5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+
+    <com.muhammad.green.utiles.CustomViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/stepper_indicator"
+        android:layout_marginTop="@dimen/_8sdp"/>
 
     <com.muhammad.green.StepperIndicator
         android:id="@+id/stepper_indicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="32dp"
-        app:stpi_stepCount="3"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:stpi_lineColor="@color/emerald"
+        app:stpi_lineDoneColor="@color/emerald"
+        app:stpi_indicatorColor="@color/emerald"
         app:stpi_labels="@array/stepLabels"
-        app:layout_constraintTop_toTopOf="parent"
+        app:stpi_labelColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/guideline_h1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

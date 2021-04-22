@@ -1,38 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".home.VolInKindDonationsFragment">
 
-<!--    todo put fragment name at home_nav to appear on appbar  -->
+    <!--    todo put fragment name at home_nav to appear on appbar  -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_home_conLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whisper">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mask_group5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/inKindDon_searchV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="@dimen/_4sdp"/>
+        app:layout_constraintTop_toTopOf="@id/guideline_h1" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inKindDonDeviceType_til"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        style="@style/TextInputLayout.DropDownMenu.FilledBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:background="@color/white"
         android:hint="@string/electric_device"
-        app:boxCornerRadiusBottomEnd="4dp"
-        app:boxCornerRadiusBottomStart="4dp"
-        app:boxCornerRadiusTopEnd="4dp"
-        app:boxCornerRadiusTopStart="4dp"
-        app:boxStrokeWidthFocused="1dp"
-        app:hintEnabled="true"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inKindDon_searchV">
+        app:layout_constraintEnd_toStartOf="@+id/DonateNewDevice_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="@+id/inKindDon_searchV"
+        app:layout_constraintTop_toBottomOf="@+id/inKindDon_searchV">
 
         <AutoCompleteTextView
             android:id="@+id/inKindDonDeviceType_actv"
@@ -47,27 +71,27 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/cases_btn"
+        android:id="@+id/DonateNewDevice_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/donate_a_device"
         android:textSize="@dimen/_18ssp"
-        android:layout_marginTop="@dimen/_8sdp"
-        app:layout_constraintTop_toTopOf="@id/inKindDonDeviceType_til"
-        app:layout_constraintStart_toEndOf="@id/inKindDonDeviceType_til"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:cornerRadius="@dimen/_4sdp"/>
+        app:cornerRadius="@dimen/_4sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/inKindDonDeviceType_til"
+        app:layout_constraintEnd_toEndOf="@+id/inKindDon_searchV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/inKindDonDeviceType_til"
+        app:layout_constraintTop_toBottomOf="@+id/inKindDon_searchV" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/inKindDonElectric_rv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inKindDonDeviceType_til"
+        app:layout_constraintTop_toBottomOf="@+id/inKindDonDeviceType_til"
         tools:listitem="@layout/in_kind_don_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

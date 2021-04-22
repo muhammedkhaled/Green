@@ -10,6 +10,8 @@ import com.muhammad.green.R
 
 class CaseReportsFragment : Fragment() {
 
+    // todo make grid list for report pictures and on click open gallary view with zoom in and out
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

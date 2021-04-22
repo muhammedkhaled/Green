@@ -62,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_8sdp"
                 android:button="@drawable/check_box_icon"
+                android:buttonTint="@android:color/holo_red_light"
                 app:layout_constraintBottom_toBottomOf="@+id/details_casePP_cImg"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/details_casePP_cImg" />

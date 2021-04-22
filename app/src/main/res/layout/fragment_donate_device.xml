@@ -3,9 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/whisper"
     tools:context=".home.DonateDeviceFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_home_conLL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/whisper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mask_group5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_v1"
@@ -25,9 +55,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/guideline_v2"
-        app:layout_constraintStart_toStartOf="@id/guideline_v1">
+        app:layout_constraintStart_toStartOf="@id/guideline_v1"
+        app:layout_constraintTop_toTopOf="@id/guideline_h1">
 
         <TextView
             android:id="@+id/AdminWordTitle_tv"
@@ -47,18 +77,10 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/category_til"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            style="@style/TextInputLayout.DropDownMenu.FilledBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/white"
             android:hint="@string/category"
-            app:boxCornerRadiusBottomEnd="4dp"
-            app:boxCornerRadiusBottomStart="4dp"
-            app:boxCornerRadiusTopEnd="4dp"
-            app:boxCornerRadiusTopStart="4dp"
-            app:boxStrokeWidthFocused="1dp"
-            app:hintEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/AdminWordTitle_tv">
@@ -110,20 +132,10 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/deviceDetails_til"
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            style="@style/TextInputLayout.EditText.FilledBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8sdp"
             android:hint="@string/device_details"
-            android:textColorHint="@color/ebony_clay"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="4dp"
-            app:boxCornerRadiusBottomStart="4dp"
-            app:boxCornerRadiusTopEnd="4dp"
-            app:boxCornerRadiusTopStart="4dp"
-            app:boxStrokeWidthFocused="1dp"
-            app:hintEnabled="true"
-            app:hintTextColor="@color/ebony_clay"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/category_til">
@@ -151,12 +163,12 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/deviceDetails_til" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/attachmentPic_btn"
-            style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            app:cornerRadius="4dp"
             android:backgroundTint="@color/white"
             android:text="@string/device_pictures"
             android:textAlignment="textStart"
@@ -165,11 +177,12 @@
             app:layout_constraintTop_toBottomOf="@+id/attachmentTitle_tv" />
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/send_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_8sdp"
+            app:cornerRadius="4dp"
             android:text="@string/send"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"

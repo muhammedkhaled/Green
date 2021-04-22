@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+ <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_nav"
@@ -10,7 +10,23 @@
         android:id="@+id/navigation_menu"
         android:name="com.muhammad.green.home.MenuFragment"
         android:label=""
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_navigation_menu_to_myNeedsFragment"
+            app:destination="@id/myNeedsFragment" />
+        <action
+            android:id="@+id/action_navigation_menu_to_newInfoDonationNeedFragment"
+            app:destination="@id/newInfoDonationNeedFragment" />
+        <action
+            android:id="@+id/action_navigation_menu_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_navigation_menu_to_administrationWordFragment"
+            app:destination="@id/administrationWordFragment" />
+        <action
+            android:id="@+id/action_navigation_menu_to_editeMyInfoFragment"
+            app:destination="@id/editeMyInfoFragment" />
+    </fragment>
 
 
 
@@ -24,7 +40,20 @@
         android:id="@+id/navigation_home"
         android:name="com.muhammad.green.home.HomeFragment"
         android:label=""
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_caseDetailsFragment"
+            app:destination="@id/caseDetailsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_volInKindDonationsFragment"
+            app:destination="@id/volInKindDonationsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_needInKindDonationFragment"
+            app:destination="@id/needInKindDonationFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_favorite"
@@ -45,47 +74,69 @@
     <fragment
         android:id="@+id/donateDeviceFragment"
         android:name="com.muhammad.green.home.DonateDeviceFragment"
-        android:label="fragment_donate_device"
-        tools:layout="@layout/fragment_donate_device" />
+        android:label=""
+        tools:layout="@layout/fragment_donate_device" >
+        <action
+            android:id="@+id/action_donateDeviceFragment_to_stateOfOrderFragment"
+            app:destination="@id/stateOfOrderFragment" />
+    </fragment>
     <fragment
         android:id="@+id/caseDetailsFragment"
         android:name="com.muhammad.green.home.CaseDetailsFragment"
-        android:label="fragment_case_details"
-        tools:layout="@layout/fragment_case_details" />
+        android:label=""
+        tools:layout="@layout/fragment_case_details" >
+        <action
+            android:id="@+id/action_caseDetailsFragment_to_caseReportsFragment"
+            app:destination="@id/caseReportsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/aboutUsFragment"
         android:name="com.muhammad.green.home.AboutUsFragment"
-        android:label="fragment_about_us"
+        android:label=""
         tools:layout="@layout/fragment_about_us" />
     <fragment
         android:id="@+id/administrationWordFragment"
         android:name="com.muhammad.green.home.AdministrationWordFragment"
-        android:label="fragment_administration_word"
+        android:label=""
         tools:layout="@layout/fragment_administration_word" />
     <fragment
         android:id="@+id/caseReportsFragment"
         android:name="com.muhammad.green.home.CaseReportsFragment"
-        android:label="fragment_case_reports"
+        android:label=""
         tools:layout="@layout/fragment_case_reports" />
     <fragment
         android:id="@+id/needInKindDonationFragment"
         android:name="com.muhammad.green.home.NeedInKindDonationFragment"
-        android:label="fragment_need_in_kind_donation"
+        android:label=""
         tools:layout="@layout/fragment_need_in_kind_donation" />
     <fragment
         android:id="@+id/volInKindDonationsFragment"
         android:name="com.muhammad.green.home.VolInKindDonationsFragment"
-        android:label="fragment_vol_in_kind_donations"
-        tools:layout="@layout/fragment_vol_in_kind_donations" />
+        android:label=""
+        tools:layout="@layout/fragment_vol_in_kind_donations" >
+        <action
+            android:id="@+id/action_volInKindDonationsFragment_to_donateDeviceFragment"
+            app:destination="@id/donateDeviceFragment" />
+    </fragment>
     <fragment
         android:id="@+id/newInfoDonationNeedFragment"
         android:name="com.muhammad.green.home.NewInfoDonationNeedFragment"
-        android:label="fragment_new_info_donation_need"
+        android:label=""
         tools:layout="@layout/fragment_new_info_donation_need" />
     <fragment
         android:id="@+id/stateOfOrderFragment"
         android:name="com.muhammad.green.home.StateOfOrderFragment"
-        android:label="fragment_state_of_order"
+        android:label=""
         tools:layout="@layout/fragment_state_of_order" />
+    <fragment
+        android:id="@+id/editeMyInfoFragment"
+        android:name="com.muhammad.green.home.EditeMyInfoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_edite_my_info" />
+    <fragment
+        android:id="@+id/myNeedsFragment"
+        android:name="com.muhammad.green.home.MyNeedsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_my_needs" />
 
 </navigation>

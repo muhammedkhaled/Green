@@ -30,7 +30,7 @@
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
             app:menu="@menu/bottom_nav_menu"
-            app:labelVisibilityMode="unlabeled"/>
+            app:labelVisibilityMode="unlabeled" />
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -40,7 +40,6 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_home"
         app:layout_anchor="@id/bottomAppBar"
-        android:backgroundTint="@android:color/darker_gray"
         app:tint="@color/white"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

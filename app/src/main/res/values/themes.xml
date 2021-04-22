@@ -14,6 +14,8 @@
         <!-- Customize your theme here. -->
 
         <item name="android:textColor">@color/ebony_clay</item>
+        <item name="fontFamily">@font/tajawal_regular</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -26,8 +28,8 @@
 
     <style name="textViewShape" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:background">@drawable/ripple</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingStart">4dp</item>
         <item name="android:paddingEnd">4dp</item>
         <item name="android:textColor">@color/black</item>
@@ -36,9 +38,8 @@
     </style>
 
     <style name="ShapeAppearanceOverlay.App20Percent" parent="">
-        <item name="cornerSize">20%</item>
-        <item name="cornerFamilyBottomLeft">rounded</item>
-        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="cornerFamily">rounded</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.App10Percent" parent="">

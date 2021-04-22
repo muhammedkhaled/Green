@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="184dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/success"/>
+
+    <TextView
+        android:id="@+id/success_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تم ارسال الطلب بنجاح"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:drawableTint="@color/black"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/review_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_56sdp"
+        android:layout_marginEnd="@dimen/_56sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:drawablePadding="@dimen/_4sdp"
+        android:text="جاري المراجعة من خلال إدارة الجمعية
+سوف يتم التواصل معكم من خلال الهاتف
+
+62536#"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/success_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

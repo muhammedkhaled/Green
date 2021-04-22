@@ -694,8 +694,8 @@ public class StepperIndicator extends View implements ViewPager.OnPageChangeList
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         // Dispatch the touch events to our custom gesture detector.
-        gestureDetector.onTouchEvent(event);
-        return true; // we handle the event in the gesture detector
+        gestureDetector.onTouchEvent(event); // todo try it to false to diable swuip
+        return false; // we handle the event in the gesture detector
     }
 
     @Override

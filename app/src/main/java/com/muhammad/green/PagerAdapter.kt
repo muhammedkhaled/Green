@@ -1,20 +1,18 @@
 package com.muhammad.green
 
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.muhammad.green.home.OrderPager1Fragment
+import com.muhammad.green.home.OrderPager2Fragment
+import com.muhammad.green.home.OrderPager3Fragment
 
 internal class PagerAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!) {
-    private val count = 4
+    private val list = listOf(OrderPager1Fragment(), OrderPager2Fragment(), OrderPager3Fragment())
 
+    override fun getCount() = list.size
 
-
-    override fun getCount() = count
-
-    override fun getPageTitle(position: Int): CharSequence {
-        return "Page $position"
-    }
-
-    override fun getItem(position: Int): androidx.fragment.app.Fragment {
-        return PageFragment.newInstance(position + 1, position == count - 1)
+    override fun getItem(position: Int): Fragment {
+        return list[position]
     }
 }

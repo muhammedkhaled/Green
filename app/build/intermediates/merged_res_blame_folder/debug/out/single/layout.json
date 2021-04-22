@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_state_of_order.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_state_of_order.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\notification_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_donation_cases_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\home_donation_cases_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_content.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\home_content.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_favorite.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notification.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\donation_cases_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\donation_cases_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_cases_type_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\home_cases_type_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_new_info_donation_need.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_new_info_donation_need.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\case_report_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\case_report_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_donate_device.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_donate_device.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\regis_volunteer_info_fragmnet.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\regis_volunteer_info_fragmnet.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_pager1.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager1.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\regis_verification_code_fragment.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\regis_verification_code_fragment.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_menu.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_menu.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\need_in_kind_don_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\need_in_kind_don_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_page.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_page.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_case_reports.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_case_reports.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_administration_word.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_administration_word.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_pager2.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager2.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_on_boarding.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_on_boarding.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_need_in_kind_donation.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_need_in_kind_donation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about_us.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_about_us.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\in_kind_don_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\in_kind_don_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\regis_need_donation_fragmnet.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\regis_need_donation_fragmnet.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_edite_my_info.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_edite_my_info.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_landing.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\activity_landing.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_call_us.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_call_us.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_needs.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_my_needs.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\regis_login_fragment.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\regis_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vol_in_kind_donations.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_vol_in_kind_donations.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_case_details.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_case_details.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_needs_item.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\my_needs_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_details.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_details.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\regis_user_type_fragmnet.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\regis_user_type_fragmnet.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_pager3.xml",
+        "source": "E:\\Projects\\AndroidStudioProjects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager3.xml"
+    }
+]

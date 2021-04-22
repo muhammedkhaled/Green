@@ -3,82 +3,133 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:backgroundTint="@color/whisper"
     tools:context=".home.HomeFragment">
 
-    <TextView
-        android:id="@+id/casesOfDonations_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_28sdp"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:text="@string/cases_of_donation"
-        android:textSize="@dimen/_18ssp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:drawableStartCompat="@drawable/ic_person_outline"
-        android:drawablePadding="@dimen/_4sdp"
-        app:drawableTint="@color/black" />
-
-    <TextView
-        android:id="@+id/todayDate_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/_28sdp"
-        android:text="today, 2 october 2020"
-        android:textSize="@dimen/_10ssp"
-        app:layout_constraintBottom_toBottomOf="@+id/casesOfDonations_tv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/casesOfDonations_tv" />
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/casesOfDonations_rv"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_home_conLL"
         android:layout_width="0dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_height="0dp"
+        android:background="@color/whisper"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_tv"
-        tools:listitem="@layout/home_donation_cases_item"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mask_group5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:layout_constraintGuide_percent="0.18" />
 
-    <Button
-        android:id="@+id/cases_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/inKindDonation_btn"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv"
-        android:text="@string/cases"
-        android:textSize="@dimen/_18ssp"
-        android:layout_marginTop="@dimen/_8sdp"/>
-
-    <Button
-        android:id="@+id/inKindDonation_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cases_btn"
-        app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv"
-        android:text="@string/in_kind_donations"
-        android:textSize="@dimen/_18ssp"
-        android:layout_marginTop="12dp"
-        android:backgroundTint="@color/emerald"/>
-
-    <androidx.recyclerview.widget.RecyclerView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inKindDonation_btn"
-        tools:listitem="@layout/home_cases_type_item"
-        android:orientation="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        app:layout_constraintTop_toBottomOf="@id/guideline_h1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/casesOfDonations_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_28sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:drawablePadding="@dimen/_4sdp"
+                android:text="@string/cases_of_donation"
+                android:textSize="@dimen/_18ssp"
+                app:drawableStartCompat="@drawable/ic_person_outline"
+                app:drawableTint="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/todayDate_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_28sdp"
+                android:text="today, 2 october 2020"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@+id/casesOfDonations_tv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/casesOfDonations_tv" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/casesOfDonations_rv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_tv"
+                tools:listitem="@layout/home_donation_cases_item" />
+
+            <TextView
+                android:id="@+id/cases_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:background="@drawable/rectangle_shape"
+                android:backgroundTint="@color/Astral"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/cases"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                app:layout_constraintBottom_toBottomOf="@+id/inKindDonation_btn"
+                app:layout_constraintEnd_toStartOf="@+id/inKindDonation_btn"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv" />
+
+            <Button
+                android:id="@+id/inKindDonation_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:backgroundTint="@color/emerald"
+                android:text="@string/in_kind_donations"
+                android:textSize="@dimen/_18ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/cases_btn"
+                app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/casesType_rv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/inKindDonation_btn"
+                tools:listitem="@layout/home_cases_type_item" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

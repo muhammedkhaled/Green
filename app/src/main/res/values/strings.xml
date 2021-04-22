@@ -59,11 +59,15 @@
     <string name="send">ارسال</string>
     <string name="do_you_need_it_order_from_here">هل انت فى احتياجه اطلبه من هنا</string>
     <string name="choose_user_type">اختر نوع العضويه</string>
+    <string name="need_donation_info">بيانات مقدم الطلب</string>
+    <string name="next">التالى</string>
+
+    <string name="request_info">بيانات الطلب</string>
+    <string name="state">الحاله</string>
 
     <string-array name="stepLabels">
-        <item>Approval</item>
-        <item>Processed</item>
-        <item>Shipped</item>
-        <item>Delivery</item>
+        <item>my info</item>
+        <item>request info</item>
+        <item>state</item>
     </string-array>
 </resources>

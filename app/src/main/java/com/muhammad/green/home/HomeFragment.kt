@@ -1,30 +1,55 @@
 package com.muhammad.green.home
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.navigation.fragment.findNavController
-import com.muhammad.green.R
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.LinearSnapHelper
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.SnapHelper
+import com.muhammad.green.databinding.FragmentHomeBinding
+import com.muhammad.green.home.adapters.CasesTypeAdapter
+import com.muhammad.green.home.adapters.homeDonaCasesAdapter
+import com.muhammad.green.utiles.CenterZoomLinearLayoutManager
+import net.Aqua_waterfliter.joborder.base.BaseFragment
 
-class HomeFragment : Fragment() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
-    }
+class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<Button>(R.id.inKindDonation_btn).setOnClickListener{
-            findNavController().navigate(R.id.stateOfOrderFragment)
+        binding.inKindDonationBtn.setOnClickListener{
+            findNavController().navigate(
+                HomeFragmentDirections.actionNavigationHomeToVolInKindDonationsFragment()
+            )
         }
+
+        val manager1 = LinearLayoutManager(requireContext(), RecyclerView.HORIZONTAL, false)
+        binding.casesOfDonationsRv.layoutManager = manager1
+
+        binding.casesOfDonationsRv.adapter = homeDonaCasesAdapter(listOf("1", "2", "3", "4")){
+            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToCaseDetailsFragment())
+        }
+
+        val center = CenterZoomLinearLayoutManager(requireContext())
+        val snapHelper: SnapHelper = LinearSnapHelper()
+        snapHelper.attachToRecyclerView(binding.casesTypeRv)
+        binding.casesTypeRv.layoutManager = center
+
+        binding.casesTypeRv.adapter = CasesTypeAdapter(listOf("1", "2", "3", "4")){
+            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToDetailsFragment())
+        }
+
     }
+
+    override fun getFragmentBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ) = FragmentHomeBinding.inflate(inflater, container, false)
+
 
 }
