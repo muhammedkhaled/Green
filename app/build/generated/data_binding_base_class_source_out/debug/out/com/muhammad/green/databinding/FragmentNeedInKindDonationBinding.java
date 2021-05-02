@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
@@ -24,13 +23,7 @@ public final class FragmentNeedInKindDonationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
-
-  @NonNull
-  public final ImageView imageView4;
 
   @NonNull
   public final AutoCompleteTextView inKindDonDeviceTypeActv;
@@ -45,14 +38,11 @@ public final class FragmentNeedInKindDonationBinding implements ViewBinding {
   public final SearchView inKindDonSearchV;
 
   private FragmentNeedInKindDonationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout contentHomeConLL, @NonNull Guideline guidelineH1,
-      @NonNull ImageView imageView4, @NonNull AutoCompleteTextView inKindDonDeviceTypeActv,
+      @NonNull Guideline guidelineH1, @NonNull AutoCompleteTextView inKindDonDeviceTypeActv,
       @NonNull TextInputLayout inKindDonDeviceTypeTil, @NonNull RecyclerView inKindDonElectricRv,
       @NonNull SearchView inKindDonSearchV) {
     this.rootView = rootView;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.inKindDonDeviceTypeActv = inKindDonDeviceTypeActv;
     this.inKindDonDeviceTypeTil = inKindDonDeviceTypeTil;
     this.inKindDonElectricRv = inKindDonElectricRv;
@@ -86,21 +76,9 @@ public final class FragmentNeedInKindDonationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
         break missingId;
       }
 
@@ -128,9 +106,8 @@ public final class FragmentNeedInKindDonationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentNeedInKindDonationBinding((ConstraintLayout) rootView, contentHomeConLL,
-          guidelineH1, imageView4, inKindDonDeviceTypeActv, inKindDonDeviceTypeTil,
-          inKindDonElectricRv, inKindDonSearchV);
+      return new FragmentNeedInKindDonationBinding((ConstraintLayout) rootView, guidelineH1,
+          inKindDonDeviceTypeActv, inKindDonDeviceTypeTil, inKindDonElectricRv, inKindDonSearchV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3,18 +3,18 @@
     package="com.muhammad.green">
 
     <application
-        android:name=".home.BaseApp"
+        android:name=".base.BaseApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Green">
-        <activity android:name=".registration.RegistrationActivity" />
+        <activity android:name="com.muhammad.green.ui.registration.ui.RegistrationActivity" />
         <activity
-            android:name=".home.MainActivity" />
+            android:name="com.muhammad.green.ui.home.ui.MainActivity" />
         <activity
-            android:name=".landing.LandingActivity"
+            android:name="com.muhammad.green.ui.landing.ui.LandingActivity"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,8 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,29 +20,15 @@ public final class FragmentFavoriteBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
-  public final TextView favoriteTitleTv;
-
-  @NonNull
   public final Guideline guidelineH1;
-
-  @NonNull
-  public final ImageView imageView4;
 
   @NonNull
   public final RecyclerView myFavCasesRv;
 
   private FragmentFavoriteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout contentHomeConLL, @NonNull TextView favoriteTitleTv,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4,
-      @NonNull RecyclerView myFavCasesRv) {
+      @NonNull Guideline guidelineH1, @NonNull RecyclerView myFavCasesRv) {
     this.rootView = rootView;
-    this.contentHomeConLL = contentHomeConLL;
-    this.favoriteTitleTv = favoriteTitleTv;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.myFavCasesRv = myFavCasesRv;
   }
 
@@ -75,27 +59,9 @@ public final class FragmentFavoriteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
-      id = R.id.favoriteTitle_tv;
-      TextView favoriteTitleTv = rootView.findViewById(id);
-      if (favoriteTitleTv == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
         break missingId;
       }
 
@@ -105,8 +71,7 @@ public final class FragmentFavoriteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentFavoriteBinding((ConstraintLayout) rootView, contentHomeConLL,
-          favoriteTitleTv, guidelineH1, imageView4, myFavCasesRv);
+      return new FragmentFavoriteBinding((ConstraintLayout) rootView, guidelineH1, myFavCasesRv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

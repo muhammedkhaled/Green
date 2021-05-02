@@ -2162,6 +2162,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen header
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -2563,6 +2564,7 @@ drawable ic_person_outline
 drawable ic_profile
 drawable ic_receipt_24px
 drawable ic_settings
+drawable ic_share
 drawable ic_shortcut_arrow_back
 drawable icon_edit
 drawable icon_sign_out
@@ -2771,7 +2773,6 @@ id caseReport_rv
 id caseReportsFragment
 id caseReports_btn
 id casesOfDonations_rv
-id casesOfDonations_tv
 id casesType_rv
 id casesType_shapeableimg
 id cases_btn
@@ -2804,7 +2805,6 @@ id constraintLayout
 id container
 id content
 id contentPanel
-id content_home_conLL
 id contiguous
 id coordinator
 id cos
@@ -2858,7 +2858,6 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id editMyInfo_title_et
 id editName_img
 id edit_query
 id editeAddress_img
@@ -2877,7 +2876,6 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fade
-id favoriteTitle_tv
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2976,6 +2974,7 @@ id loginPassword_til
 id loginPhoneNum_et
 id loginPhoneNum_til
 id login_btn
+id main_menu_group
 id masked
 id mastercard_img
 id material_clock_display
@@ -3040,7 +3039,6 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id myFavCases_rv
 id myNeedsFragment
-id myNeedsTitle_tv
 id myNeeds_rv
 id nav_controller_view_tag
 id nav_host_fragment_container
@@ -3053,7 +3051,6 @@ id navigation_notification
 id needInKindDonationFragment
 id needNumber_tv
 id never
-id newAccTitle_tv
 id newInfoDonationNeedFragment
 id next_btn
 id noScroll
@@ -3061,7 +3058,6 @@ id none
 id normal
 id notiDetailsBody_tv
 id notiDetailsTitle_tv
-id notificationTitle_tv
 id notification_background
 id notification_img
 id notification_main_column
@@ -3184,6 +3180,7 @@ id selectedInKindDonation_tv
 id selection_type
 id send_btn
 id shapeableImageView
+id share
 id shortcut
 id showCustom
 id showHome
@@ -3414,6 +3411,7 @@ layout fragment_page
 layout fragment_splash
 layout fragment_state_of_order
 layout fragment_vol_in_kind_donations
+layout home_app_bar
 layout home_cases_type_item
 layout home_content
 layout home_donation_cases_item
@@ -3505,6 +3503,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu home_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation home_nav
@@ -3956,6 +3955,7 @@ style ShapeAppearance_MaterialComponents_Tooltip
 style ShapeAppearanceOverlay
 style ShapeAppearanceOverlay_App10Percent
 style ShapeAppearanceOverlay_App20Percent
+style ShapeAppearanceOverlay_App20PercentBottomLeftRight
 style ShapeAppearanceOverlay_App5Percent
 style ShapeAppearanceOverlay_BottomLeftDifferentCornerSize
 style ShapeAppearanceOverlay_BottomRightCut
@@ -4073,6 +4073,8 @@ style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
 style TextInputLayout_DropDownMenu_FilledBox
 style TextInputLayout_EditText_FilledBox
+style TextViewContent
+style TextViewHeader
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight

@@ -4,7 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -12,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.muhammad.green.R;
 import com.mukesh.OtpView;
 import java.lang.NullPointerException;
@@ -41,7 +41,7 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
-  public final Button loginBtn;
+  public final MaterialButton loginBtn;
 
   @NonNull
   public final OtpView otpViewCode;
@@ -55,7 +55,7 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
   private RegisVerificationCodeFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull Button loginBtn, @NonNull OtpView otpViewCode,
+      @NonNull ImageView imageView5, @NonNull MaterialButton loginBtn, @NonNull OtpView otpViewCode,
       @NonNull TextView resendCodeTv, @NonNull ImageView verificationLogoImg) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
@@ -134,7 +134,7 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
       }
 
       id = R.id.login_btn;
-      Button loginBtn = rootView.findViewById(id);
+      MaterialButton loginBtn = rootView.findViewById(id);
       if (loginBtn == null) {
         break missingId;
       }

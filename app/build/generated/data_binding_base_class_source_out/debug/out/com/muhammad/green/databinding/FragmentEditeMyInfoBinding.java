@@ -27,12 +27,6 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
   public final TextView addressTv;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
-  public final TextView editMyInfoTitleEt;
-
-  @NonNull
   public final ImageView editNameImg;
 
   @NonNull
@@ -57,9 +51,6 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
   public final Guideline guidelineH1;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
   public final ImageView passImg;
 
   @NonNull
@@ -69,18 +60,14 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
   public final TextView passTv;
 
   private FragmentEditeMyInfoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView addressTitleTv, @NonNull TextView addressTv,
-      @NonNull ConstraintLayout contentHomeConLL, @NonNull TextView editMyInfoTitleEt,
-      @NonNull ImageView editNameImg, @NonNull ImageView editeAddressImg,
-      @NonNull ImageView emailImg, @NonNull TextView emailTitleTv, @NonNull TextView emailTv,
-      @NonNull TextView fullNameTitleTv, @NonNull TextView fullNameTv,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4, @NonNull ImageView passImg,
+      @NonNull TextView addressTitleTv, @NonNull TextView addressTv, @NonNull ImageView editNameImg,
+      @NonNull ImageView editeAddressImg, @NonNull ImageView emailImg,
+      @NonNull TextView emailTitleTv, @NonNull TextView emailTv, @NonNull TextView fullNameTitleTv,
+      @NonNull TextView fullNameTv, @NonNull Guideline guidelineH1, @NonNull ImageView passImg,
       @NonNull TextView passTitleTv, @NonNull TextView passTv) {
     this.rootView = rootView;
     this.addressTitleTv = addressTitleTv;
     this.addressTv = addressTv;
-    this.contentHomeConLL = contentHomeConLL;
-    this.editMyInfoTitleEt = editMyInfoTitleEt;
     this.editNameImg = editNameImg;
     this.editeAddressImg = editeAddressImg;
     this.emailImg = emailImg;
@@ -89,7 +76,6 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
     this.fullNameTitleTv = fullNameTitleTv;
     this.fullNameTv = fullNameTv;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.passImg = passImg;
     this.passTitleTv = passTitleTv;
     this.passTv = passTv;
@@ -131,18 +117,6 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
       id = R.id.address_tv;
       TextView addressTv = rootView.findViewById(id);
       if (addressTv == null) {
-        break missingId;
-      }
-
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
-      id = R.id.editMyInfo_title_et;
-      TextView editMyInfoTitleEt = rootView.findViewById(id);
-      if (editMyInfoTitleEt == null) {
         break missingId;
       }
 
@@ -194,12 +168,6 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
       id = R.id.pass_img;
       ImageView passImg = rootView.findViewById(id);
       if (passImg == null) {
@@ -219,9 +187,8 @@ public final class FragmentEditeMyInfoBinding implements ViewBinding {
       }
 
       return new FragmentEditeMyInfoBinding((ConstraintLayout) rootView, addressTitleTv, addressTv,
-          contentHomeConLL, editMyInfoTitleEt, editNameImg, editeAddressImg, emailImg, emailTitleTv,
-          emailTv, fullNameTitleTv, fullNameTv, guidelineH1, imageView4, passImg, passTitleTv,
-          passTv);
+          editNameImg, editeAddressImg, emailImg, emailTitleTv, emailTv, fullNameTitleTv,
+          fullNameTv, guidelineH1, passImg, passTitleTv, passTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

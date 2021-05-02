@@ -9,7 +9,7 @@
         android:targetSdkVersion="30" />
 
     <application
-        android:name="com.muhammad.green.home.BaseApp"
+        android:name="com.muhammad.green.BaseApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"

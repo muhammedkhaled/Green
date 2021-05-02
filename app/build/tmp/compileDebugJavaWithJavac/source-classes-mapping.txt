@@ -54,6 +54,8 @@ com/muhammad/green/databinding/ActivityRegistrationBinding.java
  com.muhammad.green.databinding.ActivityRegistrationBinding
 com/muhammad/green/databinding/FragmentAdministrationWordBinding.java
  com.muhammad.green.databinding.FragmentAdministrationWordBinding
+com/muhammad/green/databinding/HomeAppBarBinding.java
+ com.muhammad.green.databinding.HomeAppBarBinding
 com/muhammad/green/databinding/FragmentOrderPager1Binding.java
  com.muhammad.green.databinding.FragmentOrderPager1Binding
 com/muhammad/green/databinding/FragmentEditeMyInfoBinding.java
@@ -86,5 +88,3 @@ com/muhammad/green/databinding/MyNeedsItemBinding.java
  com.muhammad.green.databinding.MyNeedsItemBinding
 com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
  com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
-com/muhammad/green/utiles/CenterZoomLayoutManager.java
- com.muhammad.green.utiles.CenterZoomLayoutManager

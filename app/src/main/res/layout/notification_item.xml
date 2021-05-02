@@ -31,7 +31,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:textSize="@dimen/_18ssp"
                 android:textColor="@color/gray"
-                android:textStyle="bold"
+                style="@style/TextViewHeader"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:text="Mixed Berry Melody"/>
 
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@+id/notiDetailsTitle_tv"
                 app:layout_constraintStart_toStartOf="parent"
-                android:textSize="@dimen/_14ssp"
+                style="@style/TextViewContent"
                 android:textColor="@color/gray"
                 android:text="Berries mixed together to make a tasty dish"/>
 

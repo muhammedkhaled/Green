@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".home.AdministrationWordFragment"
+    tools:context=".ui.home.ui.AdministrationWordFragment"
     android:background="@color/whisper">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+<!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,24 +25,24 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/mask_group5" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.20" />
+        app:layout_constraintGuide_percent="0.01" />
 
-    <TextView
+<!--    <TextView
         android:id="@+id/AdminWordTitle_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_32sdp"
         android:text="@string/admin_word"
-        android:textSize="@dimen/_18ssp"
+        style="@style/TextViewHeader"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline_h1" />
+        app:layout_constraintTop_toBottomOf="@id/guideline_h1" />-->
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/shapeableImageView"
@@ -53,7 +53,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AdminWordTitle_tv"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_h1"
         app:srcCompat="@drawable/landing1" />
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_marginTop="@dimen/_8sdp"
         android:text="Instructions"
         android:textColor="@color/emerald_light"
-        android:textSize="@dimen/_18ssp"
+        style="@style/TextViewHeader"
         />
     <ScrollView
         android:layout_width="0dp"
@@ -79,7 +79,7 @@
             android:id="@+id/adminWord_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/_14ssp"
+            style="@style/TextViewContent"
             android:text="Start by taking the 4 raspberries, chop them into tiny segments and introduce the strawberry. Check to make sure that the raspberries and the strawberry sit well together, before slicing and dicing a lemon and adding it to this rather strange combination of fruits.
 Peel the 2 cherries, if it’s even possible to peel a cherry, discard the stalks and place them neatly next to the other fruits.
 Finish off this imaginary recipe by sourcing a mint leaf, and place it perfectly in the center "

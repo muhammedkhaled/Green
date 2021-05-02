@@ -4,7 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,22 +23,13 @@ public final class FragmentCaseReportsBinding implements ViewBinding {
   public final RecyclerView caseReportRv;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
 
-  @NonNull
-  public final ImageView imageView4;
-
   private FragmentCaseReportsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView caseReportRv, @NonNull ConstraintLayout contentHomeConLL,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4) {
+      @NonNull RecyclerView caseReportRv, @NonNull Guideline guidelineH1) {
     this.rootView = rootView;
     this.caseReportRv = caseReportRv;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
   }
 
   @Override
@@ -75,26 +65,13 @@ public final class FragmentCaseReportsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      return new FragmentCaseReportsBinding((ConstraintLayout) rootView, caseReportRv,
-          contentHomeConLL, guidelineH1, imageView4);
+      return new FragmentCaseReportsBinding((ConstraintLayout) rootView, caseReportRv, guidelineH1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

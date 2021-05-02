@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registration.RegisVolunteerInfoFragment">
+    tools:context=".ui.registration.ui.RegisVolunteerInfoFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -90,6 +90,7 @@
                 android:textAlignment="textStart"
                 android:textColor="@color/ebony_clay"
                 app:cornerRadius="4dp"
+                android:stateListAnimator="@null"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/regisVolCity_til" />
@@ -123,6 +124,7 @@
                 android:text="@string/new_member_registration"
                 android:textColor="@color/ebony_clay"
                 android:textSize="16sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -147,6 +149,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/name"
+                android:layout_marginTop="8dp"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

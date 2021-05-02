@@ -4,7 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,13 +21,7 @@ public final class FragmentStateOfOrderBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
-
-  @NonNull
-  public final ImageView imageView4;
 
   @NonNull
   public final CustomViewPager pager;
@@ -37,13 +30,10 @@ public final class FragmentStateOfOrderBinding implements ViewBinding {
   public final StepperIndicator stepperIndicator;
 
   private FragmentStateOfOrderBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout contentHomeConLL, @NonNull Guideline guidelineH1,
-      @NonNull ImageView imageView4, @NonNull CustomViewPager pager,
+      @NonNull Guideline guidelineH1, @NonNull CustomViewPager pager,
       @NonNull StepperIndicator stepperIndicator) {
     this.rootView = rootView;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.pager = pager;
     this.stepperIndicator = stepperIndicator;
   }
@@ -75,21 +65,9 @@ public final class FragmentStateOfOrderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
         break missingId;
       }
 
@@ -105,8 +83,8 @@ public final class FragmentStateOfOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentStateOfOrderBinding((ConstraintLayout) rootView, contentHomeConLL,
-          guidelineH1, imageView4, pager, stepperIndicator);
+      return new FragmentStateOfOrderBinding((ConstraintLayout) rootView, guidelineH1, pager,
+          stepperIndicator);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

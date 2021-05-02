@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whisper"
-    tools:context=".home.NewInfoDonationNeedFragment">
+    tools:context=".ui.home.ui.NewInfoDonationNeedFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+<!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -28,14 +28,14 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/mask_group5" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.01" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -86,15 +86,15 @@
                     app:layout_constraintTop_toBottomOf="@+id/regisVolCity_til" />
 
 
-                <TextView
+<!--                <TextView
                     android:id="@+id/newAccTitle_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/new_member_registration_need_donation"
                     android:textColor="@color/ebony_clay"
-                    android:textSize="@dimen/_16ssp"
+                    style="@style/TextViewHeader"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent" />-->
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/nwAccNdDonName_til"
@@ -102,9 +102,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:hint="@string/name"
+                    android:layout_marginTop="8dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/newAccTitle_tv">
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <EditText
                         android:id="@+id/nwAccNdDonName_et"

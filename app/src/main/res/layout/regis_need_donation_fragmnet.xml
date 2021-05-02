@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".registration.RegisNeedDonationFragment">
+    tools:context=".ui.registration.ui.RegisNeedDonationFragment">
 
 
     <!-- todo change all id's fron regisVol to needDonation -->
@@ -125,6 +125,7 @@
                 android:text="@string/new_member_registration_need_donation"
                 android:textColor="@color/ebony_clay"
                 android:textSize="16sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,6 +151,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/name"
+                android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/regisVolTitle_tv">

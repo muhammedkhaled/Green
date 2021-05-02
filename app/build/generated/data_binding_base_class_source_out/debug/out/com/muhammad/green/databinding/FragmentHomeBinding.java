@@ -4,8 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.muhammad.green.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -29,39 +28,26 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView casesOfDonationsRv;
 
   @NonNull
-  public final TextView casesOfDonationsTv;
-
-  @NonNull
   public final RecyclerView casesTypeRv;
-
-  @NonNull
-  public final ConstraintLayout contentHomeConLL;
 
   @NonNull
   public final Guideline guidelineH1;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final Button inKindDonationBtn;
+  public final MaterialButton inKindDonationBtn;
 
   @NonNull
   public final TextView todayDateTv;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView casesBtn,
-      @NonNull RecyclerView casesOfDonationsRv, @NonNull TextView casesOfDonationsTv,
-      @NonNull RecyclerView casesTypeRv, @NonNull ConstraintLayout contentHomeConLL,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4,
-      @NonNull Button inKindDonationBtn, @NonNull TextView todayDateTv) {
+      @NonNull RecyclerView casesOfDonationsRv, @NonNull RecyclerView casesTypeRv,
+      @NonNull Guideline guidelineH1, @NonNull MaterialButton inKindDonationBtn,
+      @NonNull TextView todayDateTv) {
     this.rootView = rootView;
     this.casesBtn = casesBtn;
     this.casesOfDonationsRv = casesOfDonationsRv;
-    this.casesOfDonationsTv = casesOfDonationsTv;
     this.casesTypeRv = casesTypeRv;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.inKindDonationBtn = inKindDonationBtn;
     this.todayDateTv = todayDateTv;
   }
@@ -105,21 +91,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.casesOfDonations_tv;
-      TextView casesOfDonationsTv = rootView.findViewById(id);
-      if (casesOfDonationsTv == null) {
-        break missingId;
-      }
-
       id = R.id.casesType_rv;
       RecyclerView casesTypeRv = rootView.findViewById(id);
       if (casesTypeRv == null) {
-        break missingId;
-      }
-
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
         break missingId;
       }
 
@@ -129,14 +103,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
       id = R.id.inKindDonation_btn;
-      Button inKindDonationBtn = rootView.findViewById(id);
+      MaterialButton inKindDonationBtn = rootView.findViewById(id);
       if (inKindDonationBtn == null) {
         break missingId;
       }
@@ -148,8 +116,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, casesBtn, casesOfDonationsRv,
-          casesOfDonationsTv, casesTypeRv, contentHomeConLL, guidelineH1, imageView4,
-          inKindDonationBtn, todayDateTv);
+          casesTypeRv, guidelineH1, inKindDonationBtn, todayDateTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

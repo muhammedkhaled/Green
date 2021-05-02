@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,9 +31,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
   public final CheckBox conditionsCheckbox;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
 
   @NonNull
@@ -42,12 +38,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
 
   @NonNull
   public final Guideline guidelineV2;
-
-  @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final TextView newAccTitleTv;
 
   @NonNull
   public final EditText nwAccNdDonAgeEt;
@@ -138,9 +128,8 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
 
   private FragmentNewInfoDonationNeedBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView attachmentTitleTv, @NonNull CheckBox conditionsCheckbox,
-      @NonNull ConstraintLayout contentHomeConLL, @NonNull Guideline guidelineH1,
-      @NonNull Guideline guidelineV1, @NonNull Guideline guidelineV2, @NonNull ImageView imageView4,
-      @NonNull TextView newAccTitleTv, @NonNull EditText nwAccNdDonAgeEt,
+      @NonNull Guideline guidelineH1, @NonNull Guideline guidelineV1,
+      @NonNull Guideline guidelineV2, @NonNull EditText nwAccNdDonAgeEt,
       @NonNull TextInputLayout nwAccNdDonAgeTil, @NonNull MaterialButton nwAccNdDonAttachmentBtn,
       @NonNull EditText nwAccNdDonFamilyMembersEt,
       @NonNull TextInputLayout nwAccNdDonFamilyMembersTil,
@@ -161,12 +150,9 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
     this.rootView = rootView;
     this.attachmentTitleTv = attachmentTitleTv;
     this.conditionsCheckbox = conditionsCheckbox;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
     this.guidelineV1 = guidelineV1;
     this.guidelineV2 = guidelineV2;
-    this.imageView4 = imageView4;
-    this.newAccTitleTv = newAccTitleTv;
     this.nwAccNdDonAgeEt = nwAccNdDonAgeEt;
     this.nwAccNdDonAgeTil = nwAccNdDonAgeTil;
     this.nwAccNdDonAttachmentBtn = nwAccNdDonAttachmentBtn;
@@ -237,12 +223,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
@@ -258,18 +238,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
       id = R.id.guideline_v2;
       Guideline guidelineV2 = rootView.findViewById(id);
       if (guidelineV2 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.newAccTitle_tv;
-      TextView newAccTitleTv = rootView.findViewById(id);
-      if (newAccTitleTv == null) {
         break missingId;
       }
 
@@ -448,15 +416,15 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
       }
 
       return new FragmentNewInfoDonationNeedBinding((ConstraintLayout) rootView, attachmentTitleTv,
-          conditionsCheckbox, contentHomeConLL, guidelineH1, guidelineV1, guidelineV2, imageView4,
-          newAccTitleTv, nwAccNdDonAgeEt, nwAccNdDonAgeTil, nwAccNdDonAttachmentBtn,
-          nwAccNdDonFamilyMembersEt, nwAccNdDonFamilyMembersTil, nwAccNdDonFullAddressEt,
-          nwAccNdDonFullAddressTil, nwAccNdDonGovActv, nwAccNdDonGovTil, nwAccNdDonHelpTypeEt,
-          nwAccNdDonHelpTypeTil, nwAccNdDonIDEt, nwAccNdDonIDTil, nwAccNdDonIncomeSourceEt,
-          nwAccNdDonIncomeSourceTil, nwAccNdDonLocationBtn, nwAccNdDonMonthlyIncomeEt,
-          nwAccNdDonMonthlyIncomeTil, nwAccNdDonNameEt, nwAccNdDonNameTil, nwAccNdDonNationalityEt,
-          nwAccNdDonNationalityTil, nwAccNdDonPensionTypeEt, nwAccNdDonPensionTypeTil,
-          nwAccNdDonPhoneEt, nwAccNdDonPhoneTil, regisVolCityEt, regisVolCityTil, sendBtn);
+          conditionsCheckbox, guidelineH1, guidelineV1, guidelineV2, nwAccNdDonAgeEt,
+          nwAccNdDonAgeTil, nwAccNdDonAttachmentBtn, nwAccNdDonFamilyMembersEt,
+          nwAccNdDonFamilyMembersTil, nwAccNdDonFullAddressEt, nwAccNdDonFullAddressTil,
+          nwAccNdDonGovActv, nwAccNdDonGovTil, nwAccNdDonHelpTypeEt, nwAccNdDonHelpTypeTil,
+          nwAccNdDonIDEt, nwAccNdDonIDTil, nwAccNdDonIncomeSourceEt, nwAccNdDonIncomeSourceTil,
+          nwAccNdDonLocationBtn, nwAccNdDonMonthlyIncomeEt, nwAccNdDonMonthlyIncomeTil,
+          nwAccNdDonNameEt, nwAccNdDonNameTil, nwAccNdDonNationalityEt, nwAccNdDonNationalityTil,
+          nwAccNdDonPensionTypeEt, nwAccNdDonPensionTypeTil, nwAccNdDonPhoneEt, nwAccNdDonPhoneTil,
+          regisVolCityEt, regisVolCityTil, sendBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

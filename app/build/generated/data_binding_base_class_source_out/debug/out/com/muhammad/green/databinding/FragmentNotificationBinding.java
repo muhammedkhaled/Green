@@ -4,8 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -25,27 +23,13 @@ public final class FragmentNotificationBinding implements ViewBinding {
   public final RecyclerView NotificationRv;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
 
-  @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final TextView notificationTitleTv;
-
   private FragmentNotificationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView NotificationRv, @NonNull ConstraintLayout contentHomeConLL,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4,
-      @NonNull TextView notificationTitleTv) {
+      @NonNull RecyclerView NotificationRv, @NonNull Guideline guidelineH1) {
     this.rootView = rootView;
     this.NotificationRv = NotificationRv;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
-    this.notificationTitleTv = notificationTitleTv;
   }
 
   @Override
@@ -81,32 +65,14 @@ public final class FragmentNotificationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.notificationTitle_tv;
-      TextView notificationTitleTv = rootView.findViewById(id);
-      if (notificationTitleTv == null) {
-        break missingId;
-      }
-
       return new FragmentNotificationBinding((ConstraintLayout) rootView, NotificationRv,
-          contentHomeConLL, guidelineH1, imageView4, notificationTitleTv);
+          guidelineH1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

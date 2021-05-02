@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".home.NotificationFragment">
+    tools:context=".ui.home.ui.NotificationFragment">
 
 <!-- todo edit notification design on item click open all details at new fragment  -->
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+<!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -29,25 +29,25 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/mask_group5" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.01" />
 
 
-    <TextView
+<!--    <TextView
         android:id="@+id/notificationTitle_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_28sdp"
         android:text="@string/notifications"
-        android:textSize="@dimen/_18ssp"
+        style="@style/TextViewHeader"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline_h1" />
+        app:layout_constraintTop_toTopOf="@id/guideline_h1" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/Notification_rv"
@@ -55,10 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_4sdp"
         android:orientation="vertical"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/notificationTitle_tv"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_h1"
         tools:listitem="@layout/notification_item" />
 
 

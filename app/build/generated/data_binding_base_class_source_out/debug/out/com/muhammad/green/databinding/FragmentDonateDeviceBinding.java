@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -40,9 +39,6 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
   public final TextInputLayout categoryTil;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final EditText deviceDetailsEt;
 
   @NonNull
@@ -64,19 +60,15 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
   public final Guideline guidelineV2;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
   public final MaterialButton sendBtn;
 
   private FragmentDonateDeviceBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView AdminWordTitleTv, @NonNull MaterialButton attachmentPicBtn,
       @NonNull TextView attachmentTitleTv, @NonNull AutoCompleteTextView categoryActv,
-      @NonNull TextInputLayout categoryTil, @NonNull ConstraintLayout contentHomeConLL,
-      @NonNull EditText deviceDetailsEt, @NonNull TextInputLayout deviceDetailsTil,
-      @NonNull EditText deviceNameEt, @NonNull TextInputLayout deviceNameTil,
-      @NonNull Guideline guidelineH1, @NonNull Guideline guidelineV1,
-      @NonNull Guideline guidelineV2, @NonNull ImageView imageView4,
+      @NonNull TextInputLayout categoryTil, @NonNull EditText deviceDetailsEt,
+      @NonNull TextInputLayout deviceDetailsTil, @NonNull EditText deviceNameEt,
+      @NonNull TextInputLayout deviceNameTil, @NonNull Guideline guidelineH1,
+      @NonNull Guideline guidelineV1, @NonNull Guideline guidelineV2,
       @NonNull MaterialButton sendBtn) {
     this.rootView = rootView;
     this.AdminWordTitleTv = AdminWordTitleTv;
@@ -84,7 +76,6 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
     this.attachmentTitleTv = attachmentTitleTv;
     this.categoryActv = categoryActv;
     this.categoryTil = categoryTil;
-    this.contentHomeConLL = contentHomeConLL;
     this.deviceDetailsEt = deviceDetailsEt;
     this.deviceDetailsTil = deviceDetailsTil;
     this.deviceNameEt = deviceNameEt;
@@ -92,7 +83,6 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
     this.guidelineH1 = guidelineH1;
     this.guidelineV1 = guidelineV1;
     this.guidelineV2 = guidelineV2;
-    this.imageView4 = imageView4;
     this.sendBtn = sendBtn;
   }
 
@@ -153,12 +143,6 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.deviceDetails_et;
       EditText deviceDetailsEt = rootView.findViewById(id);
       if (deviceDetailsEt == null) {
@@ -201,12 +185,6 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
       id = R.id.send_btn;
       MaterialButton sendBtn = rootView.findViewById(id);
       if (sendBtn == null) {
@@ -214,9 +192,9 @@ public final class FragmentDonateDeviceBinding implements ViewBinding {
       }
 
       return new FragmentDonateDeviceBinding((ConstraintLayout) rootView, AdminWordTitleTv,
-          attachmentPicBtn, attachmentTitleTv, categoryActv, categoryTil, contentHomeConLL,
-          deviceDetailsEt, deviceDetailsTil, deviceNameEt, deviceNameTil, guidelineH1, guidelineV1,
-          guidelineV2, imageView4, sendBtn);
+          attachmentPicBtn, attachmentTitleTv, categoryActv, categoryTil, deviceDetailsEt,
+          deviceDetailsTil, deviceNameEt, deviceNameTil, guidelineH1, guidelineV1, guidelineV2,
+          sendBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

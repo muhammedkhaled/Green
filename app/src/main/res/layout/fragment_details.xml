@@ -5,9 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".home.DetailsFragment">
+    tools:context=".ui.home.ui.DetailsFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+<!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -28,16 +28,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/mask_group5" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.01" />
 
-    <TextView
+<!--    <TextView
         android:id="@+id/casesOfDonations_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/guideline_h1"
         app:drawableStartCompat="@drawable/ic_person_outline"
         android:drawablePadding="@dimen/_4sdp"
-        app:drawableTint="@color/black" />
+        app:drawableTint="@color/black" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/details_donationCases_rv"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_tv"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_h1"
         app:singleSelection="true"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"

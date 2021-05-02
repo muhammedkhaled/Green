@@ -4,7 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,29 +30,20 @@ public final class FragmentAboutUsBinding implements ViewBinding {
   public final TextView aboutUsTv;
 
   @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final Guideline guidelineH1;
-
-  @NonNull
-  public final ImageView imageView4;
 
   @NonNull
   public final ShapeableImageView shapeableImageView;
 
   private FragmentAboutUsBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView InstructionsTitle, @NonNull TextView aboutUsTitleTv,
-      @NonNull TextView aboutUsTv, @NonNull ConstraintLayout contentHomeConLL,
-      @NonNull Guideline guidelineH1, @NonNull ImageView imageView4,
+      @NonNull TextView aboutUsTv, @NonNull Guideline guidelineH1,
       @NonNull ShapeableImageView shapeableImageView) {
     this.rootView = rootView;
     this.InstructionsTitle = InstructionsTitle;
     this.aboutUsTitleTv = aboutUsTitleTv;
     this.aboutUsTv = aboutUsTv;
-    this.contentHomeConLL = contentHomeConLL;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
     this.shapeableImageView = shapeableImageView;
   }
 
@@ -102,21 +92,9 @@ public final class FragmentAboutUsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.guideline_h1;
       Guideline guidelineH1 = rootView.findViewById(id);
       if (guidelineH1 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
         break missingId;
       }
 
@@ -127,7 +105,7 @@ public final class FragmentAboutUsBinding implements ViewBinding {
       }
 
       return new FragmentAboutUsBinding((ConstraintLayout) rootView, InstructionsTitle,
-          aboutUsTitleTv, aboutUsTv, contentHomeConLL, guidelineH1, imageView4, shapeableImageView);
+          aboutUsTitleTv, aboutUsTv, guidelineH1, shapeableImageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

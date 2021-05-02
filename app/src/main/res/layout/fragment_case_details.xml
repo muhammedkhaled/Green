@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".home.CaseDetailsFragment"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.ui.CaseDetailsFragment"
     android:background="@color/whisper">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,9 +13,9 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/casePImg_shapeable_img"
-            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App20Percent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App20PercentBottomLeftRight"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

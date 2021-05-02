@@ -4,8 +4,6 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,12 +21,6 @@ public final class FragmentDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView casesOfDonationsTv;
-
-  @NonNull
-  public final ConstraintLayout contentHomeConLL;
-
-  @NonNull
   public final ChipGroup detailsCasesCategoriesChipGroup;
 
   @NonNull
@@ -37,21 +29,13 @@ public final class FragmentDetailsBinding implements ViewBinding {
   @NonNull
   public final Guideline guidelineH1;
 
-  @NonNull
-  public final ImageView imageView4;
-
   private FragmentDetailsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView casesOfDonationsTv, @NonNull ConstraintLayout contentHomeConLL,
       @NonNull ChipGroup detailsCasesCategoriesChipGroup,
-      @NonNull RecyclerView detailsDonationCasesRv, @NonNull Guideline guidelineH1,
-      @NonNull ImageView imageView4) {
+      @NonNull RecyclerView detailsDonationCasesRv, @NonNull Guideline guidelineH1) {
     this.rootView = rootView;
-    this.casesOfDonationsTv = casesOfDonationsTv;
-    this.contentHomeConLL = contentHomeConLL;
     this.detailsCasesCategoriesChipGroup = detailsCasesCategoriesChipGroup;
     this.detailsDonationCasesRv = detailsDonationCasesRv;
     this.guidelineH1 = guidelineH1;
-    this.imageView4 = imageView4;
   }
 
   @Override
@@ -81,18 +65,6 @@ public final class FragmentDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.casesOfDonations_tv;
-      TextView casesOfDonationsTv = rootView.findViewById(id);
-      if (casesOfDonationsTv == null) {
-        break missingId;
-      }
-
-      id = R.id.content_home_conLL;
-      ConstraintLayout contentHomeConLL = rootView.findViewById(id);
-      if (contentHomeConLL == null) {
-        break missingId;
-      }
-
       id = R.id.details_casesCategories_chipGroup;
       ChipGroup detailsCasesCategoriesChipGroup = rootView.findViewById(id);
       if (detailsCasesCategoriesChipGroup == null) {
@@ -111,15 +83,8 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = rootView.findViewById(id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      return new FragmentDetailsBinding((ConstraintLayout) rootView, casesOfDonationsTv,
-          contentHomeConLL, detailsCasesCategoriesChipGroup, detailsDonationCasesRv, guidelineH1,
-          imageView4);
+      return new FragmentDetailsBinding((ConstraintLayout) rootView,
+          detailsCasesCategoriesChipGroup, detailsDonationCasesRv, guidelineH1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

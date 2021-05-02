@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registration.RegisLoginFragment">
-
+    tools:context=".ui.registration.ui.RegisLoginFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -164,7 +163,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline1"
         app:layout_constraintTop_toBottomOf="@+id/loginPhoneNum_til"
         app:layout_constraintVertical_chainStyle="spread_inside"
-        android:textColorHint="@color/ebony_clay"
         app:passwordToggleTint="@color/gray"
         style="@style/TextInputLayout.EditText.FilledBox">
 

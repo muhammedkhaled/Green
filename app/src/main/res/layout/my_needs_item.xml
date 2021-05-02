@@ -14,7 +14,7 @@
         android:id="@+id/needNumber_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/_14sdp"
+        style="@style/TextViewHeader"
         android:textColor="@color/gray"
         android:drawablePadding="@dimen/_8sdp"
         app:drawableEndCompat="@drawable/ic_arrow_drop_down"
@@ -33,11 +33,12 @@
         android:visibility="gone">
 
 <!-- todo set drawable accordingly to state -->
+
         <TextView
             android:id="@+id/orderNeedsState_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/_14sdp"
+            style="@style/TextViewContent"
             android:textColor="@color/gray"
             android:drawablePadding="@dimen/_8sdp"
             app:layout_constraintTop_toTopOf="parent"

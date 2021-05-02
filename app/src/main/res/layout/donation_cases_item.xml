@@ -39,7 +39,7 @@
                 android:layout_marginStart="18dp"
                 android:text="محمد السيد على"
                 android:textAlignment="viewStart"
-                android:textSize="20sp"
+                style="@style/TextViewHeader"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/details_casePP_cImg"
                 app:layout_constraintTop_toTopOf="@+id/details_casePP_cImg" />
@@ -51,7 +51,7 @@
                 android:layout_marginTop="8dp"
                 android:text="عمليه جراحيه"
                 android:textAlignment="viewStart"
-                android:textSize="16sp"
+                style="@style/TextViewContent"
                 app:layout_constraintBottom_toBottomOf="@+id/details_casePP_cImg"
                 app:layout_constraintStart_toStartOf="@+id/details_caseName_tv"
                 app:layout_constraintTop_toBottomOf="@id/details_caseName_tv" />
@@ -68,7 +68,6 @@
                 app:layout_constraintTop_toTopOf="@+id/details_casePP_cImg" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     </com.google.android.material.card.MaterialCardView>
 

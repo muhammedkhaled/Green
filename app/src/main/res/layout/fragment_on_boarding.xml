@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".landing.OnBoardingFragment">
+    tools:context=".ui.landing.ui.OnBoardingFragment">
 
 
     <ImageView
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="فضل الانفاق على المحتاجين"
-        android:textSize="24sp"
+        style="@style/TextViewHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline1" />
@@ -53,10 +53,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginEnd="44dp"
         android:text="وَأَنْفِقُوا مِنْ مَا رَزَقْنَاكُمْ مِنْ قَبْلِ أَنْ يَأْتِيَ أَحَدَكُمْ الْمَوْتُ فَيَقُولَ رَبِّ لَوْلا أَخَّرْتَنِي إِلَى أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُنْ مِنْ الصَّالِحِينَ* وَلَنْ يُؤَخِّرَ اللَّهُ نَفْساً إِذَا جَاءَ أَجَلُهَا وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ"
-        android:textSize="10sp"
+        style="@style/TextViewContent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.68" />
+        app:layout_constraintGuide_percent="0.72"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

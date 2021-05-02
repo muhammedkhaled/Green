@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/inKindDonDevice_img"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="@dimen/_18ssp"
+            style="@style/TextViewHeader"
             android:textColor="@color/gray"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_4sdp"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/deviceTitle_tv"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="@dimen/_14ssp"
+            style="@style/TextViewContent"
             android:textColor="@color/gray"
             android:text="Berries mixed together to make a tasty dish"/>
 
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_8sdp"
             android:text="@string/do_you_need_it_order_from_here"
-            android:textSize="20sp"
+            android:textSize="@dimen/_16ssp"
             android:backgroundTint="@color/emerald_light"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

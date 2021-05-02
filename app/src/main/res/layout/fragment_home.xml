@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/whisper"
-    tools:context=".home.HomeFragment">
+    tools:context=".ui.home.ui.HomeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -28,14 +28,14 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/mask_group5" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.18" />
+        app:layout_constraintGuide_percent="0.01" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"
@@ -49,41 +49,46 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
+            <!-- <TextView
                 android:id="@+id/casesOfDonations_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_28sdp"
+                android:layout_marginStart="@dimen/_8sdp"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:drawablePadding="@dimen/_4sdp"
                 android:text="@string/cases_of_donation"
-                android:textSize="@dimen/_18ssp"
+                style="@style/TextViewHeader"
                 app:drawableStartCompat="@drawable/ic_person_outline"
                 app:drawableTint="@color/black"
+                app:layout_constraintEnd_toStartOf="@+id/todayDate_tv"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" />-->
 
             <TextView
                 android:id="@+id/todayDate_tv"
+                style="@style/TextViewContent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_28sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
                 android:text="today, 2 october 2020"
-                android:textSize="@dimen/_10ssp"
-                app:layout_constraintBottom_toBottomOf="@+id/casesOfDonations_tv"
+                app:layout_constraintBottom_toTopOf="@+id/casesOfDonations_rv"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/casesOfDonations_tv" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread" />
 
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/casesOfDonations_rv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                app:layout_constraintBottom_toTopOf="@+id/inKindDonation_btn"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_tv"
-                tools:listitem="@layout/home_donation_cases_item" />
+                app:layout_constraintTop_toBottomOf="@+id/todayDate_tv" />
 
             <TextView
                 android:id="@+id/cases_btn"
@@ -92,27 +97,31 @@
                 android:layout_marginTop="@dimen/_4sdp"
                 android:background="@drawable/rectangle_shape"
                 android:backgroundTint="@color/Astral"
+                android:gravity="center"
                 android:paddingStart="8dp"
-                android:paddingEnd="8dp"
                 android:paddingTop="4dp"
+                android:paddingEnd="8dp"
                 android:paddingBottom="4dp"
                 android:text="@string/cases"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp"
+                android:textSize="@dimen/_14ssp"
                 app:layout_constraintBottom_toBottomOf="@+id/inKindDonation_btn"
                 app:layout_constraintEnd_toStartOf="@+id/inKindDonation_btn"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/inKindDonation_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
-                android:backgroundTint="@color/emerald"
+                android:backgroundTint="@color/gray"
                 android:text="@string/in_kind_donations"
-                android:textSize="@dimen/_18ssp"
+                android:textSize="@dimen/_14ssp"
+                app:cornerRadius="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/casesType_rv"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/cases_btn"
@@ -123,9 +132,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/inKindDonation_btn"
+                app:layout_constraintTop_toBottomOf="@+id/inKindDonation_btn"
                 tools:listitem="@layout/home_cases_type_item" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,13 +16,14 @@
         <item name="android:textColor">@color/ebony_clay</item>
         <item name="fontFamily">@font/tajawal_regular</item>
         <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">@android:color/transparent</item>
-        <item name="android:textColorSecondary">@android:color/transparent</item>
-        <item name="actionMenuTextColor">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="actionMenuTextColor">@color/black</item>
     </style>
 
 
@@ -35,6 +36,7 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.App20Percent" parent="">
@@ -42,21 +44,28 @@
         <item name="cornerFamily">rounded</item>
     </style>
 
+    <style name="ShapeAppearanceOverlay.App20PercentBottomLeftRight" parent="">
+        <item name="cornerSize">20dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+
+
     <style name="ShapeAppearanceOverlay.App10Percent" parent="">
-        <item name="cornerSize">10%</item>
+        <item name="cornerSize">10dp</item>
         <item name="cornerFamily">rounded</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.App5Percent" parent="">
-        <item name="cornerSize">2.5%</item>
-        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">2.5dp</item>
+        <item name="cornerFamily">rounded</item>
     </style>
 
     <style name="TextInputLayout.EditText.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="boxCornerRadiusBottomEnd">4dp</item>
-        <item name="boxCornerRadiusBottomStart">4dp</item>
-        <item name="boxCornerRadiusTopEnd">4dp</item>
-        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
         <item name="boxBackgroundColor">@color/white</item>
         <item name="hintEnabled">true</item>
         <item name="hintTextColor">@color/ebony_clay</item>
@@ -65,15 +74,35 @@
     </style>
 
     <style name="TextInputLayout.DropDownMenu.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
-        <item name="boxCornerRadiusBottomEnd">4dp</item>
-        <item name="boxCornerRadiusBottomStart">4dp</item>
-        <item name="boxCornerRadiusTopEnd">4dp</item>
-        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
         <item name="boxBackgroundColor">@color/white</item>
         <item name="hintEnabled">true</item>
         <item name="hintTextColor">@color/ebony_clay</item>
         <item name="android:textColorHint">@color/ebony_clay</item>
         <item name="android:layout_marginTop">4dp</item>
     </style>
+
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextViewHeader" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewContent" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/ebony_clay</item>
+    </style>
+
 
 </resources>

@@ -17,4 +17,5 @@
 
 	<dimen name="stpi_two_dp">2dp</dimen>
     <dimen name="stpi_done_icon_size">18dp</dimen>
+    <dimen name="header">@dimen/_16sdp</dimen>
 </resources>

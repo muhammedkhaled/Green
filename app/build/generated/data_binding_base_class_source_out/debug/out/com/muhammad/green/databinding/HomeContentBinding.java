@@ -6,11 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.appbar.AppBarLayout;
 import com.muhammad.green.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,20 +19,12 @@ public final class HomeContentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final AppBarLayout appBar;
-
-  @NonNull
   public final FragmentContainerView homeHostFragment;
 
-  @NonNull
-  public final Toolbar toolbar;
-
-  private HomeContentBinding(@NonNull ConstraintLayout rootView, @NonNull AppBarLayout appBar,
-      @NonNull FragmentContainerView homeHostFragment, @NonNull Toolbar toolbar) {
+  private HomeContentBinding(@NonNull ConstraintLayout rootView,
+      @NonNull FragmentContainerView homeHostFragment) {
     this.rootView = rootView;
-    this.appBar = appBar;
     this.homeHostFragment = homeHostFragment;
-    this.toolbar = toolbar;
   }
 
   @Override
@@ -64,25 +54,13 @@ public final class HomeContentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.appBar;
-      AppBarLayout appBar = rootView.findViewById(id);
-      if (appBar == null) {
-        break missingId;
-      }
-
       id = R.id.home_host_fragment;
       FragmentContainerView homeHostFragment = rootView.findViewById(id);
       if (homeHostFragment == null) {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      Toolbar toolbar = rootView.findViewById(id);
-      if (toolbar == null) {
-        break missingId;
-      }
-
-      return new HomeContentBinding((ConstraintLayout) rootView, appBar, homeHostFragment, toolbar);
+      return new HomeContentBinding((ConstraintLayout) rootView, homeHostFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

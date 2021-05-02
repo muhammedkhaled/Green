@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".registration.VerificationCodeFragment">
+    tools:context=".ui.registration.ui.VerificationCodeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -73,7 +73,7 @@
         app:srcCompat="@drawable/logo" />
 
     <!-- todo check the color on otb after run on device -->
-    <com.mukesh.OtpView
+        <com.mukesh.OtpView
         android:id="@+id/otp_view_code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,16 +88,18 @@
         app:layout_constraintStart_toStartOf="@+id/guideline1"
         app:layout_constraintTop_toBottomOf="@+id/verificationLogo_img"
         app:lineColor="@color/ebony_clay"
-        app:state_filled="true"
+        app:state_filled="false"
         app:viewType="rectangle" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/login_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:textSize="20sp"
         android:layout_marginTop="18dp"
+        app:cornerRadius="8dp"
+        android:enabled="false"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
