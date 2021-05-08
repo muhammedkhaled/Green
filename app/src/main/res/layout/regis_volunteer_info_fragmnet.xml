@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.registration.ui.RegisVolunteerInfoFragment">
+    tools:context=".views.registration.ui.RegisVolunteerInfoFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"

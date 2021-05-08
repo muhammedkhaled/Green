@@ -20,7 +20,5 @@ abstract class BaseFragment< B : ViewBinding> : Fragment() {
         return binding.root
     }
 
-
     abstract fun getFragmentBinding(inflater: LayoutInflater, container: ViewGroup?): B
-
 }

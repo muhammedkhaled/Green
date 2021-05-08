@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] /home/muhammad/.gradle/caches/transforms-2/files-2.1/26e07b5a03c88d496a27097445f6b0fc/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/62ccdc537e0b1b7ec5fe86e10d73bf4a/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/muhammad/.gradle/caches/transforms-2/files-2.1/e242ab7a9a1ea2895b4a154dd0856cb3/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:17:1-24:12
@@ -14,9 +14,11 @@ MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/muhammad/.gr
 MERGED from [androidx.core:core-ktx:1.3.2] /home/muhammad/.gradle/caches/transforms-2/files-2.1/8ca32b42f4118104777bbc727042e572/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/02a7d5e386f27a335bc016c6ae4d282c/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d0d382f7c63db995a3035e79c37d7a97/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/4fb97ac67207ea0dd04f1a772187df0f/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/166b20b15950a5658b556464a4d191f6/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/08f981f07367125b12a0bc8dd90668e8/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/9e9dd0771b6aa34a1a16724987c1189f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d85e808b40166d99cc194f1e8d5103a2/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/28a7f0f98867de678333552b30d01b19/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ab488846715c9d9aa4ff5a566a5c50b7/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ba308e67515483104683a347f104c448/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
@@ -67,25 +69,29 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/muhammad/.gradle/
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd817a9da72f51b8a36d7c6f78737776/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/bf027a60af1593ef84d7b50b36535f53/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/eba3fd9fa61480b4e6cc9ae2f8b6971e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:5:5-25:19
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:7:5-28:19
 MERGED from [com.google.android.material:material:1.3.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ab488846715c9d9aa4ff5a566a5c50b7/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ab488846715c9d9aa4ff5a566a5c50b7/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ba308e67515483104683a347f104c448/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -99,41 +105,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/muham
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /home/muhammad/.gradle/caches/transforms-2/files-2.1/81180686ddd97e4ea23ed7a7853a5cf6/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:14:9-43
+	android:usesCleartextTraffic
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:6:9-32
-activity#com.muhammad.green.registration.RegistrationActivity
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:13:9-71
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:8:9-37
+activity#com.muhammad.green.views.registration.ui.RegistrationActivity
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:16:9-98
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:13:19-68
-activity#com.muhammad.green.home.MainActivity
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:14:9-15:49
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:16:19-95
+activity#com.muhammad.green.views.home.ui.MainActivity
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:17:9-18:76
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:15:13-46
-activity#com.muhammad.green.landing.LandingActivity
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:16:9-24:20
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:18:13-73
+activity#com.muhammad.green.views.landing.ui.LandingActivity
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:17:13-52
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:20:13-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/AndroidManifest.xml
@@ -158,12 +166,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/muhammad/.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/02a7d5e386f27a335bc016c6ae4d282c/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d0d382f7c63db995a3035e79c37d7a97/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d0d382f7c63db995a3035e79c37d7a97/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/4fb97ac67207ea0dd04f1a772187df0f/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/4fb97ac67207ea0dd04f1a772187df0f/jetified-datastore-preferences-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/166b20b15950a5658b556464a4d191f6/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/166b20b15950a5658b556464a4d191f6/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/08f981f07367125b12a0bc8dd90668e8/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/08f981f07367125b12a0bc8dd90668e8/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/9e9dd0771b6aa34a1a16724987c1189f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/9e9dd0771b6aa34a1a16724987c1189f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d85e808b40166d99cc194f1e8d5103a2/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-beta01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/d85e808b40166d99cc194f1e8d5103a2/jetified-datastore-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/28a7f0f98867de678333552b30d01b19/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/28a7f0f98867de678333552b30d01b19/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ab488846715c9d9aa4ff5a566a5c50b7/material-1.3.0/AndroidManifest.xml:20:5-44

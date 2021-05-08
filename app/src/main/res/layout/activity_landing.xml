@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.landing.ui.LandingActivity"
+    tools:context=".views.landing.ui.LandingActivity"
     >
     <FrameLayout
         android:id="@+id/fragment_view"
@@ -13,7 +13,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/starter_fragment"
-            android:name="com.muhammad.green.landing.SplashFragment"
+            android:name="com.muhammad.green.views.landing.ui.SplashFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>

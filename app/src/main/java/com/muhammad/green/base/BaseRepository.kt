@@ -1,26 +1,10 @@
 package com.muhammad.green.base
 
+import com.muhammad.green.data.repository.safeApiCall
 
-abstract class BaseRepository {
+abstract class BaseRepository (private val api: BaseApi) {
 
-/*    suspend fun <T> safeApiCall(apiCall: suspend () -> T): Resource<T> {
-        return withContext(Dispatchers.IO) {
-            try {
-                Resource.Success(apiCall.invoke())
-            } catch (throwable: Throwable) {
-                when (throwable) {
-                    is HttpException -> {
-                        Resource.Failure(false, throwable.code(), throwable.response()?.errorBody())
-                    }
-                    else -> {
-                        Resource.Failure(true, null, null)
-                    }
-                }
-            }
-        }
-    }
-
-    suspend fun logout(api: DataApi) = safeApiCall {
+    suspend fun logout() = safeApiCall {
         api.logout()
-    }*/
+    }
 }

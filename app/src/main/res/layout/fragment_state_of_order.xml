@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".ui.home.ui.StateOfOrderFragment">
+    tools:context=".views.home.ui.StateOfOrderFragment">
 
 <!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/stepper_indicator"
         android:layout_marginTop="@dimen/_8sdp"/>
 
-    <com.muhammad.green.ui.home.StepperIndicator
+    <com.muhammad.green.views.home.StepperIndicator
         android:id="@+id/stepper_indicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

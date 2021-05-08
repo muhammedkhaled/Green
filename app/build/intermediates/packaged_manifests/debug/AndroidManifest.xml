@@ -8,8 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:name="com.muhammad.green.BaseApp"
+        android:name="com.muhammad.green.base.BaseApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -18,10 +20,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Green" >
-        <activity android:name="com.muhammad.green.registration.RegistrationActivity" />
-        <activity android:name="com.muhammad.green.home.MainActivity" />
-        <activity android:name="com.muhammad.green.landing.LandingActivity" >
+        android:theme="@style/Theme.Green"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.muhammad.green.views.registration.ui.RegistrationActivity" />
+        <activity android:name="com.muhammad.green.views.home.ui.MainActivity" />
+        <activity android:name="com.muhammad.green.views.landing.ui.LandingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

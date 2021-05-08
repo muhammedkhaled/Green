@@ -2968,6 +2968,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loadingProgress
 id loginLogo_img
 id loginPassword_et
 id loginPassword_til

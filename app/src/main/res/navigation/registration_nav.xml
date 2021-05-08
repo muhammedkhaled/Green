@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/regisLoginFragment"
-        android:name="com.muhammad.green.ui.registration.ui.RegisLoginFragment"
+        android:name="com.muhammad.green.views.registration.ui.RegisLoginFragment"
         android:label=""
         tools:layout="@layout/regis_login_fragment" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/regisNeedDonationFragment"
-        android:name="com.muhammad.green.ui.registration.ui.RegisNeedDonationFragment"
+        android:name="com.muhammad.green.views.registration.ui.RegisNeedDonationFragment"
         android:label=""
         tools:layout="@layout/regis_need_donation_fragmnet" >
         <action
@@ -29,12 +29,12 @@
 
     <fragment
         android:id="@+id/verificationCodeFragment"
-        android:name="com.muhammad.green.ui.registration.ui.VerificationCodeFragment"
+        android:name="com.muhammad.green.views.registration.ui.VerificationCodeFragment"
         android:label=""
         tools:layout="@layout/regis_verification_code_fragment" />
     <fragment
         android:id="@+id/regisVolunteerInfoFragmnet"
-        android:name="com.muhammad.green.ui.registration.ui.RegisVolunteerInfoFragment"
+        android:name="com.muhammad.green.views.registration.ui.RegisVolunteerInfoFragment"
         android:label=""
         tools:layout="@layout/regis_volunteer_info_fragmnet" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/regisUserTypeFragment"
-        android:name="com.muhammad.green.ui.registration.ui.RegisUserTypeFragment"
+        android:name="com.muhammad.green.views.registration.ui.RegisUserTypeFragment"
         android:label=""
         tools:layout="@layout/regis_user_type_fragmnet">
         <action

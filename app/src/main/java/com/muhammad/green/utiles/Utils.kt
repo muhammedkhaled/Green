@@ -1,15 +1,14 @@
 package net.Aqua_waterfliter.joborder.utiles
 
 import android.app.Activity
-import android.content.BroadcastReceiver
-import android.content.Context
 import android.content.Intent
-import android.net.ConnectivityManager
 import android.view.View
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
-
+import com.muhammad.green.data.network.ResultWrapper
+import com.muhammad.green.views.registration.ui.RegisLoginFragment
+import java.util.*
 
 fun <A : Activity> Activity.startNewActivity(activity: Class<A>) {
     Intent(this, activity).also {
@@ -37,26 +36,41 @@ fun View.snackbar(message: String, action: (() -> Unit)? = null) {
     snackbar.show()
 }
 
-/*
+
 fun Fragment.handleApiError(
-    failure: Resource.Failure,
+    failure: ResultWrapper.GenericError,
     retry: (() -> Unit)? = null
 ) {
     when {
-        failure.isNetworkError -> requireView().snackbar(
+        failure.isNetworkError == true -> requireView().snackbar(
             "Please check your internet connection",
             retry
         )
         failure.errorCode == 401 -> {
-            if (this is LoginFragment) {
+            if (this is RegisLoginFragment) {
                 requireView().snackbar("You've entered incorrect email or password")
             } else {
-                (this as BaseFragment<*, *, *>).logout()
+//                (this as BaseFragment<*>).logout()
             }
         }
         else -> {
-            val error = failure.errorBody?.string().toString()
+            val error = failure.error?.message.toString()
             requireView().snackbar(error)
         }
     }
-}*/
+}
+
+
+fun Activity.changeLayoutDirection(isRTL: Boolean) {
+    // set local to ar to change app direction to rtl and language to ar
+    val locale = if (isRTL) Locale("ar") else Locale("en")
+    Locale.setDefault(locale)
+    val config =
+        baseContext.resources.configuration
+    config.setLocale(locale)
+    createConfigurationContext(config)
+}
+
+fun Activity.disableDayNight(){
+    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+}

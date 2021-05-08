@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".ui.home.ui.DetailsFragment">
+    tools:context=".views.home.ui.DetailsFragment">
 
 <!--    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_home_conLL"

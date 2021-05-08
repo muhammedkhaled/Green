@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -45,6 +46,9 @@ public final class RegisLoginFragmentBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
+  public final ProgressBar loadingProgress;
+
+  @NonNull
   public final Button loginBtn;
 
   @NonNull
@@ -68,10 +72,10 @@ public final class RegisLoginFragmentBinding implements ViewBinding {
   private RegisLoginFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView forgotPassTv, @NonNull Guideline guideline1, @NonNull Guideline guideline2,
       @NonNull Guideline guideline3, @NonNull Guideline guideline4, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull Button loginBtn, @NonNull ImageView loginLogoImg,
-      @NonNull EditText loginPasswordEt, @NonNull TextInputLayout loginPasswordTil,
-      @NonNull EditText loginPhoneNumEt, @NonNull TextInputLayout loginPhoneNumTil,
-      @NonNull TextView signInTv) {
+      @NonNull ImageView imageView5, @NonNull ProgressBar loadingProgress, @NonNull Button loginBtn,
+      @NonNull ImageView loginLogoImg, @NonNull EditText loginPasswordEt,
+      @NonNull TextInputLayout loginPasswordTil, @NonNull EditText loginPhoneNumEt,
+      @NonNull TextInputLayout loginPhoneNumTil, @NonNull TextView signInTv) {
     this.rootView = rootView;
     this.forgotPassTv = forgotPassTv;
     this.guideline1 = guideline1;
@@ -80,6 +84,7 @@ public final class RegisLoginFragmentBinding implements ViewBinding {
     this.guideline4 = guideline4;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
+    this.loadingProgress = loadingProgress;
     this.loginBtn = loginBtn;
     this.loginLogoImg = loginLogoImg;
     this.loginPasswordEt = loginPasswordEt;
@@ -158,6 +163,12 @@ public final class RegisLoginFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingProgress;
+      ProgressBar loadingProgress = rootView.findViewById(id);
+      if (loadingProgress == null) {
+        break missingId;
+      }
+
       id = R.id.login_btn;
       Button loginBtn = rootView.findViewById(id);
       if (loginBtn == null) {
@@ -201,8 +212,9 @@ public final class RegisLoginFragmentBinding implements ViewBinding {
       }
 
       return new RegisLoginFragmentBinding((ConstraintLayout) rootView, forgotPassTv, guideline1,
-          guideline2, guideline3, guideline4, imageView4, imageView5, loginBtn, loginLogoImg,
-          loginPasswordEt, loginPasswordTil, loginPhoneNumEt, loginPhoneNumTil, signInTv);
+          guideline2, guideline3, guideline4, imageView4, imageView5, loadingProgress, loginBtn,
+          loginLogoImg, loginPasswordEt, loginPasswordTil, loginPhoneNumEt, loginPhoneNumTil,
+          signInTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
