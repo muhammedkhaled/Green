@@ -1,10 +1,9 @@
-package net.Aqua_waterfliter.joborder.base
+package com.muhammad.green.views.registration.viewModels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.muhammad.green.base.BaseRepository
 import com.muhammad.green.data.repository.AuthRepository
-import com.muhammad.green.views.registration.viewModels.LoginViewModel
 
 
 import java.lang.IllegalArgumentException

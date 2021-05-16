@@ -18,14 +18,6 @@ class LoginViewModel(private val repository: AuthRepository) : ViewModel() {
 
 
     fun login(
-        password: String,
-        phone: String
-    ) = viewModelScope.launch {
-        _loginResponse.value = ResultWrapper.Loading
-        _loginResponse.value = repository.login(phone, password)
-    }
-
-    fun login(
         userLogin: UserLogin
     ) = viewModelScope.launch {
         _loginResponse.value = ResultWrapper.Loading

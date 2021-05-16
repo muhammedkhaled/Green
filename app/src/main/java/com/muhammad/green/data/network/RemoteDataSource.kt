@@ -14,19 +14,11 @@ private const val BASE_URL = "http://khatwa-lelganna.com/api/"
 
 
 interface AuthApi : BaseApi {
-    @Multipart
-    @POST("login")
-    suspend fun login(
-        @Part("password") password: String,
-        @Part("phone") phone: String
-    ): LoginSuccess
-
     @POST("login")
     suspend fun login(
         @Body userLogin: UserLogin
     ): LoginSuccess
 }
-
 
 
 object RemoteDataSource {

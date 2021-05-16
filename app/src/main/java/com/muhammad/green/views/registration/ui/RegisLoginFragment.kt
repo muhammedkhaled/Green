@@ -16,7 +16,7 @@ import com.muhammad.green.data.network.response.UserLogin
 import com.muhammad.green.databinding.RegisLoginFragmentBinding
 import com.muhammad.green.views.registration.viewModels.LoginViewModel
 import net.Aqua_waterfliter.joborder.base.BaseFragment
-import net.Aqua_waterfliter.joborder.base.ViewModelFactory
+import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import net.Aqua_waterfliter.joborder.utiles.enable
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
 import net.Aqua_waterfliter.joborder.utiles.visible
