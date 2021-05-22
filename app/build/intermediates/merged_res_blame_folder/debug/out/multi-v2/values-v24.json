@@ -4,7 +4,7 @@
             "outputFile": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/617d85da133ab940b04fb188c60ce0d6/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/37245809fcfce013f52f3a827b610f0c/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/b4c97f8ef476040aa6f9f9fe459d8dc8/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/313dd10691a687d25a42eff6f6884d8f/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

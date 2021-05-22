@@ -1,5 +1,6 @@
 package com.muhammad.green.views.registration.ui
 
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,6 +9,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.data.network.AuthApi
 import com.muhammad.green.data.network.RemoteDataSource
@@ -26,7 +28,7 @@ import net.simplifiedcoding.data.UserPreferences
 class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
 
     private lateinit var loginViewModel: LoginViewModel
-
+    private lateinit var pref: SharedPreferences
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -36,8 +38,6 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
         setUpViewModel()
 
         binding.loginBtn.setOnClickListener {
-//            loginViewModel.login("123456", "01090645887")
-
             val userLogin = UserLogin("01090645887", "123456")
             loginViewModel.login(userLogin)
         }
@@ -53,10 +53,9 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
                 binding.loadingProgress.visible(it is ResultWrapper.Loading)
                 when (it) {
                     is ResultWrapper.Success -> {
-//                        loginViewModel.saveAuthToken(it.value.access_token)
-//                        requireActivity().startNewActivity(MainActivity::class.java)
-//                        DynamicData.userName = it.value.userName
-//                        DynamicData.token = it.value.access_token
+                        loginViewModel.saveToken(it.value.token)
+                        loginViewModel.saveUserInfo(it.value.user)
+
                         Log.d("token", "onViewCreated: ${it.value.token}")
                         Log.d("token", "onViewCreated: ${it.value.user}")
 //                        requireActivity().startNewActivity(MainActivity::class.java)
@@ -83,15 +82,17 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
                 binding.loginPasswordEt.requestFocus()
             }
             else -> {
-//                viewModel.login("Negm@2017", "admin@admin.com", "password")
-                loginViewModel.login("01090645887", "123456")
+                val user = UserLogin(mPhone, mPass)
+                val user1 = UserLogin("01090645887", "123456")
+                loginViewModel.login(user1)
             }
         }
     }
 
     private fun setUpViewModel() {
         val remoteDataSource = RemoteDataSource.buildApi(AuthApi::class.java)
-        val repository = AuthRepository(remoteDataSource, UserPreferences(requireContext()))
+        pref = PreferenceHelper.customPrefs(requireContext(), "regis")
+        val repository = AuthRepository(remoteDataSource, pref)
         val factory = ViewModelFactory(repository)
         loginViewModel = ViewModelProvider(this, factory).get(LoginViewModel::class.java)
     }

@@ -4,7 +4,7 @@
             "outputFile": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/617d85da133ab940b04fb188c60ce0d6/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/37245809fcfce013f52f3a827b610f0c/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

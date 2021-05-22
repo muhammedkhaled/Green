@@ -1,5 +1,13 @@
 package com.muhammad.green.data.network.response
 
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.descriptors.PrimitiveKind
+import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+
 data class LoginSuccess(
     val status: Int,
     val token: String,
@@ -11,7 +19,7 @@ data class LoginFail(
     val status: Int
 )
 
-
+@Serializable
 data class User(
     val account_id: Int,
     val active: Int,
@@ -23,7 +31,7 @@ data class User(
     val created_at: String,
     val device_token: String,
     val email: String,
-    val email_verified_at: Any,
+    val email_verified_at: String,
     val government_id: Int,
     val id: Int,
     val location: String,

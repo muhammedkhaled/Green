@@ -4,8 +4,8 @@ com/muhammad/green/databinding/CaseReportItemBinding.java
  com.muhammad.green.databinding.CaseReportItemBinding
 com/muhammad/green/databinding/FragmentFavoriteBinding.java
  com.muhammad.green.databinding.FragmentFavoriteBinding
-com/muhammad/green/databinding/MyNeedsItemBinding.java
- com.muhammad.green.databinding.MyNeedsItemBinding
+com/muhammad/green/databinding/FragmentStateOfOrderBinding.java
+ com.muhammad.green.databinding.FragmentStateOfOrderBinding
 com/muhammad/green/databinding/FragmentMenuBinding.java
  com.muhammad.green.databinding.FragmentMenuBinding
 com/muhammad/green/BuildConfig.java
@@ -50,8 +50,6 @@ com/muhammad/green/databinding/RegisVerificationCodeFragmentBinding.java
  com.muhammad.green.databinding.RegisVerificationCodeFragmentBinding
 com/muhammad/green/databinding/NeedInKindDonItemBinding.java
  com.muhammad.green.databinding.NeedInKindDonItemBinding
-com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
- com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
 com/muhammad/green/databinding/ActivityRegistrationBinding.java
  com.muhammad.green.databinding.ActivityRegistrationBinding
 com/muhammad/green/databinding/FragmentAdministrationWordBinding.java
@@ -60,6 +58,12 @@ com/muhammad/green/databinding/HomeAppBarBinding.java
  com.muhammad.green.databinding.HomeAppBarBinding
 com/muhammad/green/databinding/FragmentOrderPager1Binding.java
  com.muhammad.green.databinding.FragmentOrderPager1Binding
+com/muhammad/green/views/home/StepperIndicator.java
+ com.muhammad.green.views.home.StepperIndicator
+ com.muhammad.green.views.home.StepperIndicator$1
+ com.muhammad.green.views.home.StepperIndicator$OnStepClickListener
+ com.muhammad.green.views.home.StepperIndicator$SavedState
+ com.muhammad.green.views.home.StepperIndicator$SavedState$1
 com/muhammad/green/databinding/FragmentEditeMyInfoBinding.java
  com.muhammad.green.databinding.FragmentEditeMyInfoBinding
 com/muhammad/green/databinding/FragmentAboutUsBinding.java
@@ -80,11 +84,7 @@ com/muhammad/green/databinding/RegisLoginFragmentBinding.java
  com.muhammad.green.databinding.RegisLoginFragmentBinding
 com/muhammad/green/databinding/DonationCasesItemBinding.java
  com.muhammad.green.databinding.DonationCasesItemBinding
-com/muhammad/green/databinding/FragmentStateOfOrderBinding.java
- com.muhammad.green.databinding.FragmentStateOfOrderBinding
-com/muhammad/green/views/home/StepperIndicator.java
- com.muhammad.green.views.home.StepperIndicator
- com.muhammad.green.views.home.StepperIndicator$1
- com.muhammad.green.views.home.StepperIndicator$OnStepClickListener
- com.muhammad.green.views.home.StepperIndicator$SavedState
- com.muhammad.green.views.home.StepperIndicator$SavedState$1
+com/muhammad/green/databinding/MyNeedsItemBinding.java
+ com.muhammad.green.databinding.MyNeedsItemBinding
+com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
+ com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
