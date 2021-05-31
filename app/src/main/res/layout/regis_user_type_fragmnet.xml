@@ -105,8 +105,7 @@
             android:textColor="@color/gray"
             android:backgroundTint="@color/white"
             android:textSize="18sp"
-            app:cornerRadius="4dp"
-            />
+            app:cornerRadius="4dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/worthDonation_btn"

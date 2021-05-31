@@ -1,6 +1,6 @@
 package com.muhammad.green.data.network
 
-import com.muhammad.green.data.network.response.LoginFail
+import com.muhammad.green.views.registration.response.LoginFail
 
 sealed class ResultWrapper<out T> {
 

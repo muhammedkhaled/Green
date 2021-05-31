@@ -7,14 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.data.network.AuthApi
 import com.muhammad.green.data.network.RemoteDataSource
-import com.muhammad.green.data.repository.AuthRepository
-import com.muhammad.green.data.network.response.UserLogin
+import com.muhammad.green.views.registration.response.User
+import com.muhammad.green.views.registration.repository.AuthRepository
+import com.muhammad.green.views.registration.response.UserLogin
 import com.muhammad.green.databinding.RegisLoginFragmentBinding
 import com.muhammad.green.views.registration.viewModels.LoginViewModel
 import net.Aqua_waterfliter.joborder.base.BaseFragment
@@ -22,7 +22,6 @@ import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import net.Aqua_waterfliter.joborder.utiles.enable
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
 import net.Aqua_waterfliter.joborder.utiles.visible
-import net.simplifiedcoding.data.UserPreferences
 
 
 class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
@@ -48,23 +47,22 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
             )
         }
 
-        lifecycleScope.launchWhenCreated {
-            loginViewModel.loginResponse.observe(viewLifecycleOwner) {
-                binding.loadingProgress.visible(it is ResultWrapper.Loading)
-                when (it) {
-                    is ResultWrapper.Success -> {
-                        loginViewModel.saveToken(it.value.token)
-                        loginViewModel.saveUserInfo(it.value.user)
+        loginViewModel.loginResponse.observe(viewLifecycleOwner) {
+            binding.loadingProgress.visible(it is ResultWrapper.Loading)
+            when (it) {
+                is ResultWrapper.Success -> {
+                    loginViewModel.saveToken(it.value.token)
+                    val user: User = it.value.user
+                    loginViewModel.saveUserInfo(user)
 
-                        Log.d("token", "onViewCreated: ${it.value.token}")
-                        Log.d("token", "onViewCreated: ${it.value.user}")
+                    Log.d("token", "onViewCreated: ${it.value.token}")
+                    Log.d("token", "onViewCreated: $user")
 //                        requireActivity().startNewActivity(MainActivity::class.java)
-
-                    }
-                    is ResultWrapper.GenericError -> handleApiError(it) { login() }
                 }
+                is ResultWrapper.GenericError -> handleApiError(it) { login() }
             }
         }
+
     }
 
 
@@ -82,9 +80,9 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
                 binding.loginPasswordEt.requestFocus()
             }
             else -> {
-                val user = UserLogin(mPhone, mPass)
-                val user1 = UserLogin("01090645887", "123456")
-                loginViewModel.login(user1)
+                // Todo pass mPhone and mPass
+                val user = UserLogin("01090645887", "123456")
+                loginViewModel.login(user)
             }
         }
     }

@@ -4,25 +4,24 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.google.gson.Gson
 import com.muhammad.green.data.network.ResultWrapper
-import com.muhammad.green.data.repository.AuthRepository
-import com.muhammad.green.data.network.response.LoginSuccess
-import com.muhammad.green.data.network.response.User
-import com.muhammad.green.data.network.response.UserLogin
+import com.muhammad.green.views.registration.repository.AuthRepository
+import com.muhammad.green.views.registration.response.LoginSuccess
+import com.muhammad.green.views.registration.response.User
+import com.muhammad.green.views.registration.response.UserLogin
 import kotlinx.coroutines.launch
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
 
 class LoginViewModel(private val repository: AuthRepository) : ViewModel() {
 
+    private val gson = Gson()
     private val _loginResponse = MutableLiveData<ResultWrapper<LoginSuccess>>()
     val loginResponse:  LiveData<ResultWrapper<LoginSuccess>>
         get() = _loginResponse
 
-//    private val _user= MutableLiveData<User>()
-//    val user: LiveData<User>
-//        get() = _user
+    private val _user= MutableLiveData<User>()
+    val user: LiveData<User>
+        get() = _user
 
     fun login(
         userLogin: UserLogin
@@ -36,11 +35,12 @@ class LoginViewModel(private val repository: AuthRepository) : ViewModel() {
     }
 
     fun saveUserInfo(user: User){
-        val encodedUser = Json.encodeToString(user)
-//        repository.saveUser(encodedUser)
+        val userString = gson.toJson(user)
+        repository.saveUser(userString)
     }
 
-//    fun getSavedUser(){
-//        _user.value = Json.decodeFromString<User>(repository.getUser())
-//    }
+    fun getSavedUser(){
+        _user.value = gson.fromJson(repository.getUser(), User::class.java)
+    }
+
 }

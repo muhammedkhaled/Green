@@ -7,7 +7,6 @@
     app:startDestination="@id/regisLoginFragment">
 
 <!--  todo forget pass fragment  -->
-
     <fragment
         android:id="@+id/regisLoginFragment"
         android:name="com.muhammad.green.views.registration.ui.RegisLoginFragment"
@@ -17,6 +16,7 @@
             android:id="@+id/action_regisLoginFragment_to_regisUserTypeFragment"
             app:destination="@id/regisUserTypeFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/regisNeedDonationFragment"
         android:name="com.muhammad.green.views.registration.ui.RegisNeedDonationFragment"
@@ -41,6 +41,7 @@
             android:id="@+id/action_regisVolunteerInfoFragmnet_to_verificationCodeFragment"
             app:destination="@id/verificationCodeFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/regisUserTypeFragment"
         android:name="com.muhammad.green.views.registration.ui.RegisUserTypeFragment"

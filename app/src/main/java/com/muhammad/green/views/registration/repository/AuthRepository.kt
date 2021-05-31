@@ -1,16 +1,12 @@
-package com.muhammad.green.data.repository
+package com.muhammad.green.views.registration.repository
 
-import android.content.Context
 import android.content.SharedPreferences
-import com.muhammad.green.base.BaseApi
 import com.muhammad.green.base.BaseRepository
-import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.PreferenceHelper.get
 import com.muhammad.green.data.PreferenceHelper.set
 import com.muhammad.green.data.network.AuthApi
-import com.muhammad.green.data.network.response.User
-import com.muhammad.green.data.network.response.UserLogin
-import net.simplifiedcoding.data.UserPreferences
+import com.muhammad.green.views.registration.response.RegisUserInputs
+import com.muhammad.green.views.registration.response.UserLogin
 
 class AuthRepository(private val api: AuthApi, private val preferences: SharedPreferences) : BaseRepository(api){
 
@@ -20,10 +16,21 @@ class AuthRepository(private val api: AuthApi, private val preferences: SharedPr
         api.login(userLogin)
     }
 
+    suspend fun registerVolUser(
+        inputs: RegisUserInputs
+    ) = safeApiCall {
+        api.RegisVolUser(inputs)
+    }
+
+    suspend fun registerNeedUser(
+        inputs: RegisUserInputs
+    ) = safeApiCall {
+        api.RegisNeedUser(inputs)
+    }
+
 //    suspend fun saveAuthToken(token: String){
 //        preferences.saveAccessTokens(token)
 //    }
-
 
     fun saveToken(token: String){
         preferences["token"] = token

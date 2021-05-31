@@ -1,4 +1,4 @@
-package com.muhammad.green.data.network.response
+package com.muhammad.green.views.registration.response
 
 data class UserLogin(
     val phone: String,

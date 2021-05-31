@@ -8,6 +8,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -45,6 +46,9 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView5;
+
+  @NonNull
+  public final ProgressBar progressbar;
 
   @NonNull
   public final AutoCompleteTextView regisVolCityEt;
@@ -89,13 +93,13 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       @NonNull CheckBox conditionsCheckbox, @NonNull TextView forgotpassTv,
       @NonNull Guideline guideline1, @NonNull Guideline guideline2, @NonNull Guideline guideline3,
       @NonNull ImageView imageView4, @NonNull ImageView imageView5,
-      @NonNull AutoCompleteTextView regisVolCityEt, @NonNull TextInputLayout regisVolCityTil,
-      @NonNull AutoCompleteTextView regisVolGovActv, @NonNull TextInputLayout regisVolGovTil,
-      @NonNull MaterialButton regisVolLocationBtn, @NonNull EditText regisVolNameEt,
-      @NonNull TextInputLayout regisVolNameTil, @NonNull MaterialButton regisVolNextBtn,
-      @NonNull EditText regisVolPassEt, @NonNull TextInputLayout regisVolPassTil,
-      @NonNull EditText regisVolPhoneEt, @NonNull TextInputLayout regisVolPhoneTil,
-      @NonNull TextView regisVolTitleTv) {
+      @NonNull ProgressBar progressbar, @NonNull AutoCompleteTextView regisVolCityEt,
+      @NonNull TextInputLayout regisVolCityTil, @NonNull AutoCompleteTextView regisVolGovActv,
+      @NonNull TextInputLayout regisVolGovTil, @NonNull MaterialButton regisVolLocationBtn,
+      @NonNull EditText regisVolNameEt, @NonNull TextInputLayout regisVolNameTil,
+      @NonNull MaterialButton regisVolNextBtn, @NonNull EditText regisVolPassEt,
+      @NonNull TextInputLayout regisVolPassTil, @NonNull EditText regisVolPhoneEt,
+      @NonNull TextInputLayout regisVolPhoneTil, @NonNull TextView regisVolTitleTv) {
     this.rootView = rootView;
     this.conditionsCheckbox = conditionsCheckbox;
     this.forgotpassTv = forgotpassTv;
@@ -104,6 +108,7 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
     this.guideline3 = guideline3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
+    this.progressbar = progressbar;
     this.regisVolCityEt = regisVolCityEt;
     this.regisVolCityTil = regisVolCityTil;
     this.regisVolGovActv = regisVolGovActv;
@@ -188,6 +193,12 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressbar;
+      ProgressBar progressbar = rootView.findViewById(id);
+      if (progressbar == null) {
+        break missingId;
+      }
+
       id = R.id.regisVolCity_et;
       AutoCompleteTextView regisVolCityEt = rootView.findViewById(id);
       if (regisVolCityEt == null) {
@@ -267,10 +278,10 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       }
 
       return new RegisNeedDonationFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          forgotpassTv, guideline1, guideline2, guideline3, imageView4, imageView5, regisVolCityEt,
-          regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn, regisVolNameEt,
-          regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil, regisVolPhoneEt,
-          regisVolPhoneTil, regisVolTitleTv);
+          forgotpassTv, guideline1, guideline2, guideline3, imageView4, imageView5, progressbar,
+          regisVolCityEt, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
+          regisVolNameEt, regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil,
+          regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

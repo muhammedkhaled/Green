@@ -8,6 +8,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,6 +43,9 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView5;
+
+  @NonNull
+  public final ProgressBar progressbar;
 
   @NonNull
   public final AutoCompleteTextView regisVolCityEt;
@@ -88,14 +92,14 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   private RegisVolunteerInfoFragmnetBinding(@NonNull ConstraintLayout rootView,
       @NonNull CheckBox conditionsCheckbox, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull AutoCompleteTextView regisVolCityEt,
-      @NonNull TextInputLayout regisVolCityTil, @NonNull AutoCompleteTextView regisVolGovActv,
-      @NonNull TextInputLayout regisVolGovTil, @NonNull MaterialButton regisVolLocationBtn,
-      @NonNull EditText regisVolNameEt, @NonNull TextInputLayout regisVolNameTil,
-      @NonNull MaterialButton regisVolNextBtn, @NonNull EditText regisVolPassEt,
-      @NonNull TextInputLayout regisVolPassTil, @NonNull EditText regisVolPhoneEt,
-      @NonNull TextInputLayout regisVolPhoneTil, @NonNull TextView regisVolTitleTv,
-      @NonNull TextView signInTv) {
+      @NonNull ImageView imageView5, @NonNull ProgressBar progressbar,
+      @NonNull AutoCompleteTextView regisVolCityEt, @NonNull TextInputLayout regisVolCityTil,
+      @NonNull AutoCompleteTextView regisVolGovActv, @NonNull TextInputLayout regisVolGovTil,
+      @NonNull MaterialButton regisVolLocationBtn, @NonNull EditText regisVolNameEt,
+      @NonNull TextInputLayout regisVolNameTil, @NonNull MaterialButton regisVolNextBtn,
+      @NonNull EditText regisVolPassEt, @NonNull TextInputLayout regisVolPassTil,
+      @NonNull EditText regisVolPhoneEt, @NonNull TextInputLayout regisVolPhoneTil,
+      @NonNull TextView regisVolTitleTv, @NonNull TextView signInTv) {
     this.rootView = rootView;
     this.conditionsCheckbox = conditionsCheckbox;
     this.guideline1 = guideline1;
@@ -103,6 +107,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
     this.guideline3 = guideline3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
+    this.progressbar = progressbar;
     this.regisVolCityEt = regisVolCityEt;
     this.regisVolCityTil = regisVolCityTil;
     this.regisVolGovActv = regisVolGovActv;
@@ -179,6 +184,12 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       id = R.id.imageView5;
       ImageView imageView5 = rootView.findViewById(id);
       if (imageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.progressbar;
+      ProgressBar progressbar = rootView.findViewById(id);
+      if (progressbar == null) {
         break missingId;
       }
 
@@ -267,7 +278,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       }
 
       return new RegisVolunteerInfoFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          guideline1, guideline2, guideline3, imageView4, imageView5, regisVolCityEt,
+          guideline1, guideline2, guideline3, imageView4, imageView5, progressbar, regisVolCityEt,
           regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn, regisVolNameEt,
           regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil, regisVolPhoneEt,
           regisVolPhoneTil, regisVolTitleTv, signInTv);

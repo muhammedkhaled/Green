@@ -12,6 +12,8 @@ import net.Aqua_waterfliter.joborder.base.BaseFragment
 
 class RegisUserTypeFragment : BaseFragment<RegisUserTypeFragmnetBinding>() {
 
+
+
     override fun getFragmentBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
@@ -20,8 +22,13 @@ class RegisUserTypeFragment : BaseFragment<RegisUserTypeFragmnetBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val drawable = ContextCompat.getDrawable(requireContext(), R.drawable.check)
+
         binding.volunteerBtn.setOnClickListener{
             binding.volunteerBtn.icon = drawable
+            binding.volunteerBtn.setTextColor(ContextCompat.getColorStateList(requireContext(), R.color.white))
+            it.backgroundTintList =
+                ContextCompat.getColorStateList(requireContext(), R.color.Astral)
+
             findNavController().navigate(
                 RegisUserTypeFragmentDirections
                     .actionRegisUserTypeFragmentToRegisVolunteerInfoFragmnet()
@@ -29,12 +36,17 @@ class RegisUserTypeFragment : BaseFragment<RegisUserTypeFragmnetBinding>() {
         }
 
         binding.worthDonationBtn.setOnClickListener{
-            binding.volunteerBtn.icon = drawable
+            binding.worthDonationBtn.icon = drawable
+            binding.volunteerBtn.setTextColor(ContextCompat.getColorStateList(requireContext(), R.color.white))
+            it.backgroundTintList =
+                ContextCompat.getColorStateList(requireContext(), R.color.Astral)
+
             findNavController().navigate(
                 RegisUserTypeFragmentDirections
                     .actionRegisUserTypeFragmentToRegisNeedDonationFragment()
             )
         }
+
     }
 
 }

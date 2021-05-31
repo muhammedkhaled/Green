@@ -1,7 +1,7 @@
-package com.muhammad.green.data.repository
+package com.muhammad.green.views.registration.repository
 
 import com.muhammad.green.data.network.ResultWrapper
-import com.muhammad.green.data.network.response.LoginFail
+import com.muhammad.green.views.registration.response.LoginFail
 import com.squareup.moshi.Moshi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
