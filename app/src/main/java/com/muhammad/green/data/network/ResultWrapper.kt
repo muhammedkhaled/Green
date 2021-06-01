@@ -9,7 +9,7 @@ sealed class ResultWrapper<out T> {
     data class GenericError(
         val isNetworkError: Boolean? = null,
         val errorCode: Int?,
-        val error: LoginFail? = null
+        val error: Any? = null
     ) : ResultWrapper<Nothing>()
 
     object Loading : ResultWrapper<Nothing>()

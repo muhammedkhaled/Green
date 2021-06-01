@@ -2,10 +2,7 @@ package com.muhammad.green.data.network
 
 import com.muhammad.green.BuildConfig
 import com.muhammad.green.base.BaseApi
-import com.muhammad.green.views.registration.response.LoginSuccess
-import com.muhammad.green.views.registration.response.RegisUser
-import com.muhammad.green.views.registration.response.RegisUserInputs
-import com.muhammad.green.views.registration.response.UserLogin
+import com.muhammad.green.views.registration.response.*
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -28,9 +25,13 @@ interface AuthApi : BaseApi {
 
 
     @POST("account/register")
-    suspend fun RegisNeedUser(
+    suspend fun regisNeedUser(
         @Body inputs: RegisUserInputs
     ): RegisUser
+
+    @GET("governments")
+    suspend fun governments() :Governments
+
 }
 
 interface HomeApi : BaseApi{

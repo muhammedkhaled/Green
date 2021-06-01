@@ -6,7 +6,10 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
+import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.AuthApi
 import com.muhammad.green.data.network.RemoteDataSource
@@ -14,8 +17,11 @@ import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.databinding.RegisNeedDonationFragmnetBinding
+import com.muhammad.green.views.registration.response.Governments
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
 import net.Aqua_waterfliter.joborder.utiles.visible
@@ -33,6 +39,18 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setUpViewModel()
+        viewModel.getGovernments()
+
+        lifecycleScope.launch {
+            viewModel.governments.collect {
+                when(it){
+                    is ResultWrapper.Success -> {
+                        initSpinners(it.value)
+                        Log.d("RegisNeed", "governments: ${it.value}")
+                    }
+                }
+            }
+        }
 
         binding.regisVolNextBtn.setOnClickListener{
 //            findNavController().navigate(
@@ -69,5 +87,11 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
         val repository = AuthRepository(remoteDataSource, pref)
         val factory = ViewModelFactory(repository)
         viewModel = ViewModelProvider(this, factory).get(RegisUserViewModel::class.java)
+    }
+
+    fun initSpinners(governments: Governments){
+        binding.regisVolGovActv.setAdapter(
+            ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.data)
+        )
     }
 }

@@ -18,15 +18,17 @@ class AuthRepository(private val api: AuthApi, private val preferences: SharedPr
 
     suspend fun registerVolUser(
         inputs: RegisUserInputs
-    ) = safeApiCall {
+    ) = safeApiCallRegistration {
         api.RegisVolUser(inputs)
     }
 
     suspend fun registerNeedUser(
         inputs: RegisUserInputs
-    ) = safeApiCall {
-        api.RegisNeedUser(inputs)
+    ) = safeApiCallRegistration {
+        api.regisNeedUser(inputs)
     }
+
+    suspend fun governments() = safeApiCall { api.governments() }
 
 //    suspend fun saveAuthToken(token: String){
 //        preferences.saveAccessTokens(token)

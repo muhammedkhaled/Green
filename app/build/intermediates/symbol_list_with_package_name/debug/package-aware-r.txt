@@ -3441,6 +3441,7 @@ layout abc_tooltip
 layout activity_landing
 layout activity_main
 layout activity_registration
+layout auto_complete_text_view
 layout case_report_item
 layout custom_dialog
 layout design_bottom_navigation_item

@@ -37,7 +37,7 @@ class RegisUserTypeFragment : BaseFragment<RegisUserTypeFragmnetBinding>() {
 
         binding.worthDonationBtn.setOnClickListener{
             binding.worthDonationBtn.icon = drawable
-            binding.volunteerBtn.setTextColor(ContextCompat.getColorStateList(requireContext(), R.color.white))
+            binding.worthDonationBtn.setTextColor(ContextCompat.getColorStateList(requireContext(), R.color.white))
             it.backgroundTintList =
                 ContextCompat.getColorStateList(requireContext(), R.color.Astral)
 

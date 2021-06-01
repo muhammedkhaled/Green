@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.ui.RegisLoginFragment
+import com.muhammad.green.views.registration.ui.RegisNeedDonationFragment
 import java.util.*
 
 fun <A : Activity> Activity.startNewActivity(activity: Class<A>) {
@@ -46,16 +47,18 @@ fun Fragment.handleApiError(
             "Please check your internet connection",
             retry
         )
-        failure.errorCode == 401 -> {
-            if (this is RegisLoginFragment) {
-                requireView().snackbar("You've entered incorrect email or password")
+        failure.errorCode == 500 -> {
+            if (this is RegisLoginFragment || this is RegisNeedDonationFragment) {
+                requireView().snackbar(failure.error.toString())
             } else {
 //                (this as BaseFragment<*>).logout()
             }
         }
         else -> {
-            val error = failure.error?.message.toString()
-            requireView().snackbar(error)
+            val error = failure.error?.toString()
+            if (error != null) {
+                requireView().snackbar(error)
+            }
         }
     }
 }

@@ -3440,6 +3440,7 @@ int layout abc_tooltip 0x7f0d001b
 int layout activity_landing 0x7f0d001c
 int layout activity_main 0x7f0d001d
 int layout activity_registration 0x7f0d001e
+int layout auto_complete_text_view 0x7f0d00b6
 int layout case_report_item 0x7f0d001f
 int layout custom_dialog 0x7f0d0020
 int layout design_bottom_navigation_item 0x7f0d0021
