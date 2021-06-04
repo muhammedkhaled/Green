@@ -7,11 +7,11 @@ import com.muhammad.green.views.landing.ui.OnBoardingFragment
 
 class OnBoardingSliderPageAdapter(fm: FragmentManager, behavior: Int) :
     FragmentPagerAdapter(fm, behavior) {
-    override fun getItem(position: Int): Fragment {
-        return OnBoardingFragment.newInstance(position)
-    }
 
-    override fun getCount(): Int {
-        return 3
-    }
+
+    override fun getItem(position: Int): Fragment = OnBoardingFragment.newInstance(position)
+
+
+    override fun getCount() = 3
+
 }

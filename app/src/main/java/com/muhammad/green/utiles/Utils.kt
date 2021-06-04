@@ -9,6 +9,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.ui.RegisLoginFragment
 import com.muhammad.green.views.registration.ui.RegisNeedDonationFragment
+import com.muhammad.green.views.registration.ui.RegisVolunteerInfoFragment
 import java.util.*
 
 fun <A : Activity> Activity.startNewActivity(activity: Class<A>) {
@@ -48,10 +49,21 @@ fun Fragment.handleApiError(
             retry
         )
         failure.errorCode == 500 -> {
-            if (this is RegisLoginFragment || this is RegisNeedDonationFragment) {
-                requireView().snackbar(failure.error.toString())
-            } else {
+            when {
+                this is RegisLoginFragment -> {
+                    requireView().snackbar(failure.error.toString())
+                }
+                this is RegisNeedDonationFragment -> {
+                    requireView().snackbar(failure.error.toString())
+
+                }
+                this is RegisVolunteerInfoFragment ->{
+                    requireView().snackbar(failure.error.toString())
+                }
+                else -> {
+                    requireView().snackbar("logout")
 //                (this as BaseFragment<*>).logout()
+                }
             }
         }
         else -> {

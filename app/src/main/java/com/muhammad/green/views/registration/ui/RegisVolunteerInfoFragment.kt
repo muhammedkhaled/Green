@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.muhammad.green.R
@@ -30,6 +31,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
 
     private lateinit var viewModel: RegisUserViewModel
     private lateinit var pref: SharedPreferences
+    private var governmentID = ""
 
     override fun getFragmentBinding(
         inflater: LayoutInflater,
@@ -75,6 +77,50 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
     }
 
     private fun register() {
+
+        val name = binding.regisVolNameEt.text.trim()
+        val phone = binding.regisVolPhoneEt.text.trim()
+//        val city
+//        val lat
+//        val long
+        val pass = binding.regisVolPassEt.text.trim()
+        val conditions = binding.conditionsCheckbox.isChecked
+
+        when {
+            name.isEmpty() -> {
+                binding.regisVolNameEt.error = "برجاء كتابه الاسم"
+                binding.regisVolNameEt.requestFocus()
+            }
+            phone.isEmpty() -> {
+                binding.regisVolPhoneEt.error = "برجاء كتابه رقم تليفون"
+                binding.regisVolPhoneEt.requestFocus()
+            }
+            phone.length != 11 -> {
+                binding.regisVolPhoneEt.error = "برجاء كتابه رقم تليفون صالح"
+                binding.regisVolPhoneEt.requestFocus()
+            }
+            governmentID.isEmpty() -> {
+                binding.regisVolGovActv.error = "برجاء اختيار المحافظه"
+                binding.regisVolGovActv.requestFocus()
+            }
+            pass.isEmpty() -> {
+                binding.regisVolPassEt.error = "بؤجاء ادخال كلمه السر"
+                binding.regisVolPassEt.requestFocus()
+            }
+            pass.length <= 6 -> {
+                binding.regisVolPassEt.error = "برجاء ادخال كلمه سر اكبر من 6 ارقام"
+                binding.regisVolPassEt.requestFocus()
+            }
+            !conditions -> {
+                Toast.makeText(
+                    requireContext(),
+                    "لابد من الموافقه على شروط التسجيل",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+
+        }
+
         val inputs = RegisUserInputs("muhamed", "01125889197", "11 abdallah hendy", "muhamed@gmail.com","0125cairo"
         ,"cairo", "1","0125cairo", "-33.863276", "151.207977")
         viewModel.registerVol(inputs)

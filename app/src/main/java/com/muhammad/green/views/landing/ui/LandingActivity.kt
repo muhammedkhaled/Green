@@ -33,6 +33,7 @@ class LandingActivity : AppCompatActivity() {
         val introView = findViewById<ConstraintLayout>(R.id.intro_view)
         starterView.visibility = View.GONE
         introView.visibility = View.VISIBLE
+
         val viewPager = findViewById<ViewPager>(R.id.pagerIntroSlider)
         val tabLayout = findViewById<TabLayout>(R.id.tabs)
         val leaveLandingPage = findViewById<Button>(R.id.landingLogin_btn)

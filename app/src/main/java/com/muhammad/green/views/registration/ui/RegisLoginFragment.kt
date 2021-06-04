@@ -37,8 +37,7 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
         setUpViewModel()
 
         binding.loginBtn.setOnClickListener {
-            val userLogin = UserLogin("01090645887", "123456")
-            loginViewModel.login(userLogin)
+            login()
         }
 
         binding.signInTv.setOnClickListener {

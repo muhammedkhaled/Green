@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import com.muhammad.green.R
@@ -26,7 +28,8 @@ class OnBoardingFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-/*        val introImg = view.findViewById<ImageView>(R.id.intro_img)
+
+    /*  val introImg = view.findViewById<ImageView>(R.id.onbording_img)
         val title = view.findViewById<TextView>(R.id.intro_headline)
         val text = view.findViewById<TextView>(R.id.intro_text)
         title.setText(R.string.app_name)

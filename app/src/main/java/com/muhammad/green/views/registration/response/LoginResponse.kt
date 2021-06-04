@@ -11,7 +11,11 @@ data class LoginSuccess(
 data class LoginFail(
     val message: String,
     val status: Int
-)
+) {
+    override fun toString(): String {
+        return message
+    }
+}
 
 data class User(
     val account_id: Int,

@@ -21,7 +21,7 @@ suspend fun <T> safeApiCall(apiCall: suspend () -> T): ResultWrapper<T> {
                 is HttpException -> {
                     val code = throwable.code()
                     val errorResponse = convertErrorBody(throwable)
-                    ResultWrapper.GenericError( errorCode = code, error = errorResponse as LoginFail)
+                    ResultWrapper.GenericError( errorCode = code, error = errorResponse)
                 }
                 else -> {
                     ResultWrapper.GenericError(errorCode = null)
@@ -54,7 +54,7 @@ suspend fun <T> safeApiCallRegistration(apiCall: suspend () -> T): ResultWrapper
                 is HttpException -> {
                     val code = throwable.code()
                     val errorResponse = convertErrorBodyRegistration(throwable)
-                    ResultWrapper.GenericError( errorCode = code, error = errorResponse as RegistrationFail)
+                    ResultWrapper.GenericError( errorCode = code, error = errorResponse)
                 }
                 else -> {
                     ResultWrapper.GenericError(errorCode = null)
