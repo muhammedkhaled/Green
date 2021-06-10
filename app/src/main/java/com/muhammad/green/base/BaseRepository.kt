@@ -1,6 +1,6 @@
 package com.muhammad.green.base
 
-import com.muhammad.green.views.registration.repository.safeApiCall
+import com.muhammad.green.data.network.safeApiCall
 
 abstract class BaseRepository (private val api: BaseApi) {
 

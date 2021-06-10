@@ -5,6 +5,8 @@ import com.muhammad.green.base.BaseRepository
 import com.muhammad.green.data.PreferenceHelper.get
 import com.muhammad.green.data.PreferenceHelper.set
 import com.muhammad.green.data.network.AuthApi
+import com.muhammad.green.data.network.safeApiCall
+import com.muhammad.green.data.network.safeApiCallRegistration
 import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.response.UserLogin
 
@@ -45,6 +47,5 @@ class AuthRepository(private val api: AuthApi, private val preferences: SharedPr
     fun getUser(): String {
         return preferences["user"]
     }
-
 
 }

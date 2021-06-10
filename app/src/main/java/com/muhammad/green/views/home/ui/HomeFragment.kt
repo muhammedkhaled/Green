@@ -1,25 +1,49 @@
 package com.muhammad.green.views.home.ui
 
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.view.*
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.muhammad.green.R
+import com.muhammad.green.data.PreferenceHelper
+import com.muhammad.green.data.PreferenceHelper.get
+import com.muhammad.green.data.network.HomeApi
+import com.muhammad.green.data.network.RemoteDataSource
+import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.databinding.FragmentHomeBinding
 import com.muhammad.green.views.home.adapters.CasesTypeAdapter
 import com.muhammad.green.views.home.adapters.homeDonaCasesAdapter
 import com.muhammad.green.utiles.CenterZoomLinearLayoutManager
+import com.muhammad.green.views.home.repository.HomeRepository
+import com.muhammad.green.views.home.response.UserCasePay
+import com.muhammad.green.views.home.viewModels.HomeViewModel
+import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 
 
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
+    private lateinit var pref: SharedPreferences
+    private lateinit var viewModel: HomeViewModel
+    private lateinit var token: String
+    private lateinit var casesAdapter: homeDonaCasesAdapter
+    private lateinit var categoryAdapter: CasesTypeAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         setHasOptionsMenu(true)
-
+        pref = PreferenceHelper.customPrefs(requireContext(), "regis")
+        token = pref["token"]
+        Log.d("HomeFragment", "onViewCreated: ${token}")
+        setUpViewModel()
+        getData()
+        observeData()
 
         binding.inKindDonationBtn.setOnClickListener{
             findNavController().navigate(
@@ -30,19 +54,20 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         val manager1 = LinearLayoutManager(requireContext(), RecyclerView.HORIZONTAL, false)
         binding.casesOfDonationsRv.layoutManager = manager1
 
-        binding.casesOfDonationsRv.adapter = homeDonaCasesAdapter(listOf("1", "2", "3", "4")){
+        casesAdapter = homeDonaCasesAdapter(arrayListOf()){
             findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToCaseDetailsFragment())
         }
+        binding.casesOfDonationsRv.adapter = casesAdapter
 
         val center = CenterZoomLinearLayoutManager(requireContext())
 //        val snapHelper: SnapHelper = LinearSnapHelper()
 //        snapHelper.attachToRecyclerView(binding.casesTypeRv)
         binding.casesTypeRv.layoutManager = center
 
-        binding.casesTypeRv.adapter = CasesTypeAdapter(listOf("1", "2", "3", "4")){
+        categoryAdapter = CasesTypeAdapter(arrayListOf()){
             findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToDetailsFragment())
         }
-
+        binding.casesTypeRv.adapter = categoryAdapter
     }
 
     override fun getFragmentBinding(
@@ -53,5 +78,58 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     override fun onPrepareOptionsMenu(menu: Menu) {
         menu.findItem(R.id.share).isVisible = true
         super.onPrepareOptionsMenu(menu)
+    }
+
+    private fun setUpViewModel() {
+        val remoteDataSource = RemoteDataSource.buildApi(HomeApi::class.java)
+        val repository = HomeRepository(remoteDataSource)
+        val factory = ViewModelFactory(repository)
+        viewModel = ViewModelProvider(this, factory).get(HomeViewModel::class.java)
+    }
+
+    private fun getData() {
+        if (token.isNullOrEmpty()) {
+            viewModel.getVisitorData()
+            Log.d("HomeFragment", "getData: visitor")
+        } else {
+            viewModel.getMyCases()
+            Log.d("HomeFragment", "getData: my cases")
+        }
+    }
+
+    private fun observeData(){
+        lifecycleScope.launchWhenCreated {
+            viewModel.myCases.collect {
+                when(it){
+                    is ResultWrapper.Loading -> {
+
+                    }
+                    is ResultWrapper.Success -> {
+                        casesAdapter.addData(it.value.user_case_pay)
+                    }
+                    is ResultWrapper.GenericError -> {
+
+                    }
+                }
+            }
+        }
+
+        lifecycleScope.launchWhenCreated {
+            viewModel.visitorData.collect {
+                when(it){
+                    is ResultWrapper.Loading -> {
+                        Log.d("HomeFragment", "Loading")
+                    }
+                    is ResultWrapper.Success -> {
+                        Log.d("HomeFragment", "observeData: cases ${it.value.status}")
+//                        casesAdapter.addData(it.value.cases as ArrayList<UserCasePay>)
+//                        categoryAdapter.addData(it.value.categories)
+                    }
+                    is ResultWrapper.GenericError -> {
+                        Log.d("HomeFragment", "error ${it.error}")
+                    }
+                }
+            }
+        }
     }
 }

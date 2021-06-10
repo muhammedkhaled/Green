@@ -3,6 +3,8 @@ package com.muhammad.green.views.registration.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.muhammad.green.base.BaseRepository
+import com.muhammad.green.views.home.repository.HomeRepository
+import com.muhammad.green.views.home.viewModels.HomeViewModel
 import com.muhammad.green.views.registration.repository.AuthRepository
 
 
@@ -17,6 +19,7 @@ class ViewModelFactory(
         return when {
             modelClass.isAssignableFrom(LoginViewModel::class.java) -> LoginViewModel(repository as AuthRepository) as T
             modelClass.isAssignableFrom(RegisUserViewModel::class.java) -> RegisUserViewModel(repository as AuthRepository) as T
+            modelClass.isAssignableFrom(HomeViewModel::class.java) -> HomeViewModel(repository as HomeRepository) as T
             else -> throw IllegalArgumentException("ViewModelClass Not Found")
         }
     }

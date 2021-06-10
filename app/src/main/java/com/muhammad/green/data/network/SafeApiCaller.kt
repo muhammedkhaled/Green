@@ -1,6 +1,5 @@
-package com.muhammad.green.views.registration.repository
+package com.muhammad.green.data.network
 
-import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.response.LoginFail
 import com.muhammad.green.views.registration.response.RegistrationFail
 import com.squareup.moshi.Moshi
@@ -17,14 +16,14 @@ suspend fun <T> safeApiCall(apiCall: suspend () -> T): ResultWrapper<T> {
             ResultWrapper.Success(apiCall.invoke())
         } catch (throwable: Throwable) {
             when (throwable) {
-                is IOException -> ResultWrapper.GenericError(true, null, null)
+                is IOException -> ResultWrapper.GenericError(true, null, throwable.message)
                 is HttpException -> {
                     val code = throwable.code()
                     val errorResponse = convertErrorBody(throwable)
                     ResultWrapper.GenericError( errorCode = code, error = errorResponse)
                 }
                 else -> {
-                    ResultWrapper.GenericError(errorCode = null)
+                    ResultWrapper.GenericError(errorCode = null, error = throwable.message)
                 }
             }
         }
@@ -41,8 +40,6 @@ private fun convertErrorBody(throwable: HttpException): LoginFail? {
         null
     }
 }
-
-
 
 suspend fun <T> safeApiCallRegistration(apiCall: suspend () -> T): ResultWrapper<T> {
     return withContext(Dispatchers.IO) {

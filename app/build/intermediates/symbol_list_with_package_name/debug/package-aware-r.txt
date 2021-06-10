@@ -2996,7 +2996,6 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
-id imageView3
 id imageView4
 id imageView5
 id imageView6
@@ -3156,6 +3155,7 @@ id nwAccNdDonPhone_et
 id nwAccNdDonPhone_til
 id off
 id on
+id onbording_img
 id orderNeedsState_tv
 id orderNeeds_constL
 id otp_view_code

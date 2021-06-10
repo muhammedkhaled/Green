@@ -5,8 +5,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.muhammad.green.R
+import com.muhammad.green.views.home.response.Category
+import com.muhammad.green.views.home.response.VisitorHomeData
 
-class CasesTypeAdapter(private var list: List<String>, private val listener: (String) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+class CasesTypeAdapter(private var list: ArrayList<Category>, private val listener: (Category) -> Unit)
+    : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+
+    fun addData(visitorData: ArrayList<Category>){
+        list.addAll(visitorData)
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         DonationCasesVH(

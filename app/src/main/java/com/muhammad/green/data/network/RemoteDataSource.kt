@@ -1,45 +1,14 @@
 package com.muhammad.green.data.network
 
 import com.muhammad.green.BuildConfig
-import com.muhammad.green.base.BaseApi
-import com.muhammad.green.views.registration.response.*
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.*
 
 private const val BASE_URL = "http://khatwa-lelganna.com/api/"
 
-interface AuthApi : BaseApi {
-
-    @POST("login")
-    suspend fun login(
-        @Body userLogin: UserLogin
-    ): LoginSuccess
-
-    @POST("user/register")
-    suspend fun RegisVolUser(
-        @Body inputs: RegisUserInputs
-    ): RegisUser
-
-
-    @POST("account/register")
-    suspend fun regisNeedUser(
-        @Body inputs: RegisUserInputs
-    ): RegisUser
-
-    @GET("governments")
-    suspend fun governments() :Governments
-
-}
-
-interface HomeApi : BaseApi{
-
-}
-
 object RemoteDataSource {
-
     fun <Api> buildApi(
         api: Class<Api>,
         authToken: String? = null

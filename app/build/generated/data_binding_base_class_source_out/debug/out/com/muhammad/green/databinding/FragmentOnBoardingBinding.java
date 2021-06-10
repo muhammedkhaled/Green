@@ -30,19 +30,19 @@ public final class FragmentOnBoardingBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
-  public final ImageView imageView3;
+  public final ImageView onbordingImg;
 
   @NonNull
   public final TextView textView;
 
   private FragmentOnBoardingBinding(@NonNull ConstraintLayout rootView,
       @NonNull Guideline guideline1, @NonNull ImageView imageView, @NonNull ImageView imageView2,
-      @NonNull ImageView imageView3, @NonNull TextView textView) {
+      @NonNull ImageView onbordingImg, @NonNull TextView textView) {
     this.rootView = rootView;
     this.guideline1 = guideline1;
     this.imageView = imageView;
     this.imageView2 = imageView2;
-    this.imageView3 = imageView3;
+    this.onbordingImg = onbordingImg;
     this.textView = textView;
   }
 
@@ -91,9 +91,9 @@ public final class FragmentOnBoardingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView3;
-      ImageView imageView3 = rootView.findViewById(id);
-      if (imageView3 == null) {
+      id = R.id.onbording_img;
+      ImageView onbordingImg = rootView.findViewById(id);
+      if (onbordingImg == null) {
         break missingId;
       }
 
@@ -104,7 +104,7 @@ public final class FragmentOnBoardingBinding implements ViewBinding {
       }
 
       return new FragmentOnBoardingBinding((ConstraintLayout) rootView, guideline1, imageView,
-          imageView2, imageView3, textView);
+          imageView2, onbordingImg, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

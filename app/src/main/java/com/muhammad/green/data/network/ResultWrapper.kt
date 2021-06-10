@@ -13,4 +13,5 @@ sealed class ResultWrapper<out T> {
     ) : ResultWrapper<Nothing>()
 
     object Loading : ResultWrapper<Nothing>()
+
 }

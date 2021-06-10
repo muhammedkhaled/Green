@@ -61,7 +61,6 @@ fun Fragment.handleApiError(
                     requireView().snackbar(failure.error.toString())
                 }
                 else -> {
-                    requireView().snackbar("logout")
 //                (this as BaseFragment<*>).logout()
                 }
             }
