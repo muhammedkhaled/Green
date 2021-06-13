@@ -20,11 +20,9 @@ import com.muhammad.green.views.home.adapters.CasesTypeAdapter
 import com.muhammad.green.views.home.adapters.homeDonaCasesAdapter
 import com.muhammad.green.utiles.CenterZoomLinearLayoutManager
 import com.muhammad.green.views.home.repository.HomeRepository
-import com.muhammad.green.views.home.response.UserCasePay
 import com.muhammad.green.views.home.viewModels.HomeViewModel
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 
 
@@ -39,7 +37,8 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         super.onViewCreated(view, savedInstanceState)
         setHasOptionsMenu(true)
         pref = PreferenceHelper.customPrefs(requireContext(), "regis")
-        token = pref["token"]
+//        token = pref["token"]
+        token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
         Log.d("HomeFragment", "onViewCreated: ${token}")
         setUpViewModel()
         getData()
@@ -62,12 +61,12 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         val center = CenterZoomLinearLayoutManager(requireContext())
 //        val snapHelper: SnapHelper = LinearSnapHelper()
 //        snapHelper.attachToRecyclerView(binding.casesTypeRv)
-        binding.casesTypeRv.layoutManager = center
+        binding.categoriesRv.layoutManager = center
 
         categoryAdapter = CasesTypeAdapter(arrayListOf()){
             findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToDetailsFragment())
         }
-        binding.casesTypeRv.adapter = categoryAdapter
+        binding.categoriesRv.adapter = categoryAdapter
     }
 
     override fun getFragmentBinding(
@@ -81,7 +80,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     }
 
     private fun setUpViewModel() {
-        val remoteDataSource = RemoteDataSource.buildApi(HomeApi::class.java)
+        val remoteDataSource = RemoteDataSource.buildApi(HomeApi::class.java, token)
         val repository = HomeRepository(remoteDataSource)
         val factory = ViewModelFactory(repository)
         viewModel = ViewModelProvider(this, factory).get(HomeViewModel::class.java)
@@ -99,7 +98,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     private fun observeData(){
         lifecycleScope.launchWhenCreated {
-            viewModel.myCases.collect {
+            viewModel.profile.collect {
                 when(it){
                     is ResultWrapper.Loading -> {
 
@@ -122,7 +121,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
                     }
                     is ResultWrapper.Success -> {
                         Log.d("HomeFragment", "observeData: cases ${it.value.status}")
-//                        casesAdapter.addData(it.value.cases as ArrayList<UserCasePay>)
+//                        casesAdapter.addKData(it.value.cases as ArrayList<UserCasePay>)
 //                        categoryAdapter.addData(it.value.categories)
                     }
                     is ResultWrapper.GenericError -> {

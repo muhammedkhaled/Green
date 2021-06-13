@@ -4,6 +4,7 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -30,15 +31,20 @@ public final class FragmentAdministrationWordBinding implements ViewBinding {
   public final Guideline guidelineH1;
 
   @NonNull
+  public final ProgressBar loadingProgress;
+
+  @NonNull
   public final ShapeableImageView shapeableImageView;
 
   private FragmentAdministrationWordBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView AdminInstructionsTitle, @NonNull TextView adminWordTv,
-      @NonNull Guideline guidelineH1, @NonNull ShapeableImageView shapeableImageView) {
+      @NonNull Guideline guidelineH1, @NonNull ProgressBar loadingProgress,
+      @NonNull ShapeableImageView shapeableImageView) {
     this.rootView = rootView;
     this.AdminInstructionsTitle = AdminInstructionsTitle;
     this.adminWordTv = adminWordTv;
     this.guidelineH1 = guidelineH1;
+    this.loadingProgress = loadingProgress;
     this.shapeableImageView = shapeableImageView;
   }
 
@@ -87,6 +93,12 @@ public final class FragmentAdministrationWordBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingProgress;
+      ProgressBar loadingProgress = rootView.findViewById(id);
+      if (loadingProgress == null) {
+        break missingId;
+      }
+
       id = R.id.shapeableImageView;
       ShapeableImageView shapeableImageView = rootView.findViewById(id);
       if (shapeableImageView == null) {
@@ -94,7 +106,7 @@ public final class FragmentAdministrationWordBinding implements ViewBinding {
       }
 
       return new FragmentAdministrationWordBinding((ConstraintLayout) rootView,
-          AdminInstructionsTitle, adminWordTv, guidelineH1, shapeableImageView);
+          AdminInstructionsTitle, adminWordTv, guidelineH1, loadingProgress, shapeableImageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

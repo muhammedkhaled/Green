@@ -2963,6 +2963,7 @@ id give_us_a_review_landmine_button
 id give_us_a_review_landmine_main_layout
 id give_us_a_review_landmine_text_1
 id give_us_a_review_landmine_text_2
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3008,6 +3009,7 @@ id inKindDon_searchV
 id inKindDonation_btn
 id info
 id info_card
+id intro_loadingProgress
 id intro_view
 id invisible
 id inward
@@ -3155,6 +3157,8 @@ id nwAccNdDonPhone_et
 id nwAccNdDonPhone_til
 id off
 id on
+id onboarding_content_tv
+id onboarding_title_tv
 id onbording_img
 id orderNeedsState_tv
 id orderNeeds_constL
@@ -3315,7 +3319,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView2
 id textView3
 id text_input_end_icon

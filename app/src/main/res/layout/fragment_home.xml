@@ -90,6 +90,18 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/todayDate_tv" />
 
+            <ProgressBar
+                android:id="@+id/loadingProgress_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/Astral"
+                android:layout_margin="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/casesOfDonations_rv"
+                app:layout_constraintEnd_toEndOf="@id/casesOfDonations_rv"
+                app:layout_constraintStart_toStartOf="@id/casesOfDonations_rv"
+                app:layout_constraintTop_toTopOf="@id/casesOfDonations_rv" />
+
             <TextView
                 android:id="@+id/cases_btn"
                 android:layout_width="wrap_content"
@@ -121,14 +133,14 @@
                 android:text="@string/in_kind_donations"
                 android:textSize="@dimen/_14ssp"
                 app:cornerRadius="4dp"
-                app:layout_constraintBottom_toTopOf="@+id/casesType_rv"
+                app:layout_constraintBottom_toTopOf="@+id/categories_rv"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/cases_btn"
                 app:layout_constraintTop_toBottomOf="@+id/casesOfDonations_rv" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/casesType_rv"
+                android:id="@+id/categories_rv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
@@ -138,6 +150,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/inKindDonation_btn"
                 tools:listitem="@layout/home_cases_type_item" />
+
+
+            <ProgressBar
+                android:id="@+id/categories_loadingProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/Astral"
+                android:layout_margin="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/categories_rv"
+                app:layout_constraintEnd_toEndOf="@id/categories_rv"
+                app:layout_constraintStart_toStartOf="@id/categories_rv"
+                app:layout_constraintTop_toTopOf="@id/categories_rv" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

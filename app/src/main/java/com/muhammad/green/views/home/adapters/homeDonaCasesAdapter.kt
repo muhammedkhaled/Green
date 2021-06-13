@@ -5,7 +5,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.muhammad.green.R
-import com.muhammad.green.views.home.response.MyCases
 import com.muhammad.green.views.home.response.UserCasePay
 
 class homeDonaCasesAdapter(private var list: ArrayList<UserCasePay>, private val listener: (UserCasePay) -> Unit)

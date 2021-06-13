@@ -16,11 +16,13 @@ import com.muhammad.green.views.registration.response.User
 import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.views.registration.response.UserLogin
 import com.muhammad.green.databinding.RegisLoginFragmentBinding
+import com.muhammad.green.views.home.ui.MainActivity
 import com.muhammad.green.views.registration.viewModels.LoginViewModel
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import net.Aqua_waterfliter.joborder.utiles.enable
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
+import net.Aqua_waterfliter.joborder.utiles.startNewActivity
 import net.Aqua_waterfliter.joborder.utiles.visible
 
 
@@ -56,7 +58,7 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
 
                     Log.d("token", "onViewCreated: ${it.value.token}")
                     Log.d("token", "onViewCreated: $user")
-//                        requireActivity().startNewActivity(MainActivity::class.java)
+                    requireActivity().startNewActivity(MainActivity::class.java)
                 }
                 is ResultWrapper.GenericError -> handleApiError(it) { login() }
             }

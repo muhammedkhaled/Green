@@ -27,6 +27,18 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>-->
 
+    <ProgressBar
+        android:id="@+id/loadingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/Astral"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_h1"
         android:layout_width="wrap_content"
@@ -54,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline_h1"
-        app:srcCompat="@drawable/landing1" />
+        />
 
     <TextView
         android:id="@+id/AdminInstructions_title"
@@ -63,7 +75,6 @@
         app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
         app:layout_constraintTop_toBottomOf="@+id/shapeableImageView"
         android:layout_marginTop="@dimen/_8sdp"
-        android:text="Instructions"
         android:textColor="@color/emerald_light"
         style="@style/TextViewHeader"
         />
@@ -80,9 +91,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextViewContent"
-            android:text="Start by taking the 4 raspberries, chop them into tiny segments and introduce the strawberry. Check to make sure that the raspberries and the strawberry sit well together, before slicing and dicing a lemon and adding it to this rather strange combination of fruits.
-Peel the 2 cherries, if it’s even possible to peel a cherry, discard the stalks and place them neatly next to the other fruits.
-Finish off this imaginary recipe by sourcing a mint leaf, and place it perfectly in the center "
             android:textColor="@color/gray"
             android:scrollbars="vertical"/>
 
