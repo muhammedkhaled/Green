@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -26,6 +27,9 @@ public final class ActivityLandingBinding implements ViewBinding {
   public final FrameLayout fragmentView;
 
   @NonNull
+  public final ProgressBar introLoadingProgress;
+
+  @NonNull
   public final ConstraintLayout introView;
 
   @NonNull
@@ -44,12 +48,13 @@ public final class ActivityLandingBinding implements ViewBinding {
   public final TabLayout tabs;
 
   private ActivityLandingBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FrameLayout fragmentView, @NonNull ConstraintLayout introView,
-      @NonNull MaterialButton landingLoginBtn, @NonNull MaterialButton landingSkipBtn,
-      @NonNull ViewPager pagerIntroSlider, @NonNull FragmentContainerView starterFragment,
-      @NonNull TabLayout tabs) {
+      @NonNull FrameLayout fragmentView, @NonNull ProgressBar introLoadingProgress,
+      @NonNull ConstraintLayout introView, @NonNull MaterialButton landingLoginBtn,
+      @NonNull MaterialButton landingSkipBtn, @NonNull ViewPager pagerIntroSlider,
+      @NonNull FragmentContainerView starterFragment, @NonNull TabLayout tabs) {
     this.rootView = rootView;
     this.fragmentView = fragmentView;
+    this.introLoadingProgress = introLoadingProgress;
     this.introView = introView;
     this.landingLoginBtn = landingLoginBtn;
     this.landingSkipBtn = landingSkipBtn;
@@ -91,6 +96,12 @@ public final class ActivityLandingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.intro_loadingProgress;
+      ProgressBar introLoadingProgress = rootView.findViewById(id);
+      if (introLoadingProgress == null) {
+        break missingId;
+      }
+
       id = R.id.intro_view;
       ConstraintLayout introView = rootView.findViewById(id);
       if (introView == null) {
@@ -127,8 +138,9 @@ public final class ActivityLandingBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLandingBinding((ConstraintLayout) rootView, fragmentView, introView,
-          landingLoginBtn, landingSkipBtn, pagerIntroSlider, starterFragment, tabs);
+      return new ActivityLandingBinding((ConstraintLayout) rootView, fragmentView,
+          introLoadingProgress, introView, landingLoginBtn, landingSkipBtn, pagerIntroSlider,
+          starterFragment, tabs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

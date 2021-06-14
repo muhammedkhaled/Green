@@ -2837,9 +2837,9 @@ id caseReport_rv
 id caseReportsFragment
 id caseReports_btn
 id casesOfDonations_rv
-id casesType_rv
 id casesType_shapeableimg
 id cases_btn
+id categories_rv
 id category_actv
 id category_til
 id center
@@ -3035,6 +3035,7 @@ id linear
 id listMode
 id list_item
 id loadingProgress
+id loadingProgress_cases
 id loginLogo_img
 id loginPassword_et
 id loginPassword_til

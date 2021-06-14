@@ -1,20 +1,39 @@
 package com.muhammad.green.views.home.ui
 
+import android.content.SharedPreferences
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.muhammad.green.R
+import com.google.gson.Gson
+import com.muhammad.green.data.PreferenceHelper
+import com.muhammad.green.databinding.FragmentEditeMyInfoBinding
+import net.Aqua_waterfliter.joborder.base.BaseFragment
+import com.muhammad.green.data.PreferenceHelper.get
+import com.muhammad.green.data.PreferenceHelper.set
+import com.muhammad.green.views.home.response.User
 
-class EditeMyInfoFragment : Fragment() {
+class EditeMyInfoFragment : BaseFragment<FragmentEditeMyInfoBinding>() {
+    private lateinit var pref: SharedPreferences
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_edite_my_info, container, false)
+    override fun getFragmentBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ) = FragmentEditeMyInfoBinding.inflate(inflater, container, false)
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        pref = PreferenceHelper.customPrefs(requireContext(), "green")
+        bindData()
+    }
+
+    private fun bindData() {
+        val gson = Gson()
+        val userString: String = pref["user_profile"]
+        val user: User = gson.fromJson(userString, User::class.java)
+        binding.fullNameTv.text = user.name
+        binding.addressTv.text = user.address
+        binding.emailTv.text = user.email
     }
 
 }

@@ -2,6 +2,7 @@ package com.muhammad.green.data.network
 
 import com.muhammad.green.base.BaseApi
 import com.muhammad.green.views.home.response.AboutUs
+import com.muhammad.green.views.home.response.Notifications
 import retrofit2.http.GET
 
 interface GeneralDataApi : BaseApi {
@@ -14,4 +15,8 @@ interface GeneralDataApi : BaseApi {
 
     @GET("general-settings/contact-us")
     suspend fun getContactUs(): AboutUs
+
+    @GET("notifications")
+    suspend fun getNotifications(): Notifications
+
 }

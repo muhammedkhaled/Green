@@ -1,8 +1,8 @@
 package com.muhammad.green.views.home.response
 
 data class VisitorHomeData(
-    val cases: List<UserCasePay>,
-    val categories: List<Category>,
+    val cases: ArrayList<UserCasePay>,
+    val categories: ArrayList<Category>,
     val status: Int
 )
 

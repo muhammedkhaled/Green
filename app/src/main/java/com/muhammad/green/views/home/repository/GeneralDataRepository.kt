@@ -17,4 +17,8 @@ class GeneralDataRepository(private val api: GeneralDataApi) : BaseRepository(ap
     suspend fun getContactUs() = safeApiCall {
         api.getContactUs()
     }
+
+    suspend fun getNotifications() = safeApiCall {
+        api.getNotifications()
+    }
 }

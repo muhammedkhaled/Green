@@ -5,8 +5,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.muhammad.green.R
+import com.muhammad.green.views.home.response.NotificationData
+import com.muhammad.green.views.home.response.UserCasePay
 
-class NotificationAdapter(private var list: List<Int>, private val listener: (Int) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+class NotificationAdapter(private var list: ArrayList<NotificationData>, private val listener: (NotificationData) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+
+    fun addData(myCases: ArrayList<NotificationData>){
+        list.addAll(myCases)
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         DonationCasesVH(

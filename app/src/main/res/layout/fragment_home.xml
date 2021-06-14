@@ -100,7 +100,8 @@
                 app:layout_constraintBottom_toBottomOf="@id/casesOfDonations_rv"
                 app:layout_constraintEnd_toEndOf="@id/casesOfDonations_rv"
                 app:layout_constraintStart_toStartOf="@id/casesOfDonations_rv"
-                app:layout_constraintTop_toTopOf="@id/casesOfDonations_rv" />
+                app:layout_constraintTop_toTopOf="@id/casesOfDonations_rv"
+                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/cases_btn"
@@ -152,17 +153,16 @@
                 tools:listitem="@layout/home_cases_type_item" />
 
 
-            <ProgressBar
+<!--           <ProgressBar
                 android:id="@+id/categories_loadingProgress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:indeterminate="true"
                 android:indeterminateTint="@color/Astral"
                 android:layout_margin="8dp"
-                app:layout_constraintBottom_toBottomOf="@id/categories_rv"
-                app:layout_constraintEnd_toEndOf="@id/categories_rv"
-                app:layout_constraintStart_toStartOf="@id/categories_rv"
-                app:layout_constraintTop_toTopOf="@id/categories_rv" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inKindDonation_btn" />-->
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

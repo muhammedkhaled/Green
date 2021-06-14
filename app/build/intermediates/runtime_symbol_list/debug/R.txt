@@ -2836,9 +2836,9 @@ int id caseReport_rv 0x7f0a0088
 int id caseReportsFragment 0x7f0a0089
 int id caseReports_btn 0x7f0a008a
 int id casesOfDonations_rv 0x7f0a008b
-int id casesType_rv 0x7f0a008c
 int id casesType_shapeableimg 0x7f0a008d
 int id cases_btn 0x7f0a008e
+int id categories_rv 0x7f0a02ad
 int id category_actv 0x7f0a008f
 int id category_til 0x7f0a0090
 int id center 0x7f0a0091
@@ -3034,6 +3034,7 @@ int id linear 0x7f0a014c
 int id listMode 0x7f0a014d
 int id list_item 0x7f0a014e
 int id loadingProgress 0x7f0a014f
+int id loadingProgress_cases 0x7f0a02ae
 int id loginLogo_img 0x7f0a0150
 int id loginPassword_et 0x7f0a0151
 int id loginPassword_til 0x7f0a0152

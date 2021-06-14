@@ -30,20 +30,25 @@ public final class FragmentOnBoardingBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
-  public final ImageView onbordingImg;
+  public final TextView onboardingContentTv;
 
   @NonNull
-  public final TextView textView;
+  public final TextView onboardingTitleTv;
+
+  @NonNull
+  public final ImageView onbordingImg;
 
   private FragmentOnBoardingBinding(@NonNull ConstraintLayout rootView,
       @NonNull Guideline guideline1, @NonNull ImageView imageView, @NonNull ImageView imageView2,
-      @NonNull ImageView onbordingImg, @NonNull TextView textView) {
+      @NonNull TextView onboardingContentTv, @NonNull TextView onboardingTitleTv,
+      @NonNull ImageView onbordingImg) {
     this.rootView = rootView;
     this.guideline1 = guideline1;
     this.imageView = imageView;
     this.imageView2 = imageView2;
+    this.onboardingContentTv = onboardingContentTv;
+    this.onboardingTitleTv = onboardingTitleTv;
     this.onbordingImg = onbordingImg;
-    this.textView = textView;
   }
 
   @Override
@@ -91,20 +96,26 @@ public final class FragmentOnBoardingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.onboarding_content_tv;
+      TextView onboardingContentTv = rootView.findViewById(id);
+      if (onboardingContentTv == null) {
+        break missingId;
+      }
+
+      id = R.id.onboarding_title_tv;
+      TextView onboardingTitleTv = rootView.findViewById(id);
+      if (onboardingTitleTv == null) {
+        break missingId;
+      }
+
       id = R.id.onbording_img;
       ImageView onbordingImg = rootView.findViewById(id);
       if (onbordingImg == null) {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
-      if (textView == null) {
-        break missingId;
-      }
-
       return new FragmentOnBoardingBinding((ConstraintLayout) rootView, guideline1, imageView,
-          imageView2, onbordingImg, textView);
+          imageView2, onboardingContentTv, onboardingTitleTv, onbordingImg);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

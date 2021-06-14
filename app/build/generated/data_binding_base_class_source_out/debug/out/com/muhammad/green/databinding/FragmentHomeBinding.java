@@ -4,6 +4,7 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -28,7 +29,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView casesOfDonationsRv;
 
   @NonNull
-  public final RecyclerView casesTypeRv;
+  public final RecyclerView categoriesRv;
 
   @NonNull
   public final Guideline guidelineH1;
@@ -37,18 +38,22 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final MaterialButton inKindDonationBtn;
 
   @NonNull
+  public final ProgressBar loadingProgressCases;
+
+  @NonNull
   public final TextView todayDateTv;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView casesBtn,
-      @NonNull RecyclerView casesOfDonationsRv, @NonNull RecyclerView casesTypeRv,
+      @NonNull RecyclerView casesOfDonationsRv, @NonNull RecyclerView categoriesRv,
       @NonNull Guideline guidelineH1, @NonNull MaterialButton inKindDonationBtn,
-      @NonNull TextView todayDateTv) {
+      @NonNull ProgressBar loadingProgressCases, @NonNull TextView todayDateTv) {
     this.rootView = rootView;
     this.casesBtn = casesBtn;
     this.casesOfDonationsRv = casesOfDonationsRv;
-    this.casesTypeRv = casesTypeRv;
+    this.categoriesRv = categoriesRv;
     this.guidelineH1 = guidelineH1;
     this.inKindDonationBtn = inKindDonationBtn;
+    this.loadingProgressCases = loadingProgressCases;
     this.todayDateTv = todayDateTv;
   }
 
@@ -91,9 +96,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.casesType_rv;
-      RecyclerView casesTypeRv = rootView.findViewById(id);
-      if (casesTypeRv == null) {
+      id = R.id.categories_rv;
+      RecyclerView categoriesRv = rootView.findViewById(id);
+      if (categoriesRv == null) {
         break missingId;
       }
 
@@ -109,6 +114,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingProgress_cases;
+      ProgressBar loadingProgressCases = rootView.findViewById(id);
+      if (loadingProgressCases == null) {
+        break missingId;
+      }
+
       id = R.id.todayDate_tv;
       TextView todayDateTv = rootView.findViewById(id);
       if (todayDateTv == null) {
@@ -116,7 +127,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, casesBtn, casesOfDonationsRv,
-          casesTypeRv, guidelineH1, inKindDonationBtn, todayDateTv);
+          categoriesRv, guidelineH1, inKindDonationBtn, loadingProgressCases, todayDateTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

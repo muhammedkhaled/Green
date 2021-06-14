@@ -9,9 +9,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
 import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.PreferenceHelper.get
+import com.muhammad.green.data.PreferenceHelper.set
 import com.muhammad.green.data.network.HomeApi
 import com.muhammad.green.data.network.RemoteDataSource
 import com.muhammad.green.data.network.ResultWrapper
@@ -20,13 +22,16 @@ import com.muhammad.green.views.home.adapters.CasesTypeAdapter
 import com.muhammad.green.views.home.adapters.homeDonaCasesAdapter
 import com.muhammad.green.utiles.CenterZoomLinearLayoutManager
 import com.muhammad.green.views.home.repository.HomeRepository
+import com.muhammad.green.views.home.response.UserCasePay
 import com.muhammad.green.views.home.viewModels.HomeViewModel
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
+import net.Aqua_waterfliter.joborder.utiles.visible
 
 
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
+
     private lateinit var pref: SharedPreferences
     private lateinit var viewModel: HomeViewModel
     private lateinit var token: String
@@ -36,10 +41,11 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setHasOptionsMenu(true)
-        pref = PreferenceHelper.customPrefs(requireContext(), "regis")
+        pref = PreferenceHelper.customPrefs(requireContext(), "green")
 //        token = pref["token"]
-        token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
-        Log.d("HomeFragment", "onViewCreated: ${token}")
+        token = ""
+//        token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
+//        Log.d("HomeFragment", "onViewCreated: ${token}")
         setUpViewModel()
         getData()
         observeData()
@@ -92,6 +98,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
             Log.d("HomeFragment", "getData: visitor")
         } else {
             viewModel.getMyCases()
+            viewModel.getVisitorData()
             Log.d("HomeFragment", "getData: my cases")
         }
     }
@@ -99,15 +106,20 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     private fun observeData(){
         lifecycleScope.launchWhenCreated {
             viewModel.profile.collect {
+                binding.loadingProgressCases.visible(false)
                 when(it){
                     is ResultWrapper.Loading -> {
-
+                        binding.loadingProgressCases.visible(true)
                     }
                     is ResultWrapper.Success -> {
                         casesAdapter.addData(it.value.user_case_pay)
+                        binding.loadingProgressCases.visible(false)
+                        val user = Gson().toJson(it.value.user)
+                        // todo make static keywords for all pref
+                        pref["user_profile"] = user
                     }
                     is ResultWrapper.GenericError -> {
-
+                        binding.loadingProgressCases.visible(false)
                     }
                 }
             }
@@ -120,9 +132,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
                         Log.d("HomeFragment", "Loading")
                     }
                     is ResultWrapper.Success -> {
-                        Log.d("HomeFragment", "observeData: cases ${it.value.status}")
-//                        casesAdapter.addKData(it.value.cases as ArrayList<UserCasePay>)
-//                        categoryAdapter.addData(it.value.categories)
+                        Log.d("HomeFragment", "observeData: cases ${it.value}")
+                        casesAdapter.addData(it.value.cases)
+                        categoryAdapter.addData(it.value.categories)
                     }
                     is ResultWrapper.GenericError -> {
                         Log.d("HomeFragment", "error ${it.error}")

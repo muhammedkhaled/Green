@@ -13,7 +13,6 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel(private val repository: HomeRepository) : ViewModel(){
 
-
     private val _myCases = MutableStateFlow<ResultWrapper<Profile>>(ResultWrapper.Loading)
     val profile: StateFlow<ResultWrapper<Profile>> = _myCases
 

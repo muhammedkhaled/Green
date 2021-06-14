@@ -90,7 +90,7 @@ class RegisLoginFragment : BaseFragment<RegisLoginFragmentBinding>() {
 
     private fun setUpViewModel() {
         val remoteDataSource = RemoteDataSource.buildApi(AuthApi::class.java)
-        pref = PreferenceHelper.customPrefs(requireContext(), "regis")
+        pref = PreferenceHelper.customPrefs(requireContext(), "green")
         val repository = AuthRepository(remoteDataSource, pref)
         val factory = ViewModelFactory(repository)
         loginViewModel = ViewModelProvider(this, factory).get(LoginViewModel::class.java)
