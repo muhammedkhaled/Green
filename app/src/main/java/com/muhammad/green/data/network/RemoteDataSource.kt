@@ -20,6 +20,7 @@ object RemoteDataSource {
                     .addInterceptor { chain ->
                         chain.proceed(chain.request().newBuilder().also {
                             it.addHeader("Authorization", "Bearer $authToken")
+                            it.addHeader("Content-Type", "application/json")
                         }.build())
                     }.also { client ->
                         if (BuildConfig.DEBUG) {

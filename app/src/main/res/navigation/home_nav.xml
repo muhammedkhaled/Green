@@ -68,7 +68,7 @@
         tools:layout="@layout/fragment_call_us" />
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.muhammad.green.views.home.ui.DetailsFragment"
+        android:name="com.muhammad.green.views.home.ui.CategoryDetailsFragment"
         android:label="التفاصيل"
         tools:layout="@layout/fragment_details" />
     <fragment

@@ -12,6 +12,15 @@ data class Category(
     val id: Int,
     val name: String,
     val photo_id: Int,
-    val updated_at: String
+    val updated_at: String,
+    val photo: CategoryImg
 )
 
+data class CategoryImg(
+    val created_at: String,
+    val id: Int,
+    val name: String,
+    val product_id: Any,
+    val updated_at: String,
+    val url: String
+)

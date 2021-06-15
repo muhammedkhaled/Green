@@ -1,3 +1,5 @@
+com/muhammad/green/BuildConfig.java
+ com.muhammad.green.BuildConfig
 com/muhammad/green/databinding/FragmentDetailsBinding.java
  com.muhammad.green.databinding.FragmentDetailsBinding
 com/muhammad/green/databinding/CaseReportItemBinding.java
@@ -8,8 +10,6 @@ com/muhammad/green/databinding/FragmentStateOfOrderBinding.java
  com.muhammad.green.databinding.FragmentStateOfOrderBinding
 com/muhammad/green/databinding/FragmentMenuBinding.java
  com.muhammad.green.databinding.FragmentMenuBinding
-com/muhammad/green/BuildConfig.java
- com.muhammad.green.BuildConfig
 com/muhammad/green/databinding/FragmentSplashBinding.java
  com.muhammad.green.databinding.FragmentSplashBinding
 com/muhammad/green/databinding/InKindDonItemBinding.java
@@ -20,8 +20,8 @@ com/muhammad/green/databinding/FragmentVolInKindDonationsBinding.java
  com.muhammad.green.databinding.FragmentVolInKindDonationsBinding
 com/muhammad/green/databinding/FragmentCallUsBinding.java
  com.muhammad.green.databinding.FragmentCallUsBinding
-com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
- com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
+com/muhammad/green/databinding/FragmentNotificationBinding.java
+ com.muhammad.green.databinding.FragmentNotificationBinding
 com/muhammad/green/databinding/ActivityLandingBinding.java
  com.muhammad.green.databinding.ActivityLandingBinding
 com/muhammad/green/databinding/RegisVolunteerInfoFragmnetBinding.java
@@ -88,5 +88,5 @@ com/muhammad/green/databinding/DonationCasesItemBinding.java
  com.muhammad.green.databinding.DonationCasesItemBinding
 com/muhammad/green/databinding/MyNeedsItemBinding.java
  com.muhammad.green.databinding.MyNeedsItemBinding
-com/muhammad/green/databinding/FragmentNotificationBinding.java
- com.muhammad.green.databinding.FragmentNotificationBinding
+com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
+ com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding

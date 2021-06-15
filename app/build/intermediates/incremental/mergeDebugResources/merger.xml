@@ -6902,7 +6902,7 @@
         <item>my info</item>
         <item>request info</item>
         <item>state</item>
-    </string-array></file><file path="E:\Projects\Green\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </string-array><string name="remaining">المتبقى</string></file><file path="E:\Projects\Green\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/Astral</item>
         <item name="colorPrimaryVariant">@color/emerald</item>

@@ -27,4 +27,6 @@ class CaseDetailsFragment : BaseFragment<FragmentCaseDetailsBinding>() {
         }
     }
 
+
+
 }

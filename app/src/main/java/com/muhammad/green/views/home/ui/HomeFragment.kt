@@ -28,13 +28,15 @@ import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.visible
+import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.util.*
 
 
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     private lateinit var pref: SharedPreferences
     private lateinit var viewModel: HomeViewModel
-    private lateinit var token: String
     private lateinit var casesAdapter: homeDonaCasesAdapter
     private lateinit var categoryAdapter: CasesTypeAdapter
 
@@ -42,13 +44,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         super.onViewCreated(view, savedInstanceState)
         setHasOptionsMenu(true)
         pref = PreferenceHelper.customPrefs(requireContext(), "green")
-//        token = pref["token"]
-        token = ""
-//        token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
-//        Log.d("HomeFragment", "onViewCreated: ${token}")
         setUpViewModel()
-        getData()
         observeData()
+        setTodayDate()
 
         binding.inKindDonationBtn.setOnClickListener{
             findNavController().navigate(
@@ -75,6 +73,11 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         binding.categoriesRv.adapter = categoryAdapter
     }
 
+    private fun setTodayDate() {
+        val currentDate = SimpleDateFormat("dd MMMM yyyy ", Locale.US).format(Date())
+        binding.todayDateTv.text = "Today, $currentDate"
+    }
+
     override fun getFragmentBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
@@ -86,13 +89,16 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     }
 
     private fun setUpViewModel() {
+//        val token = pref["token"]
+        val token = ""
+//        val token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
+//        Log.d("HomeFragment", "onViewCreated: ${token}")
+
         val remoteDataSource = RemoteDataSource.buildApi(HomeApi::class.java, token)
         val repository = HomeRepository(remoteDataSource)
         val factory = ViewModelFactory(repository)
         viewModel = ViewModelProvider(this, factory).get(HomeViewModel::class.java)
-    }
 
-    private fun getData() {
         if (token.isNullOrEmpty()) {
             viewModel.getVisitorData()
             Log.d("HomeFragment", "getData: visitor")
@@ -102,6 +108,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
             Log.d("HomeFragment", "getData: my cases")
         }
     }
+
 
     private fun observeData(){
         lifecycleScope.launchWhenCreated {
@@ -127,16 +134,20 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
         lifecycleScope.launchWhenCreated {
             viewModel.visitorData.collect {
+                binding.loadingProgressCases.visible(false)
                 when(it){
                     is ResultWrapper.Loading -> {
                         Log.d("HomeFragment", "Loading")
+                        binding.loadingProgressCases.visible(true)
                     }
                     is ResultWrapper.Success -> {
+                        binding.loadingProgressCases.visible(false)
                         Log.d("HomeFragment", "observeData: cases ${it.value}")
                         casesAdapter.addData(it.value.cases)
                         categoryAdapter.addData(it.value.categories)
                     }
                     is ResultWrapper.GenericError -> {
+                        binding.loadingProgressCases.visible(false)
                         Log.d("HomeFragment", "error ${it.error}")
                     }
                 }

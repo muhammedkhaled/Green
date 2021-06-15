@@ -15,7 +15,7 @@ import com.muhammad.green.databinding.FragmentDetailsBinding
 import com.muhammad.green.views.home.adapters.TypeDetailsAdapter
 
 
-class DetailsFragment : Fragment() {
+class CategoryDetailsFragment : Fragment() {
 
     private lateinit var binding: FragmentDetailsBinding
 

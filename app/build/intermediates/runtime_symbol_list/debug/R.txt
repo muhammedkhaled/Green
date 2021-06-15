@@ -3761,6 +3761,7 @@ int string path_password_strike_through 0x7f12009a
 int string pension_type 0x7f12009b
 int string phone 0x7f12009c
 int string preference_copied 0x7f12009d
+int string remaining 0x7f1200aa
 int string request_info 0x7f12009e
 int string resend_verification_code 0x7f12009f
 int string search_menu_title 0x7f1200a0

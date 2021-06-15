@@ -60,7 +60,9 @@ class  MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         binding.fab.setOnClickListener{
-            navController.popBackStack(R.id.navigation_home, false)
+//            navController.popBackStack(R.id.navigation_home, false)
+            navController.popBackStack()
+            navController.navigate(R.id.navigation_home)
         }
 
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
