@@ -16,7 +16,6 @@ data class Data(
     }
 }
 
-
 data class Cities(
     val id: Int,
     val name: String,

@@ -30,10 +30,13 @@ class EditeMyInfoFragment : BaseFragment<FragmentEditeMyInfoBinding>() {
     private fun bindData() {
         val gson = Gson()
         val userString: String = pref["user_profile"]
-        val user: User = gson.fromJson(userString, User::class.java)
-        binding.fullNameTv.text = user.name
-        binding.addressTv.text = user.address
-        binding.emailTv.text = user.email
+        val user: User? = gson.fromJson(userString, User::class.java)
+        user?.let {
+            binding.fullNameTv.text = it.name
+            binding.addressTv.text = it.address
+            binding.emailTv.text = it.email
+        }
+
     }
 
 }

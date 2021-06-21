@@ -48,7 +48,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   public final ProgressBar progressbar;
 
   @NonNull
-  public final AutoCompleteTextView regisVolCityEt;
+  public final AutoCompleteTextView regisVolCityActv;
 
   @NonNull
   public final TextInputLayout regisVolCityTil;
@@ -93,7 +93,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       @NonNull CheckBox conditionsCheckbox, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
       @NonNull ImageView imageView5, @NonNull ProgressBar progressbar,
-      @NonNull AutoCompleteTextView regisVolCityEt, @NonNull TextInputLayout regisVolCityTil,
+      @NonNull AutoCompleteTextView regisVolCityActv, @NonNull TextInputLayout regisVolCityTil,
       @NonNull AutoCompleteTextView regisVolGovActv, @NonNull TextInputLayout regisVolGovTil,
       @NonNull MaterialButton regisVolLocationBtn, @NonNull EditText regisVolNameEt,
       @NonNull TextInputLayout regisVolNameTil, @NonNull MaterialButton regisVolNextBtn,
@@ -108,7 +108,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
     this.progressbar = progressbar;
-    this.regisVolCityEt = regisVolCityEt;
+    this.regisVolCityActv = regisVolCityActv;
     this.regisVolCityTil = regisVolCityTil;
     this.regisVolGovActv = regisVolGovActv;
     this.regisVolGovTil = regisVolGovTil;
@@ -193,9 +193,9 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.regisVolCity_et;
-      AutoCompleteTextView regisVolCityEt = rootView.findViewById(id);
-      if (regisVolCityEt == null) {
+      id = R.id.regisVolCity_actv;
+      AutoCompleteTextView regisVolCityActv = rootView.findViewById(id);
+      if (regisVolCityActv == null) {
         break missingId;
       }
 
@@ -278,7 +278,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       }
 
       return new RegisVolunteerInfoFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          guideline1, guideline2, guideline3, imageView4, imageView5, progressbar, regisVolCityEt,
+          guideline1, guideline2, guideline3, imageView4, imageView5, progressbar, regisVolCityActv,
           regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn, regisVolNameEt,
           regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil, regisVolPhoneEt,
           regisVolPhoneTil, regisVolTitleTv, signInTv);

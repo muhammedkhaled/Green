@@ -51,7 +51,7 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
   public final ProgressBar progressbar;
 
   @NonNull
-  public final AutoCompleteTextView regisVolCityEt;
+  public final AutoCompleteTextView regisVolCityActv;
 
   @NonNull
   public final TextInputLayout regisVolCityTil;
@@ -93,7 +93,7 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       @NonNull CheckBox conditionsCheckbox, @NonNull TextView forgotpassTv,
       @NonNull Guideline guideline1, @NonNull Guideline guideline2, @NonNull Guideline guideline3,
       @NonNull ImageView imageView4, @NonNull ImageView imageView5,
-      @NonNull ProgressBar progressbar, @NonNull AutoCompleteTextView regisVolCityEt,
+      @NonNull ProgressBar progressbar, @NonNull AutoCompleteTextView regisVolCityActv,
       @NonNull TextInputLayout regisVolCityTil, @NonNull AutoCompleteTextView regisVolGovActv,
       @NonNull TextInputLayout regisVolGovTil, @NonNull MaterialButton regisVolLocationBtn,
       @NonNull EditText regisVolNameEt, @NonNull TextInputLayout regisVolNameTil,
@@ -109,7 +109,7 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
     this.progressbar = progressbar;
-    this.regisVolCityEt = regisVolCityEt;
+    this.regisVolCityActv = regisVolCityActv;
     this.regisVolCityTil = regisVolCityTil;
     this.regisVolGovActv = regisVolGovActv;
     this.regisVolGovTil = regisVolGovTil;
@@ -199,9 +199,9 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.regisVolCity_et;
-      AutoCompleteTextView regisVolCityEt = rootView.findViewById(id);
-      if (regisVolCityEt == null) {
+      id = R.id.regisVolCity_actv;
+      AutoCompleteTextView regisVolCityActv = rootView.findViewById(id);
+      if (regisVolCityActv == null) {
         break missingId;
       }
 
@@ -279,7 +279,7 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
 
       return new RegisNeedDonationFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
           forgotpassTv, guideline1, guideline2, guideline3, imageView4, imageView5, progressbar,
-          regisVolCityEt, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
+          regisVolCityActv, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
           regisVolNameEt, regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil,
           regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv);
     }

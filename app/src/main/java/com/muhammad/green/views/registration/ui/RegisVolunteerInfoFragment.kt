@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
@@ -18,6 +19,8 @@ import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.databinding.RegisVolunteerInfoFragmnetBinding
+import com.muhammad.green.views.registration.response.Cities
+import com.muhammad.green.views.registration.response.Data
 import com.muhammad.green.views.registration.response.Governments
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
@@ -32,6 +35,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
     private lateinit var viewModel: RegisUserViewModel
     private lateinit var pref: SharedPreferences
     private var governmentID = ""
+    private var cityID = ""
 
     override fun getFragmentBinding(
         inflater: LayoutInflater,
@@ -74,6 +78,21 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 is ResultWrapper.GenericError -> handleApiError(it) { register() }
             }
         }
+
+        binding.regisVolGovActv.onItemClickListener =
+            AdapterView.OnItemClickListener { parent, _, pos, _ ->
+                val index = parent.getItemAtPosition(pos) as Data
+                governmentID = index.id.toString()
+                Log.d("TAG", "onViewCreated: ${index.id}")
+            }
+
+        binding.regisVolCityActv.onItemClickListener =
+            AdapterView.OnItemClickListener { parent, _, pos, _ ->
+                val index = parent.getItemAtPosition(pos) as Cities
+                cityID = index.id.toString()
+                Log.d("TAG", "onViewCreated: ${index.id}")
+            }
+
     }
 
     private fun register() {
@@ -101,6 +120,10 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
             }
             governmentID.isEmpty() -> {
                 binding.regisVolGovActv.error = "برجاء اختيار المحافظه"
+                binding.regisVolGovActv.requestFocus()
+            }
+            cityID.isEmpty() -> {
+                binding.regisVolGovActv.error = "برجاء اختيار المدينه"
                 binding.regisVolGovActv.requestFocus()
             }
             pass.isEmpty() -> {
@@ -137,6 +160,10 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
     fun initSpinners(governments: Governments){
         binding.regisVolGovActv.setAdapter(
             ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.data)
+        )
+
+        binding.regisVolGovActv.setAdapter(
+            ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.cities)
         )
     }
 }

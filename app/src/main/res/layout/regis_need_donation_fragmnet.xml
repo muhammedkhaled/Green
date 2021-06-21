@@ -225,7 +225,7 @@
                 app:layout_constraintTop_toBottomOf="@id/regisVolGov_til">
 
                 <AutoCompleteTextView
-                    android:id="@+id/regisVolCity_et"
+                    android:id="@+id/regisVolCity_actv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="none"

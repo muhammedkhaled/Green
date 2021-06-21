@@ -3200,6 +3200,7 @@ id recycler_view
 id regisLoginFragment
 id regisNeedDonationFragment
 id regisUserTypeFragment
+id regisVolCity_actv
 id regisVolCity_et
 id regisVolCity_til
 id regisVolGov_actv

@@ -19,6 +19,7 @@ import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.databinding.RegisNeedDonationFragmnetBinding
+import com.muhammad.green.views.registration.response.Cities
 import com.muhammad.green.views.registration.response.Data
 import com.muhammad.green.views.registration.response.Governments
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
@@ -34,6 +35,7 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
     private lateinit var viewModel: RegisUserViewModel
     private lateinit var pref: SharedPreferences
     private var governmentID = ""
+    private var cityID = ""
 
     override fun getFragmentBinding(
         inflater: LayoutInflater,
@@ -83,12 +85,18 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
                 governmentID = index.id.toString()
                 Log.d("TAG", "onViewCreated: ${index.id}")
             }
+
+        binding.regisVolCityActv.onItemClickListener =
+            AdapterView.OnItemClickListener { parent, _, pos, _ ->
+                val index = parent.getItemAtPosition(pos) as Cities
+                cityID = index.id.toString()
+                Log.d("TAG", "onViewCreated: ${index.id}")
+            }
     }
 
     private fun register() {
         val name = binding.regisVolNameEt.text.trim()
         val phone = binding.regisVolPhoneEt.text.trim()
-//        val city
 //        val lat
 //        val long
         val pass = binding.regisVolPassEt.text.trim()
@@ -109,6 +117,10 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
             }
             governmentID.isEmpty() -> {
                 binding.regisVolGovActv.error = "برجاء اختيار المحافظه"
+                binding.regisVolGovActv.requestFocus()
+            }
+            cityID.isEmpty() -> {
+                binding.regisVolGovActv.error = "برجاء اختيار المدينه"
                 binding.regisVolGovActv.requestFocus()
             }
             pass.isEmpty() -> {
@@ -142,6 +154,10 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
     fun initSpinners(governments: Governments){
         binding.regisVolGovActv.setAdapter(
             ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.data)
+        )
+
+        binding.regisVolCityActv.setAdapter(
+            ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.cities)
         )
     }
 }
