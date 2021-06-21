@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
+import com.google.android.gms.maps.model.LatLng
 import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.AuthApi
@@ -72,7 +74,6 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
                     it.value.token?.let {
                         viewModel.saveToken(it)
                     }
-
                     Log.d("token", "onViewCreated: ${it.value.token}")
                 }
                 is ResultWrapper.GenericError -> handleApiError(it) { register() }
@@ -92,6 +93,13 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
                 cityID = index.id.toString()
                 Log.d("TAG", "onViewCreated: ${index.id}")
             }
+
+        binding.regisVolLocationBtn.setOnClickListener {
+            findNavController().navigate(
+                RegisVolunteerInfoFragmentDirections
+                    .actionRegisVolunteerInfoFragmnetToMapsFragment()
+            )
+        }
     }
 
     private fun register() {
@@ -124,7 +132,7 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
                 binding.regisVolGovActv.requestFocus()
             }
             pass.isEmpty() -> {
-                binding.regisVolPassEt.error = "بؤجاء ادخال كلمه السر"
+                binding.regisVolPassEt.error = "برجاء ادخال كلمه السر"
                 binding.regisVolPassEt.requestFocus()
             }
             pass.length <= 6 -> {
@@ -140,6 +148,7 @@ class RegisNeedDonationFragment : BaseFragment<RegisNeedDonationFragmnetBinding>
         val inputs = RegisUserInputs("muhamed", "01125889197", "11 abdallah hendy", "muhamed@gmail.com","0125cairo"
             ,"cairo", "1","0125cairo", "-33.863276", "151.207977")
         viewModel.registerVol(inputs)
+
     }
 
 

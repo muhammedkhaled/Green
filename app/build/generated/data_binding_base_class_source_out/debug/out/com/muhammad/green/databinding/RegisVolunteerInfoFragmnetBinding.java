@@ -45,6 +45,9 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
+  public final TextView latlongTv;
+
+  @NonNull
   public final ProgressBar progressbar;
 
   @NonNull
@@ -92,7 +95,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   private RegisVolunteerInfoFragmnetBinding(@NonNull ConstraintLayout rootView,
       @NonNull CheckBox conditionsCheckbox, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull ProgressBar progressbar,
+      @NonNull ImageView imageView5, @NonNull TextView latlongTv, @NonNull ProgressBar progressbar,
       @NonNull AutoCompleteTextView regisVolCityActv, @NonNull TextInputLayout regisVolCityTil,
       @NonNull AutoCompleteTextView regisVolGovActv, @NonNull TextInputLayout regisVolGovTil,
       @NonNull MaterialButton regisVolLocationBtn, @NonNull EditText regisVolNameEt,
@@ -107,6 +110,7 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
     this.guideline3 = guideline3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
+    this.latlongTv = latlongTv;
     this.progressbar = progressbar;
     this.regisVolCityActv = regisVolCityActv;
     this.regisVolCityTil = regisVolCityTil;
@@ -184,6 +188,12 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       id = R.id.imageView5;
       ImageView imageView5 = rootView.findViewById(id);
       if (imageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.latlong_tv;
+      TextView latlongTv = rootView.findViewById(id);
+      if (latlongTv == null) {
         break missingId;
       }
 
@@ -278,10 +288,10 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       }
 
       return new RegisVolunteerInfoFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          guideline1, guideline2, guideline3, imageView4, imageView5, progressbar, regisVolCityActv,
-          regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn, regisVolNameEt,
-          regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil, regisVolPhoneEt,
-          regisVolPhoneTil, regisVolTitleTv, signInTv);
+          guideline1, guideline2, guideline3, imageView4, imageView5, latlongTv, progressbar,
+          regisVolCityActv, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
+          regisVolNameEt, regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil,
+          regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv, signInTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

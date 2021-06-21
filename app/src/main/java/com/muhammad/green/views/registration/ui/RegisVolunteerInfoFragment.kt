@@ -1,6 +1,8 @@
 package com.muhammad.green.views.registration.ui
 
 import android.content.SharedPreferences
+import android.location.Address
+import android.location.Geocoder
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -11,24 +13,28 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.AuthApi
 import com.muhammad.green.data.network.RemoteDataSource
 import com.muhammad.green.data.network.ResultWrapper
-import com.muhammad.green.views.registration.response.RegisUserInputs
-import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.databinding.RegisVolunteerInfoFragmnetBinding
+import com.muhammad.green.views.registration.repository.AuthRepository
 import com.muhammad.green.views.registration.response.Cities
 import com.muhammad.green.views.registration.response.Data
 import com.muhammad.green.views.registration.response.Governments
+import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
 import com.muhammad.green.views.registration.viewModels.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
+import net.Aqua_waterfliter.joborder.utiles.snackbar
 import net.Aqua_waterfliter.joborder.utiles.visible
+import java.util.*
+
 
 class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBinding>() {
 
@@ -93,16 +99,22 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 Log.d("TAG", "onViewCreated: ${index.id}")
             }
 
+        binding.regisVolLocationBtn.setOnClickListener {
+            findNavController().navigate(
+                RegisVolunteerInfoFragmentDirections
+                    .actionRegisVolunteerInfoFragmnetToMapsFragment()
+            )
+        }
+
     }
 
     private fun register() {
 
-        val name = binding.regisVolNameEt.text.trim()
-        val phone = binding.regisVolPhoneEt.text.trim()
-//        val city
-//        val lat
-//        val long
-        val pass = binding.regisVolPassEt.text.trim()
+        val name = binding.regisVolNameEt.text.trim().toString()
+        val phone = binding.regisVolPhoneEt.text.trim().toString()
+        val lat = UserData.lat.trim()
+        val long = UserData.long.trim()
+        val pass = binding.regisVolPassEt.text.trim().toString()
         val conditions = binding.conditionsCheckbox.isChecked
 
         when {
@@ -127,12 +139,16 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 binding.regisVolGovActv.requestFocus()
             }
             pass.isEmpty() -> {
-                binding.regisVolPassEt.error = "بؤجاء ادخال كلمه السر"
+                binding.regisVolPassEt.error = "برجاء ادخال كلمه السر"
                 binding.regisVolPassEt.requestFocus()
             }
             pass.length <= 6 -> {
                 binding.regisVolPassEt.error = "برجاء ادخال كلمه سر اكبر من 6 ارقام"
                 binding.regisVolPassEt.requestFocus()
+            }
+            lat.isEmpty() -> {
+                Toast.makeText(requireContext(), "برجاء تحديد اللوكيشن على الخريطه", Toast.LENGTH_SHORT).show()
+                binding.regisVolLocationBtn.requestFocus()
             }
             !conditions -> {
                 Toast.makeText(
@@ -141,12 +157,16 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                     Toast.LENGTH_SHORT
                 ).show()
             }
-
+            else -> {
+                val inputs = RegisUserInputs( name, phone, "null", "m11@gmail.com",pass
+                    ,cityID, governmentID,pass, long.toString(), lat.toString())
+                Log.d("TAG", "register: ${inputs}")
+                viewModel.registerVol(inputs)
+            }
         }
 
-        val inputs = RegisUserInputs("muhamed", "01125889197", "11 abdallah hendy", "muhamed@gmail.com","0125cairo"
-        ,"cairo", "1","0125cairo", "-33.863276", "151.207977")
-        viewModel.registerVol(inputs)
+
+
     }
 
     private fun setUpViewModel() {
@@ -162,7 +182,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
             ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.data)
         )
 
-        binding.regisVolGovActv.setAdapter(
+        binding.regisVolCityActv.setAdapter(
             ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.cities)
         )
     }

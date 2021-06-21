@@ -65,6 +65,8 @@
     <string name="request_info">بيانات الطلب</string>
     <string name="state">الحاله</string>
     <string name="remaining">المتبقى</string>
+    <string name="current_location">current location</string>
+    <string name="submit">Submit</string>
 
     <string-array name="stepLabels">
         <item>my info</item>

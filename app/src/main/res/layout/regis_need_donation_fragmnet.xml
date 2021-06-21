@@ -7,7 +7,7 @@
     tools:context=".views.registration.ui.RegisNeedDonationFragment">
 
 
-    <!-- todo change all id's fron regisVol to needDonation -->
+    <!-- todo change all id's from regisVol to needDonation -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -47,14 +47,12 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.23" />
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.10" />
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

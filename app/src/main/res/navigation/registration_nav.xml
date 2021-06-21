@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_regisNeedDonationFragment_to_verificationCodeFragment"
             app:destination="@id/verificationCodeFragment" />
+        <action
+            android:id="@+id/action_regisNeedDonationFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
 
     <fragment
@@ -40,6 +43,9 @@
         <action
             android:id="@+id/action_regisVolunteerInfoFragmnet_to_verificationCodeFragment"
             app:destination="@id/verificationCodeFragment" />
+        <action
+            android:id="@+id/action_regisVolunteerInfoFragmnet_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
 
     <fragment
@@ -52,6 +58,21 @@
             app:destination="@id/regisNeedDonationFragment" />
         <action
             android:id="@+id/action_regisUserTypeFragment_to_regisVolunteerInfoFragmnet"
+            app:destination="@id/regisVolunteerInfoFragmnet" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.muhammad.green.views.registration.ui.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_regisVolunteerInfoFragmnet"
+            app:destination="@id/regisVolunteerInfoFragmnet" />
+        <action
+            android:id="@+id/action_mapsFragment_to_regisNeedDonationFragment"
+            app:destination="@id/regisNeedDonationFragment" />
+        <action
+            android:id="@+id/action_mapsFragment_to_regisVolunteerInfoFragmnet2"
             app:destination="@id/regisVolunteerInfoFragmnet" />
     </fragment>
 

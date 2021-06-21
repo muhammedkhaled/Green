@@ -5,7 +5,7 @@ data class RegistrationFail(
     val message: Message
 ){
     override fun toString(): String {
-        return message.email[0] +"\n "+ message.phone[0]
+        return message?.email[0]?.toString() +"\n "+ message?.phone[0]?.toString()
     }
 }
 

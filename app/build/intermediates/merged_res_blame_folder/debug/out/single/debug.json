@@ -1,934 +1,938 @@
 [
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_shortcut_arrow_back.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_shortcut_arrow_back.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_order_pager1.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_order_pager1.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_settings.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_arrow_back.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_arrow_back.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorite.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_favorite.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_favorite.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mask_group4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mask_group4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_dashboard.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_dashboard.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_maps.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_maps.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_details.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_details.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_fg.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\rounded_fg.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_case_details.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_case_details.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask_group4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask_group4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_need_in_kind_don_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/need_in_kind_don_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_administration_word.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_administration_word.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat_outline.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_chat_outline.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_arrow_right.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_arrow_right.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_done_white_18dp.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_done_white_18dp.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_vol_in_kind_donations.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_vol_in_kind_donations.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_my_needs_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/my_needs_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_auto_complete_text_view.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/auto_complete_text_view.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_order_pager3.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_order_pager3.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_state_of_order.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_state_of_order.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_menu.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_menu.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_in_kind_don_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\in_kind_don_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_case_report_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/case_report_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_need_in_kind_donation.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_need_in_kind_donation.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_edite_my_info.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_edite_my_info.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_done_white_18dp.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_done_white_18dp.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_case_reports.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_case_reports.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_regis_need_donation_fragmnet.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\regis_need_donation_fragmnet.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-v24_slider_dot_selector.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-v24/slider_dot_selector.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_extra_light.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_extra_light.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_outline.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_person_outline.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_shortcut_arrow_back.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_auto_complete_text_view.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\auto_complete_text_view.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_info_donation_need.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_new_info_donation_need.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_page.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_page.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_solid_with_stroke_shape.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\solid_with_stroke_shape.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_light.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_light.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_shortcut_arrow_back.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_check_box_icon.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/check_box_icon.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_light.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_light.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_app_bar.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\home_app_bar.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/menu_home_menu.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/menu/home_menu.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\navigation_registration_nav.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\navigation\\registration_nav.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-v24_slider_unselected_dot.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-v24/slider_unselected_dot.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filled_favorite.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_filled_favorite.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_notification_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/notification_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_donation_cases_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\home_donation_cases_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_arrow_drop_up_24.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_arrow_drop_up_24.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\navigation_home_nav.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\navigation\\home_nav.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mask_group4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask_group4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_home_app_bar.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/home_app_bar.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_up_24.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_arrow_drop_up_24.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_donation_cases_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/donation_cases_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_on_boarding.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_on_boarding.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_menu.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_menu.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/navigation_registration_nav.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/navigation/registration_nav.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_share.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_share.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_medium.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_medium.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_white_18dp.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_done_white_18dp.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_check_box_icon.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\check_box_icon.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask_group4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask_group4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_shortcut_arrow_back.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_shortcut_arrow_back.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_white_18dp.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_done_white_18dp.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_donate_device.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_donate_device.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_home_donation_cases_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/home_donation_cases_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_bold.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_bold.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_donate_device.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_donate_device.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_regis_verification_code_fragment.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/regis_verification_code_fragment.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_rounded_fg.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/rounded_fg.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_profile.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_favorite.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_favorite.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_regis_user_type_fragmnet.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/regis_user_type_fragmnet.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ripple.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ripple.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mask2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_extra_light.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_extra_light.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_order_pager2.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_order_pager2.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/navigation_home_nav.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/navigation/home_nav.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_shortcut_arrow_back.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_shortcut_arrow_back.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_regis_verification_code_fragment.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\regis_verification_code_fragment.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_regis_login_fragment.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/regis_login_fragment.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_person_outline.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_person_outline.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_regis_user_type_fragmnet.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\regis_user_type_fragmnet.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_shortcut_arrow_back.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_shortcut_arrow_back.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_need_in_kind_donation.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_need_in_kind_donation.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ripple.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ripple.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_pager2.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager2.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_edite_my_info.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_edite_my_info.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_need_in_kind_don_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\need_in_kind_don_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_shape.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\rectangle_shape.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_shortcut_arrow_back.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_shortcut_arrow_back.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_call_us.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_call_us.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_arrow_right.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_dashboard.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mask_group4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mask_group4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_regis_volunteer_info_fragmnet.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/regis_volunteer_info_fragmnet.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_slider_dot_selector.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-v24\\slider_dot_selector.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_pager3.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager3.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_solid_with_stroke_shape.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/solid_with_stroke_shape.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_home.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_regis_volunteer_info_fragmnet.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\regis_volunteer_info_fragmnet.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_regis_need_donation_fragmnet.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/regis_need_donation_fragmnet.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_chat_outline.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_chat_outline.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_path2.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/path2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_splash.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_splash.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_activity_landing.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/activity_landing.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_details.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_details.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_logo.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/logo.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\circular.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_check.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/check.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_case_reports.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_case_reports.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_circular_progress.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-v24\\circular_progress.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_state_of_order.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_state_of_order.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/menu/bottom_nav_menu.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_shortcut_arrow_back.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_child.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/child.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_regular.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_regular.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_white_18dp.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_done_white_18dp.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_summary.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/icon_summary.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_my_needs.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_my_needs.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_slider_unselected_dot.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-v24\\slider_unselected_dot.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_down.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_paypal.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\paypal.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_us.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_about_us.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-v24_circular_progress.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-v24/circular_progress.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_administration_word.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_administration_word.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mask1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mask1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_favorite.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_done_white_18dp.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_done_white_18dp.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_white_18dp.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_done_white_18dp.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_extra_bold.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_extra_bold.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_case_report_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\case_report_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_medium.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_medium.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_circular.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/circular.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_filled_favorite.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_filled_favorite.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_landing1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\landing1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_notification.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_notification.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_shortcut_arrow_back.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_pager1.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_order_pager1.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_path1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_cases_type_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\home_cases_type_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\success.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_black.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_black.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mask_g4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\mask_g4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_bold.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_bold.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_arrow_forward.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_splash.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_splash.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\login.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mastercard.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mastercard.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mask_group4.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mask_group4.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_in_kind_don_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/in_kind_don_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_arrow_drop_down.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_arrow_drop_down.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_sign_out.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\icon_sign_out.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_ic_arrow_forward.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/ic_arrow_forward.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mask1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mask1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mask_group4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/mask_group4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_summary.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\icon_summary.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mask_group5.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mask_group5.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_regis_login_fragment.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\regis_login_fragment.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mastercard.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mastercard.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_done_white_18dp.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_done_white_18dp.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_white_18dp.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\ic_done_white_18dp.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_landing1.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/landing1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_extra_bold.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_extra_bold.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\child.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_business_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/ic_business_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_call.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_call.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mask_group4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/mask_group4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_on_boarding.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_activity_registration.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/activity_registration.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_call_us.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_call_us.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_business_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_business_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_settings.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_settings.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_shortcut_arrow_back.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/font_tajawal_black.ttf.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/font/tajawal_black.ttf"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_needs_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\my_needs_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\path1.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\check.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable_rectangle_shape.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable/rectangle_shape.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_icon_edit.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/icon_edit.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_receipt_24px.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_receipt_24px.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_home_cases_type_item.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/home_cases_type_item.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_content.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\home_content.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_paypal.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/paypal.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_visa.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\visa.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_visa.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/visa.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_edit.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\icon_edit.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_about_us.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_about_us.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxhdpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxhdpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_slider_selected_dot.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-v24\\slider_selected_dot.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_receipt_24px.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/ic_receipt_24px.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_sign_out.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/icon_sign_out.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_donation_cases_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\donation_cases_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_done_white_18dp.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/ic_done_white_18dp.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\menu_home_menu.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\menu\\home_menu.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xhdpi_mask_g4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xhdpi/mask_g4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_case_details.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_case_details.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_page.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_page.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_home.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_path2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\path2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_call.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/ic_call.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_needs.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_my_needs.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_mask_group4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/mask_group4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notification.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_notification.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_mask_group4.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/mask_group4.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_item.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\notification_item.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_landing.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\activity_landing.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_home_content.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/home_content.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_vol_in_kind_donations.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_vol_in_kind_donations.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_fragment_new_info_donation_need.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/fragment_new_info_donation_need.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_regular.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_regular.ttf"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-ldpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-ldpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/layout/activity_main.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mask_group5.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mask_group5.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-mdpi_login.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-mdpi/login.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_success.png.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-xxxhdpi/success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask2.png"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_notification.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-hdpi/ic_notification.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/build/intermediates/res/merged/debug/drawable-v24_slider_selected_dot.xml.flat",
-        "source": "/run/media/muhammad/01D526D1D1550CD0/Projects/AndroidStudioProjects/Green/app/src/main/res/drawable-v24/slider_selected_dot.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notification.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_notification.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
     }
 ]
