@@ -67,6 +67,8 @@
     <string name="remaining">المتبقى</string>
     <string name="current_location">current location</string>
     <string name="submit">Submit</string>
+    <string name="Address">العنوان</string>
+    <string name="email">البريد الاكترونى</string>
 
     <string-array name="stepLabels">
         <item>my info</item>

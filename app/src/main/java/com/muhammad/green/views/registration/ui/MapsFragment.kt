@@ -76,14 +76,13 @@ class MapsFragment : BaseFragment<FragmentMapsBinding>() {
         createLocationRequest()
 
         binding.submitBtn.setOnClickListener {
-            if ( currentLocation != null ) {
-                UserData.lat = currentLocation?.latitude.toString()
-                UserData.long = currentLocation?.latitude.toString()
+            if (currentMarker != null){
+                UserData.lat = currentMarker?.position?.latitude.toString()
+                UserData.long = currentMarker?.position?.longitude.toString()
                 findNavController().navigateUp()
-            } else {
-                Toast.makeText(requireContext(), "الرجاء تحديد المكان", Toast.LENGTH_SHORT).show()
+            }  else {
+                Toast.makeText(requireContext(), "الرجاء وضع علامه على مكانك", Toast.LENGTH_SHORT).show()
             }
-
         }
     }
 
@@ -130,7 +129,6 @@ class MapsFragment : BaseFragment<FragmentMapsBinding>() {
                 ) {
                     // Permission is granted. Continue the action or workflow
                     // in your app.
-//                    enableMyLocation()
                     getLocationPermission()
                     locationPermissionGranted = true
 
@@ -168,14 +166,6 @@ class MapsFragment : BaseFragment<FragmentMapsBinding>() {
                 map?.isMyLocationEnabled = true
                 map?.uiSettings?.isMyLocationButtonEnabled = true
                 if (currentLocation != null) {
-                    /*map?.moveCamera(
-                        CameraUpdateFactory.newLatLngZoom(
-                            LatLng(
-                                currentLocation!!.latitude,
-                                currentLocation!!.longitude
-                            ), 10f
-                        )
-                    )*/
                     drawMarker(LatLng(currentLocation!!.latitude, currentLocation!!.longitude))
                 }
 

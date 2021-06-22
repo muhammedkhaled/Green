@@ -34,7 +34,11 @@
         android:id="@+id/verificationCodeFragment"
         android:name="com.muhammad.green.views.registration.ui.VerificationCodeFragment"
         android:label=""
-        tools:layout="@layout/regis_verification_code_fragment" />
+        tools:layout="@layout/regis_verification_code_fragment" >
+        <argument
+            android:name="phone"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/regisVolunteerInfoFragmnet"
         android:name="com.muhammad.green.views.registration.ui.RegisVolunteerInfoFragment"

@@ -2859,6 +2859,8 @@ id actions
 id activity_chooser_view_content
 id add
 id addressTitle_tv
+id address_et
+id address_til
 id address_tv
 id adjust_height
 id adjust_width
@@ -2998,7 +3000,9 @@ id editeAddress_img
 id editeMyInfoFragment
 id elastic
 id emailTitle_tv
+id email_et
 id email_img
+id email_til
 id email_tv
 id end
 id endToStart
@@ -3096,7 +3100,6 @@ id labeled
 id landingLogin_btn
 id landingSkip_btn
 id largeLabel
-id latlong_tv
 id layout
 id lbl_page
 id left
@@ -3687,6 +3690,7 @@ mipmap ic_launcher_round
 navigation home_nav
 navigation registration_nav
 plurals mtrl_badge_content_description
+string Address
 string Age
 string FullAddress
 string abc_action_bar_home_description
@@ -3766,6 +3770,7 @@ string donate_now
 string donate_to_case
 string edit_my_info
 string electric_device
+string email
 string enter_device_details
 string error_icon_content_description
 string expand_button_title

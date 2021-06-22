@@ -76,11 +76,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline1"
-            app:layout_constraintTop_toBottomOf="@+id/guideline3">
+            app:layout_constraintTop_toBottomOf="@+id/guideline3"
+            android:paddingBottom="18dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/regisVolLocation_btn"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:backgroundTint="@color/white"
@@ -91,22 +92,33 @@
                 android:textAlignment="textStart"
                 android:textColor="@color/ebony_clay"
                 app:cornerRadius="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/regisVolCity_til" />
 
-            <TextView
-                android:id="@+id/latlong_tv"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/address_til"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:textColor="@color/Astral"
-                android:textSize="16sp"
-                android:textStyle="normal"
-                android:layout_marginStart="4dp"
-                android:layout_marginEnd="4dp"
-                app:layout_constraintBottom_toBottomOf="@+id/regisVolLocation_btn"
+                android:layout_height="wrap_content"
+                android:hint="@string/Address"
+                style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/regisVolLocation_btn"
-                app:layout_constraintTop_toTopOf="@+id/regisVolLocation_btn" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/regisVolLocation_btn">
+
+                <EditText
+                    android:id="@+id/address_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:inputType="textPostalAddress"
+                    android:maxLines="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/ebony_clay"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/regisVolNext_btn"
@@ -146,6 +158,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:paddingBottom="18dp"
                 android:text="@string/forget_password"
                 android:textColor="@color/ebony_clay"
                 android:textSize="14sp"
@@ -170,6 +183,31 @@
 
                 <EditText
                     android:id="@+id/regisVolName_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/ebony_clay"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_til"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:layout_marginTop="8dp"
+                style="@style/TextInputLayout.EditText.FilledBox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/regisVolPhone_til">
+
+                <EditText
+                    android:id="@+id/email_et"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
@@ -212,7 +250,7 @@
                 android:hint="@string/governorate"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/regisVolPhone_til">
+                app:layout_constraintTop_toBottomOf="@id/email_til">
 
                 <AutoCompleteTextView
                     android:id="@+id/regisVolGov_actv"
@@ -256,7 +294,7 @@
                 app:passwordToggleTint="@color/gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/regisVolLocation_btn">
+                app:layout_constraintTop_toBottomOf="@id/address_til">
 
                 <EditText
                     android:id="@+id/regisVolPass_et"

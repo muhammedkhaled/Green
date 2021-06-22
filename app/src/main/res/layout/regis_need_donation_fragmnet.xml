@@ -67,7 +67,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
-        app:layout_constraintTop_toBottomOf="@+id/guideline3">
+        app:layout_constraintTop_toBottomOf="@+id/guideline3"
+        android:paddingBottom="18dp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -132,6 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:paddingBottom="18dp"
                 android:text="@string/forget_password"
                 android:textColor="@color/ebony_clay"
                 android:textSize="14sp"
@@ -191,6 +193,30 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_til"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:layout_marginTop="8dp"
+                style="@style/TextInputLayout.EditText.FilledBox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/regisVolPhone_til">
+
+                <EditText
+                    android:id="@+id/email_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/ebony_clay"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/regisVolGov_til"
                 style="@style/TextInputLayout.DropDownMenu.FilledBox"
                 android:layout_width="0dp"
@@ -198,7 +224,7 @@
                 android:hint="@string/governorate"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/regisVolPhone_til">
+                app:layout_constraintTop_toBottomOf="@id/email_til">
 
                 <AutoCompleteTextView
                     android:id="@+id/regisVolGov_actv"
@@ -237,6 +263,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
+                app:passwordToggleEnabled="true"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

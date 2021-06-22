@@ -92,10 +92,10 @@
         app:viewType="rectangle" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/login_btn"
+        android:id="@+id/send_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/send"
         android:textSize="20sp"
         android:layout_marginTop="18dp"
         app:cornerRadius="8dp"
@@ -118,7 +118,20 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
-        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/send_btn" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/Astral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,7 @@ import com.muhammad.green.views.home.viewModels.NotificationViewModel
 import com.muhammad.green.views.landing.repository.IntroRepository
 import com.muhammad.green.views.landing.viewModels.IntroViewModel
 import com.muhammad.green.views.registration.repository.AuthRepository
+import com.muhammad.green.views.registration.repository.SmsVerifyRepository
 
 
 import java.lang.IllegalArgumentException
@@ -28,6 +29,7 @@ class ViewModelFactory(
             modelClass.isAssignableFrom(GeneralDataViewModel::class.java) -> GeneralDataViewModel(repository as GeneralDataRepository) as T
             modelClass.isAssignableFrom(IntroViewModel::class.java) -> IntroViewModel(repository as IntroRepository) as T
             modelClass.isAssignableFrom(NotificationViewModel::class.java) -> NotificationViewModel(repository as GeneralDataRepository) as T
+            modelClass.isAssignableFrom(SmsVerifyViewModel::class.java) -> SmsVerifyViewModel(repository as SmsVerifyRepository) as T
             else -> throw IllegalArgumentException("ViewModelClass Not Found")
         }
     }

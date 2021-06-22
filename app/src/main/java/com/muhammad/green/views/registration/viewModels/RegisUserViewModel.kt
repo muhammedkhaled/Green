@@ -26,14 +26,12 @@ class RegisUserViewModel(private val repository: AuthRepository) :ViewModel() {
     fun registerVol(
         inputs: RegisUserInputs
     ) = viewModelScope.launch {
-        _regisResponse.value = ResultWrapper.Loading
         _regisResponse.value = repository.registerVolUser(inputs)
     }
 
     fun registerNeed(
         inputs: RegisUserInputs
     ) = viewModelScope.launch {
-        _regisResponse.value = ResultWrapper.Loading
         _regisResponse.value = repository.registerVolUser(inputs)
     }
 
@@ -43,5 +41,14 @@ class RegisUserViewModel(private val repository: AuthRepository) :ViewModel() {
 
     fun getGovernments() = viewModelScope.launch {
         _governments.value = repository.governments()
+    }
+
+    private val _navigate = MutableLiveData<Boolean>()
+    val navigate: LiveData<Boolean>
+        get() = _navigate
+
+    fun navigate(state: Boolean){
+        _navigate.value = state
+        _navigate.value = false
     }
 }

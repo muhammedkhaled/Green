@@ -30,6 +30,12 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
   public final CheckBox conditionsCheckbox;
 
   @NonNull
+  public final EditText emailEt;
+
+  @NonNull
+  public final TextInputLayout emailTil;
+
+  @NonNull
   public final TextView forgotpassTv;
 
   @NonNull
@@ -90,7 +96,8 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
   public final TextView regisVolTitleTv;
 
   private RegisNeedDonationFragmnetBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CheckBox conditionsCheckbox, @NonNull TextView forgotpassTv,
+      @NonNull CheckBox conditionsCheckbox, @NonNull EditText emailEt,
+      @NonNull TextInputLayout emailTil, @NonNull TextView forgotpassTv,
       @NonNull Guideline guideline1, @NonNull Guideline guideline2, @NonNull Guideline guideline3,
       @NonNull ImageView imageView4, @NonNull ImageView imageView5,
       @NonNull ProgressBar progressbar, @NonNull AutoCompleteTextView regisVolCityActv,
@@ -102,6 +109,8 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       @NonNull TextInputLayout regisVolPhoneTil, @NonNull TextView regisVolTitleTv) {
     this.rootView = rootView;
     this.conditionsCheckbox = conditionsCheckbox;
+    this.emailEt = emailEt;
+    this.emailTil = emailTil;
     this.forgotpassTv = forgotpassTv;
     this.guideline1 = guideline1;
     this.guideline2 = guideline2;
@@ -154,6 +163,18 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       id = R.id.conditions_checkbox;
       CheckBox conditionsCheckbox = rootView.findViewById(id);
       if (conditionsCheckbox == null) {
+        break missingId;
+      }
+
+      id = R.id.email_et;
+      EditText emailEt = rootView.findViewById(id);
+      if (emailEt == null) {
+        break missingId;
+      }
+
+      id = R.id.email_til;
+      TextInputLayout emailTil = rootView.findViewById(id);
+      if (emailTil == null) {
         break missingId;
       }
 
@@ -278,10 +299,10 @@ public final class RegisNeedDonationFragmnetBinding implements ViewBinding {
       }
 
       return new RegisNeedDonationFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          forgotpassTv, guideline1, guideline2, guideline3, imageView4, imageView5, progressbar,
-          regisVolCityActv, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
-          regisVolNameEt, regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil,
-          regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv);
+          emailEt, emailTil, forgotpassTv, guideline1, guideline2, guideline3, imageView4,
+          imageView5, progressbar, regisVolCityActv, regisVolCityTil, regisVolGovActv,
+          regisVolGovTil, regisVolLocationBtn, regisVolNameEt, regisVolNameTil, regisVolNextBtn,
+          regisVolPassEt, regisVolPassTil, regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

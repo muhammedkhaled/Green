@@ -1,5 +1,3 @@
-com/muhammad/green/BuildConfig.java
- com.muhammad.green.BuildConfig
 com/muhammad/green/databinding/FragmentDetailsBinding.java
  com.muhammad.green.databinding.FragmentDetailsBinding
 com/muhammad/green/databinding/CaseReportItemBinding.java
@@ -10,6 +8,8 @@ com/muhammad/green/databinding/FragmentStateOfOrderBinding.java
  com.muhammad.green.databinding.FragmentStateOfOrderBinding
 com/muhammad/green/databinding/FragmentMenuBinding.java
  com.muhammad.green.databinding.FragmentMenuBinding
+com/muhammad/green/BuildConfig.java
+ com.muhammad.green.BuildConfig
 com/muhammad/green/databinding/FragmentSplashBinding.java
  com.muhammad.green.databinding.FragmentSplashBinding
 com/muhammad/green/databinding/InKindDonItemBinding.java

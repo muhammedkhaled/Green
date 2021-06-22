@@ -32,7 +32,6 @@ import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.util.*
 
-
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     private lateinit var pref: SharedPreferences

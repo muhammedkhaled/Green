@@ -26,4 +26,7 @@ interface AuthApi : BaseApi {
     @GET("governments")
     suspend fun governments() : Governments
 
+    @POST("verify-code")
+    suspend fun verify(@Body verifyMap: Map<String, String>): SmsMsg
+
 }

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -41,13 +42,16 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
-  public final MaterialButton loginBtn;
-
-  @NonNull
   public final OtpView otpViewCode;
 
   @NonNull
+  public final ProgressBar progressbar;
+
+  @NonNull
   public final TextView resendCodeTv;
+
+  @NonNull
+  public final MaterialButton sendBtn;
 
   @NonNull
   public final ImageView verificationLogoImg;
@@ -55,8 +59,9 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
   private RegisVerificationCodeFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull MaterialButton loginBtn, @NonNull OtpView otpViewCode,
-      @NonNull TextView resendCodeTv, @NonNull ImageView verificationLogoImg) {
+      @NonNull ImageView imageView5, @NonNull OtpView otpViewCode, @NonNull ProgressBar progressbar,
+      @NonNull TextView resendCodeTv, @NonNull MaterialButton sendBtn,
+      @NonNull ImageView verificationLogoImg) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
     this.guideline1 = guideline1;
@@ -64,9 +69,10 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
     this.guideline3 = guideline3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
-    this.loginBtn = loginBtn;
     this.otpViewCode = otpViewCode;
+    this.progressbar = progressbar;
     this.resendCodeTv = resendCodeTv;
+    this.sendBtn = sendBtn;
     this.verificationLogoImg = verificationLogoImg;
   }
 
@@ -133,21 +139,27 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.login_btn;
-      MaterialButton loginBtn = rootView.findViewById(id);
-      if (loginBtn == null) {
-        break missingId;
-      }
-
       id = R.id.otp_view_code;
       OtpView otpViewCode = rootView.findViewById(id);
       if (otpViewCode == null) {
         break missingId;
       }
 
+      id = R.id.progressbar;
+      ProgressBar progressbar = rootView.findViewById(id);
+      if (progressbar == null) {
+        break missingId;
+      }
+
       id = R.id.resendCode_tv;
       TextView resendCodeTv = rootView.findViewById(id);
       if (resendCodeTv == null) {
+        break missingId;
+      }
+
+      id = R.id.send_btn;
+      MaterialButton sendBtn = rootView.findViewById(id);
+      if (sendBtn == null) {
         break missingId;
       }
 
@@ -158,8 +170,8 @@ public final class RegisVerificationCodeFragmentBinding implements ViewBinding {
       }
 
       return new RegisVerificationCodeFragmentBinding((ConstraintLayout) rootView, constraintLayout,
-          guideline1, guideline2, guideline3, imageView4, imageView5, loginBtn, otpViewCode,
-          resendCodeTv, verificationLogoImg);
+          guideline1, guideline2, guideline3, imageView4, imageView5, otpViewCode, progressbar,
+          resendCodeTv, sendBtn, verificationLogoImg);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

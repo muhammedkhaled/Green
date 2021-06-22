@@ -42,6 +42,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
     private lateinit var pref: SharedPreferences
     private var governmentID = ""
     private var cityID = ""
+    private var phone = ""
 
     override fun getFragmentBinding(
         inflater: LayoutInflater,
@@ -53,21 +54,29 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
         setUpViewModel()
         viewModel.getGovernments()
 
+        viewModel.navigate.observe(viewLifecycleOwner){
+            if (it == true) {
+                findNavController().navigate(
+                    RegisVolunteerInfoFragmentDirections
+                        .actionRegisVolunteerInfoFragmnetToVerificationCodeFragment(phone)
+                )
+                viewModel.navigate(false)
+            }
+        }
+
         lifecycleScope.launch {
             viewModel.governments.collect {
-                when(it){
+                when (it){
                     is ResultWrapper.Success -> {
                         initSpinners(it.value)
                         Log.d("RegisNeed", "governments: ${it.value}")
+
                     }
+                    is ResultWrapper.GenericError -> handleApiError(it)
                 }
             }
         }
         binding.regisVolNextBtn.setOnClickListener{
-//            findNavController().navigate(
-//                RegisVolunteerInfoFragmentDirections
-//                    .actionRegisVolunteerInfoFragmnetToVerificationCodeFragment()
-//            )
             register()
         }
 
@@ -75,10 +84,10 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
             binding.progressbar.visible(it is ResultWrapper.Loading)
             when (it) {
                 is ResultWrapper.Success -> {
-                    it.value.token?.let {
+                    it.value.token?.let { it ->
                         viewModel.saveToken(it)
                     }
-
+                    viewModel.navigate(true)
                     Log.d("token", "onViewCreated: ${it.value.token}")
                 }
                 is ResultWrapper.GenericError -> handleApiError(it) { register() }
@@ -99,7 +108,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 Log.d("TAG", "onViewCreated: ${index.id}")
             }
 
-        binding.regisVolLocationBtn.setOnClickListener {
+       binding.regisVolLocationBtn.setOnClickListener {
             findNavController().navigate(
                 RegisVolunteerInfoFragmentDirections
                     .actionRegisVolunteerInfoFragmnetToMapsFragment()
@@ -109,13 +118,14 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
     }
 
     private fun register() {
-
         val name = binding.regisVolNameEt.text.trim().toString()
-        val phone = binding.regisVolPhoneEt.text.trim().toString()
-        val lat = UserData.lat.trim()
-        val long = UserData.long.trim()
+        phone = binding.regisVolPhoneEt.text.trim().toString()
+        var lat = UserData.lat.trim()
+        var long = UserData.long.trim()
         val pass = binding.regisVolPassEt.text.trim().toString()
         val conditions = binding.conditionsCheckbox.isChecked
+        val address = binding.addressEt.text.trim().toString()
+        val email = binding.emailEt.text.trim().toString()
 
         when {
             name.isEmpty() -> {
@@ -129,6 +139,11 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
             phone.length != 11 -> {
                 binding.regisVolPhoneEt.error = "برجاء كتابه رقم تليفون صالح"
                 binding.regisVolPhoneEt.requestFocus()
+            }
+            email.isEmpty() -> {
+                // todo validate the email skema
+                binding.emailEt.error = "برجاء كتابه البريد الاكترونى"
+                binding.emailEt.requestFocus()
             }
             governmentID.isEmpty() -> {
                 binding.regisVolGovActv.error = "برجاء اختيار المحافظه"
@@ -146,9 +161,9 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 binding.regisVolPassEt.error = "برجاء ادخال كلمه سر اكبر من 6 ارقام"
                 binding.regisVolPassEt.requestFocus()
             }
-            lat.isEmpty() -> {
-                Toast.makeText(requireContext(), "برجاء تحديد اللوكيشن على الخريطه", Toast.LENGTH_SHORT).show()
-                binding.regisVolLocationBtn.requestFocus()
+            address.isEmpty() -> {
+                binding.addressEt.error = "برجاء ادخال العنوان"
+                binding.addressEt.requestFocus()
             }
             !conditions -> {
                 Toast.makeText(
@@ -158,15 +173,12 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                 ).show()
             }
             else -> {
-                val inputs = RegisUserInputs( name, phone, "null", "m11@gmail.com",pass
-                    ,cityID, governmentID,pass, long.toString(), lat.toString())
-                Log.d("TAG", "register: ${inputs}")
+                val inputs = RegisUserInputs( name, phone, address, email,pass
+                    ,cityID, governmentID,pass, long, lat)
+                Log.d("TAG", "register: $inputs")
                 viewModel.registerVol(inputs)
             }
         }
-
-
-
     }
 
     private fun setUpViewModel() {
@@ -177,7 +189,7 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
         viewModel = ViewModelProvider(this, factory).get(RegisUserViewModel::class.java)
     }
 
-    fun initSpinners(governments: Governments){
+    private fun initSpinners(governments: Governments){
         binding.regisVolGovActv.setAdapter(
             ArrayAdapter(requireContext(), R.layout.auto_complete_text_view, governments.data)
         )

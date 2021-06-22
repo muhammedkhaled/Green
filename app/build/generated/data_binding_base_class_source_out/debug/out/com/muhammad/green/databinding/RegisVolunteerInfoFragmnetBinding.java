@@ -27,7 +27,19 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final EditText addressEt;
+
+  @NonNull
+  public final TextInputLayout addressTil;
+
+  @NonNull
   public final CheckBox conditionsCheckbox;
+
+  @NonNull
+  public final EditText emailEt;
+
+  @NonNull
+  public final TextInputLayout emailTil;
 
   @NonNull
   public final Guideline guideline1;
@@ -43,9 +55,6 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView5;
-
-  @NonNull
-  public final TextView latlongTv;
 
   @NonNull
   public final ProgressBar progressbar;
@@ -93,9 +102,11 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
   public final TextView signInTv;
 
   private RegisVolunteerInfoFragmnetBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CheckBox conditionsCheckbox, @NonNull Guideline guideline1,
+      @NonNull EditText addressEt, @NonNull TextInputLayout addressTil,
+      @NonNull CheckBox conditionsCheckbox, @NonNull EditText emailEt,
+      @NonNull TextInputLayout emailTil, @NonNull Guideline guideline1,
       @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull TextView latlongTv, @NonNull ProgressBar progressbar,
+      @NonNull ImageView imageView5, @NonNull ProgressBar progressbar,
       @NonNull AutoCompleteTextView regisVolCityActv, @NonNull TextInputLayout regisVolCityTil,
       @NonNull AutoCompleteTextView regisVolGovActv, @NonNull TextInputLayout regisVolGovTil,
       @NonNull MaterialButton regisVolLocationBtn, @NonNull EditText regisVolNameEt,
@@ -104,13 +115,16 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       @NonNull EditText regisVolPhoneEt, @NonNull TextInputLayout regisVolPhoneTil,
       @NonNull TextView regisVolTitleTv, @NonNull TextView signInTv) {
     this.rootView = rootView;
+    this.addressEt = addressEt;
+    this.addressTil = addressTil;
     this.conditionsCheckbox = conditionsCheckbox;
+    this.emailEt = emailEt;
+    this.emailTil = emailTil;
     this.guideline1 = guideline1;
     this.guideline2 = guideline2;
     this.guideline3 = guideline3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
-    this.latlongTv = latlongTv;
     this.progressbar = progressbar;
     this.regisVolCityActv = regisVolCityActv;
     this.regisVolCityTil = regisVolCityTil;
@@ -155,9 +169,33 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.address_et;
+      EditText addressEt = rootView.findViewById(id);
+      if (addressEt == null) {
+        break missingId;
+      }
+
+      id = R.id.address_til;
+      TextInputLayout addressTil = rootView.findViewById(id);
+      if (addressTil == null) {
+        break missingId;
+      }
+
       id = R.id.conditions_checkbox;
       CheckBox conditionsCheckbox = rootView.findViewById(id);
       if (conditionsCheckbox == null) {
+        break missingId;
+      }
+
+      id = R.id.email_et;
+      EditText emailEt = rootView.findViewById(id);
+      if (emailEt == null) {
+        break missingId;
+      }
+
+      id = R.id.email_til;
+      TextInputLayout emailTil = rootView.findViewById(id);
+      if (emailTil == null) {
         break missingId;
       }
 
@@ -188,12 +226,6 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
       id = R.id.imageView5;
       ImageView imageView5 = rootView.findViewById(id);
       if (imageView5 == null) {
-        break missingId;
-      }
-
-      id = R.id.latlong_tv;
-      TextView latlongTv = rootView.findViewById(id);
-      if (latlongTv == null) {
         break missingId;
       }
 
@@ -287,11 +319,12 @@ public final class RegisVolunteerInfoFragmnetBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RegisVolunteerInfoFragmnetBinding((ConstraintLayout) rootView, conditionsCheckbox,
-          guideline1, guideline2, guideline3, imageView4, imageView5, latlongTv, progressbar,
-          regisVolCityActv, regisVolCityTil, regisVolGovActv, regisVolGovTil, regisVolLocationBtn,
-          regisVolNameEt, regisVolNameTil, regisVolNextBtn, regisVolPassEt, regisVolPassTil,
-          regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv, signInTv);
+      return new RegisVolunteerInfoFragmnetBinding((ConstraintLayout) rootView, addressEt,
+          addressTil, conditionsCheckbox, emailEt, emailTil, guideline1, guideline2, guideline3,
+          imageView4, imageView5, progressbar, regisVolCityActv, regisVolCityTil, regisVolGovActv,
+          regisVolGovTil, regisVolLocationBtn, regisVolNameEt, regisVolNameTil, regisVolNextBtn,
+          regisVolPassEt, regisVolPassTil, regisVolPhoneEt, regisVolPhoneTil, regisVolTitleTv,
+          signInTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

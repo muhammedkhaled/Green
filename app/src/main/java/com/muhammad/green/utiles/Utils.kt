@@ -7,9 +7,11 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.muhammad.green.data.network.ResultWrapper
+import com.muhammad.green.views.registration.response.LoginFail
 import com.muhammad.green.views.registration.ui.RegisLoginFragment
 import com.muhammad.green.views.registration.ui.RegisNeedDonationFragment
 import com.muhammad.green.views.registration.ui.RegisVolunteerInfoFragment
+import com.muhammad.green.views.registration.ui.VerificationCodeFragment
 import java.util.*
 
 fun <A : Activity> Activity.startNewActivity(activity: Class<A>) {
@@ -60,8 +62,13 @@ fun Fragment.handleApiError(
                 this is RegisVolunteerInfoFragment ->{
                     requireView().snackbar(failure.error.toString())
                 }
+                this is VerificationCodeFragment ->{
+                    val error = failure.error as LoginFail
+                    requireView().snackbar(failure.error.message)
+                }
                 else -> {
 //                (this as BaseFragment<*>).logout()
+
                 }
             }
         }
