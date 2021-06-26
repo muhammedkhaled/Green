@@ -1,15 +1,12 @@
 package com.muhammad.green.views.home.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.muhammad.green.R
 import com.muhammad.green.data.network.GeneralDataApi
 import com.muhammad.green.data.network.RemoteDataSource
@@ -18,7 +15,7 @@ import com.muhammad.green.databinding.FragmentCallUsBinding
 import com.muhammad.green.views.home.repository.GeneralDataRepository
 import com.muhammad.green.views.home.response.Data
 import com.muhammad.green.views.home.viewModels.GeneralDataViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.visible

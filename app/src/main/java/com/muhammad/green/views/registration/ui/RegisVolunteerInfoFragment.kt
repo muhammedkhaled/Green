@@ -1,8 +1,6 @@
 package com.muhammad.green.views.registration.ui
 
 import android.content.SharedPreferences
-import android.location.Address
-import android.location.Geocoder
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -26,14 +24,12 @@ import com.muhammad.green.views.registration.response.Data
 import com.muhammad.green.views.registration.response.Governments
 import com.muhammad.green.views.registration.response.RegisUserInputs
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
-import net.Aqua_waterfliter.joborder.utiles.snackbar
 import net.Aqua_waterfliter.joborder.utiles.visible
-import java.util.*
 
 
 class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBinding>() {
@@ -70,7 +66,6 @@ class RegisVolunteerInfoFragment : BaseFragment<RegisVolunteerInfoFragmnetBindin
                     is ResultWrapper.Success -> {
                         initSpinners(it.value)
                         Log.d("RegisNeed", "governments: ${it.value}")
-
                     }
                     is ResultWrapper.GenericError -> handleApiError(it)
                 }

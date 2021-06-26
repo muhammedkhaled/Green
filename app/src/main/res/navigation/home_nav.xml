@@ -70,7 +70,11 @@
         android:id="@+id/detailsFragment"
         android:name="com.muhammad.green.views.home.ui.CategoryDetailsFragment"
         android:label="التفاصيل"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="categoryId"
+            app:argType="integer" />
+    </fragment>
     <fragment
         android:id="@+id/donateDeviceFragment"
         android:name="com.muhammad.green.views.home.ui.DonateDeviceFragment"

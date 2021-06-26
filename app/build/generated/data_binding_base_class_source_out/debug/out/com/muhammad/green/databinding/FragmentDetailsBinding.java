@@ -4,6 +4,7 @@ package com.muhammad.green.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -29,13 +30,18 @@ public final class FragmentDetailsBinding implements ViewBinding {
   @NonNull
   public final Guideline guidelineH1;
 
+  @NonNull
+  public final ProgressBar loadingProgress;
+
   private FragmentDetailsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ChipGroup detailsCasesCategoriesChipGroup,
-      @NonNull RecyclerView detailsDonationCasesRv, @NonNull Guideline guidelineH1) {
+      @NonNull RecyclerView detailsDonationCasesRv, @NonNull Guideline guidelineH1,
+      @NonNull ProgressBar loadingProgress) {
     this.rootView = rootView;
     this.detailsCasesCategoriesChipGroup = detailsCasesCategoriesChipGroup;
     this.detailsDonationCasesRv = detailsDonationCasesRv;
     this.guidelineH1 = guidelineH1;
+    this.loadingProgress = loadingProgress;
   }
 
   @Override
@@ -83,8 +89,14 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingProgress;
+      ProgressBar loadingProgress = rootView.findViewById(id);
+      if (loadingProgress == null) {
+        break missingId;
+      }
+
       return new FragmentDetailsBinding((ConstraintLayout) rootView,
-          detailsCasesCategoriesChipGroup, detailsDonationCasesRv, guidelineH1);
+          detailsCasesCategoriesChipGroup, detailsDonationCasesRv, guidelineH1, loadingProgress);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -25,5 +25,8 @@ class TypeDetailsAdapter(private var list: List<Int>, private val listener: (Int
 
 class TypeDetailsVH(itemView: View) : RecyclerView.ViewHolder(itemView){
 
+    fun bind(){
+
+    }
 }
 

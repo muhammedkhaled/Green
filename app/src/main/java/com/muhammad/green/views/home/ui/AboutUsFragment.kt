@@ -1,7 +1,6 @@
 package com.muhammad.green.views.home.ui
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,8 +16,7 @@ import com.muhammad.green.databinding.FragmentAboutUsBinding
 import com.muhammad.green.views.home.repository.GeneralDataRepository
 import com.muhammad.green.views.home.response.Data
 import com.muhammad.green.views.home.viewModels.GeneralDataViewModel
-import com.muhammad.green.views.home.viewModels.HomeViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.visible

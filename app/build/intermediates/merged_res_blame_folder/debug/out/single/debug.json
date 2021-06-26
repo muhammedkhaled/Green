@@ -1,31 +1,31 @@
 [
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_check.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\check.png"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\ic_settings.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_check.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\check.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_sign_out.png.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_sign_out.png"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_success.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\success.png"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_landing1.png.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\landing1.png"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_success.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\success.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\success.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_paypal.png.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\paypal.png"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_success.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xhdpi\\success.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_landing1.png.flat",
@@ -44,24 +44,24 @@
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_maps.xml"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_child.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\child.png"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_fg.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\rounded_fg.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_child.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-mdpi\\child.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_login.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\login.png"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mask_group4.png.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\mask_group4.png"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_login.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxhdpi\\login.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_sign_out.png.flat",
@@ -224,24 +224,24 @@
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_shortcut_arrow_back.png"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_auto_complete_text_view.xml.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\auto_complete_text_view.xml"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_info_donation_need.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\fragment_new_info_donation_need.xml"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_path1.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\path1.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_auto_complete_text_view.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\auto_complete_text_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask2.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask2.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_solid_with_stroke_shape.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\solid_with_stroke_shape.xml"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mask2.png.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\mask2.png"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_path1.png.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-xxxhdpi\\path1.png"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_sign_out.png.flat",
@@ -256,20 +256,20 @@
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mask_group5.png"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_light.ttf.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_light.ttf"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_app_bar.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\home_app_bar.xml"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\font_tajawal_light.ttf.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\font\\tajawal_light.ttf"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\navigation_registration_nav.xml.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\navigation\\registration_nav.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_summary.png.flat",
@@ -280,12 +280,12 @@
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-ldpi\\path1.png"
     },
     {
-        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filled_favorite.xml.flat",
-        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_filled_favorite.xml"
-    },
-    {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mastercard.png.flat",
         "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable-hdpi\\mastercard.png"
+    },
+    {
+        "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filled_favorite.xml.flat",
+        "source": "E:\\Projects\\Green\\app\\src\\main\\res\\drawable\\ic_filled_favorite.xml"
     },
     {
         "merged": "E:\\Projects\\Green\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_donation_cases_item.xml.flat",

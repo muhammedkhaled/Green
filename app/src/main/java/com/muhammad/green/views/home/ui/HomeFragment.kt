@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
-import com.muhammad.green.data.PreferenceHelper.get
 import com.muhammad.green.data.PreferenceHelper.set
 import com.muhammad.green.data.network.HomeApi
 import com.muhammad.green.data.network.RemoteDataSource
@@ -22,14 +21,12 @@ import com.muhammad.green.views.home.adapters.CasesTypeAdapter
 import com.muhammad.green.views.home.adapters.homeDonaCasesAdapter
 import com.muhammad.green.utiles.CenterZoomLinearLayoutManager
 import com.muhammad.green.views.home.repository.HomeRepository
-import com.muhammad.green.views.home.response.UserCasePay
 import com.muhammad.green.views.home.viewModels.HomeViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.visible
 import java.text.SimpleDateFormat
-import java.time.LocalDate
 import java.util.*
 
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
@@ -68,7 +65,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         binding.categoriesRv.layoutManager = center
 
         categoryAdapter = CasesTypeAdapter(arrayListOf()){
-            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToDetailsFragment())
+            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToDetailsFragment(it.id))
         }
         binding.categoriesRv.adapter = categoryAdapter
     }
@@ -92,7 +89,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 //        val token = pref["token"]
         val token = ""
 //        val token = "QeNqvDYdMOCN2ZkXeZzSfXf441cbnckkjfM5P3rV5axP66MqkB5YRekLLjle"
-//        Log.d("HomeFragment", "onViewCreated: ${token}")
 
         val remoteDataSource = RemoteDataSource.buildApi(HomeApi::class.java, token)
         val repository = HomeRepository(remoteDataSource)

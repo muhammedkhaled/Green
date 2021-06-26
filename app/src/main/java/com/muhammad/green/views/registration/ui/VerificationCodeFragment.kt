@@ -8,7 +8,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import com.muhammad.green.data.network.AuthApi
 import com.muhammad.green.data.network.RemoteDataSource
 import com.muhammad.green.data.network.ResultWrapper
@@ -16,7 +15,7 @@ import com.muhammad.green.databinding.RegisVerificationCodeFragmentBinding
 import com.muhammad.green.views.home.ui.MainActivity
 import com.muhammad.green.views.registration.repository.SmsVerifyRepository
 import com.muhammad.green.views.registration.viewModels.SmsVerifyViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.enable
 import net.Aqua_waterfliter.joborder.utiles.handleApiError

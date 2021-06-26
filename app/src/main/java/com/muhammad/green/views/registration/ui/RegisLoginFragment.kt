@@ -19,7 +19,7 @@ import com.muhammad.green.databinding.RegisLoginFragmentBinding
 import com.muhammad.green.views.home.ui.MainActivity
 import com.muhammad.green.views.registration.viewModels.LoginViewModel
 import net.Aqua_waterfliter.joborder.base.BaseFragment
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import net.Aqua_waterfliter.joborder.utiles.enable
 import net.Aqua_waterfliter.joborder.utiles.handleApiError
 import net.Aqua_waterfliter.joborder.utiles.startNewActivity

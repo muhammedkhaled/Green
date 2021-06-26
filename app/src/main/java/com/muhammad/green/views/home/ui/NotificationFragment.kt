@@ -18,14 +18,11 @@ import com.muhammad.green.data.network.ResultWrapper
 import com.muhammad.green.databinding.FragmentNotificationBinding
 import com.muhammad.green.views.home.adapters.NotificationAdapter
 import com.muhammad.green.views.home.repository.GeneralDataRepository
-import com.muhammad.green.views.home.viewModels.GeneralDataViewModel
 import com.muhammad.green.views.home.viewModels.NotificationViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import net.Aqua_waterfliter.joborder.base.BaseFragment
 import net.Aqua_waterfliter.joborder.utiles.visible
-import com.muhammad.green.data.PreferenceHelper.get
-import com.muhammad.green.data.PreferenceHelper.set
 
 
 class NotificationFragment : BaseFragment<FragmentNotificationBinding>() {

@@ -12,7 +12,6 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.google.android.gms.maps.model.LatLng
 import com.muhammad.green.R
 import com.muhammad.green.data.PreferenceHelper
 import com.muhammad.green.data.network.AuthApi
@@ -25,7 +24,7 @@ import com.muhammad.green.views.registration.response.Cities
 import com.muhammad.green.views.registration.response.Data
 import com.muhammad.green.views.registration.response.Governments
 import com.muhammad.green.views.registration.viewModels.RegisUserViewModel
-import com.muhammad.green.views.registration.viewModels.ViewModelFactory
+import com.muhammad.green.views.ViewModelFactory
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import net.Aqua_waterfliter.joborder.base.BaseFragment
