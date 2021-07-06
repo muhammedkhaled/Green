@@ -11,27 +11,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ProgressBar
+            android:id="@+id/loadingProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/Astral"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/casePImg_shapeable_img"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App20PercentBottomLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:translationY="-20dp"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/child" />
-
-        <ImageView
-            android:id="@+id/header_img"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:scaleType="fitXY"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mask_g4" />
 
         <TextView
             android:id="@+id/caseDetails_name_tv"

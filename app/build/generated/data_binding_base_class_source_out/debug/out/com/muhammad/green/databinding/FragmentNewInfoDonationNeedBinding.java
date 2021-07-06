@@ -61,12 +61,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
   public final TextInputLayout nwAccNdDonFullAddressTil;
 
   @NonNull
-  public final AutoCompleteTextView nwAccNdDonGovActv;
-
-  @NonNull
-  public final TextInputLayout nwAccNdDonGovTil;
-
-  @NonNull
   public final EditText nwAccNdDonHelpTypeEt;
 
   @NonNull
@@ -85,19 +79,10 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
   public final TextInputLayout nwAccNdDonIncomeSourceTil;
 
   @NonNull
-  public final MaterialButton nwAccNdDonLocationBtn;
-
-  @NonNull
   public final EditText nwAccNdDonMonthlyIncomeEt;
 
   @NonNull
   public final TextInputLayout nwAccNdDonMonthlyIncomeTil;
-
-  @NonNull
-  public final EditText nwAccNdDonNameEt;
-
-  @NonNull
-  public final TextInputLayout nwAccNdDonNameTil;
 
   @NonNull
   public final AutoCompleteTextView nwAccNdDonNationalityEt;
@@ -112,18 +97,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
   public final TextInputLayout nwAccNdDonPensionTypeTil;
 
   @NonNull
-  public final EditText nwAccNdDonPhoneEt;
-
-  @NonNull
-  public final TextInputLayout nwAccNdDonPhoneTil;
-
-  @NonNull
-  public final AutoCompleteTextView regisVolCityEt;
-
-  @NonNull
-  public final TextInputLayout regisVolCityTil;
-
-  @NonNull
   public final MaterialButton sendBtn;
 
   private FragmentNewInfoDonationNeedBinding(@NonNull ConstraintLayout rootView,
@@ -134,19 +107,15 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
       @NonNull EditText nwAccNdDonFamilyMembersEt,
       @NonNull TextInputLayout nwAccNdDonFamilyMembersTil,
       @NonNull EditText nwAccNdDonFullAddressEt, @NonNull TextInputLayout nwAccNdDonFullAddressTil,
-      @NonNull AutoCompleteTextView nwAccNdDonGovActv, @NonNull TextInputLayout nwAccNdDonGovTil,
       @NonNull EditText nwAccNdDonHelpTypeEt, @NonNull TextInputLayout nwAccNdDonHelpTypeTil,
       @NonNull EditText nwAccNdDonIDEt, @NonNull TextInputLayout nwAccNdDonIDTil,
       @NonNull EditText nwAccNdDonIncomeSourceEt,
       @NonNull TextInputLayout nwAccNdDonIncomeSourceTil,
-      @NonNull MaterialButton nwAccNdDonLocationBtn, @NonNull EditText nwAccNdDonMonthlyIncomeEt,
-      @NonNull TextInputLayout nwAccNdDonMonthlyIncomeTil, @NonNull EditText nwAccNdDonNameEt,
-      @NonNull TextInputLayout nwAccNdDonNameTil,
+      @NonNull EditText nwAccNdDonMonthlyIncomeEt,
+      @NonNull TextInputLayout nwAccNdDonMonthlyIncomeTil,
       @NonNull AutoCompleteTextView nwAccNdDonNationalityEt,
       @NonNull TextInputLayout nwAccNdDonNationalityTil, @NonNull EditText nwAccNdDonPensionTypeEt,
-      @NonNull TextInputLayout nwAccNdDonPensionTypeTil, @NonNull EditText nwAccNdDonPhoneEt,
-      @NonNull TextInputLayout nwAccNdDonPhoneTil, @NonNull AutoCompleteTextView regisVolCityEt,
-      @NonNull TextInputLayout regisVolCityTil, @NonNull MaterialButton sendBtn) {
+      @NonNull TextInputLayout nwAccNdDonPensionTypeTil, @NonNull MaterialButton sendBtn) {
     this.rootView = rootView;
     this.attachmentTitleTv = attachmentTitleTv;
     this.conditionsCheckbox = conditionsCheckbox;
@@ -160,27 +129,18 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
     this.nwAccNdDonFamilyMembersTil = nwAccNdDonFamilyMembersTil;
     this.nwAccNdDonFullAddressEt = nwAccNdDonFullAddressEt;
     this.nwAccNdDonFullAddressTil = nwAccNdDonFullAddressTil;
-    this.nwAccNdDonGovActv = nwAccNdDonGovActv;
-    this.nwAccNdDonGovTil = nwAccNdDonGovTil;
     this.nwAccNdDonHelpTypeEt = nwAccNdDonHelpTypeEt;
     this.nwAccNdDonHelpTypeTil = nwAccNdDonHelpTypeTil;
     this.nwAccNdDonIDEt = nwAccNdDonIDEt;
     this.nwAccNdDonIDTil = nwAccNdDonIDTil;
     this.nwAccNdDonIncomeSourceEt = nwAccNdDonIncomeSourceEt;
     this.nwAccNdDonIncomeSourceTil = nwAccNdDonIncomeSourceTil;
-    this.nwAccNdDonLocationBtn = nwAccNdDonLocationBtn;
     this.nwAccNdDonMonthlyIncomeEt = nwAccNdDonMonthlyIncomeEt;
     this.nwAccNdDonMonthlyIncomeTil = nwAccNdDonMonthlyIncomeTil;
-    this.nwAccNdDonNameEt = nwAccNdDonNameEt;
-    this.nwAccNdDonNameTil = nwAccNdDonNameTil;
     this.nwAccNdDonNationalityEt = nwAccNdDonNationalityEt;
     this.nwAccNdDonNationalityTil = nwAccNdDonNationalityTil;
     this.nwAccNdDonPensionTypeEt = nwAccNdDonPensionTypeEt;
     this.nwAccNdDonPensionTypeTil = nwAccNdDonPensionTypeTil;
-    this.nwAccNdDonPhoneEt = nwAccNdDonPhoneEt;
-    this.nwAccNdDonPhoneTil = nwAccNdDonPhoneTil;
-    this.regisVolCityEt = regisVolCityEt;
-    this.regisVolCityTil = regisVolCityTil;
     this.sendBtn = sendBtn;
   }
 
@@ -283,18 +243,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nwAccNdDonGov_actv;
-      AutoCompleteTextView nwAccNdDonGovActv = rootView.findViewById(id);
-      if (nwAccNdDonGovActv == null) {
-        break missingId;
-      }
-
-      id = R.id.nwAccNdDonGov_til;
-      TextInputLayout nwAccNdDonGovTil = rootView.findViewById(id);
-      if (nwAccNdDonGovTil == null) {
-        break missingId;
-      }
-
       id = R.id.nwAccNdDonHelpType_et;
       EditText nwAccNdDonHelpTypeEt = rootView.findViewById(id);
       if (nwAccNdDonHelpTypeEt == null) {
@@ -331,12 +279,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nwAccNdDonLocation_btn;
-      MaterialButton nwAccNdDonLocationBtn = rootView.findViewById(id);
-      if (nwAccNdDonLocationBtn == null) {
-        break missingId;
-      }
-
       id = R.id.nwAccNdDonMonthlyIncome_et;
       EditText nwAccNdDonMonthlyIncomeEt = rootView.findViewById(id);
       if (nwAccNdDonMonthlyIncomeEt == null) {
@@ -346,18 +288,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
       id = R.id.nwAccNdDonMonthlyIncome_til;
       TextInputLayout nwAccNdDonMonthlyIncomeTil = rootView.findViewById(id);
       if (nwAccNdDonMonthlyIncomeTil == null) {
-        break missingId;
-      }
-
-      id = R.id.nwAccNdDonName_et;
-      EditText nwAccNdDonNameEt = rootView.findViewById(id);
-      if (nwAccNdDonNameEt == null) {
-        break missingId;
-      }
-
-      id = R.id.nwAccNdDonName_til;
-      TextInputLayout nwAccNdDonNameTil = rootView.findViewById(id);
-      if (nwAccNdDonNameTil == null) {
         break missingId;
       }
 
@@ -385,30 +315,6 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nwAccNdDonPhone_et;
-      EditText nwAccNdDonPhoneEt = rootView.findViewById(id);
-      if (nwAccNdDonPhoneEt == null) {
-        break missingId;
-      }
-
-      id = R.id.nwAccNdDonPhone_til;
-      TextInputLayout nwAccNdDonPhoneTil = rootView.findViewById(id);
-      if (nwAccNdDonPhoneTil == null) {
-        break missingId;
-      }
-
-      id = R.id.regisVolCity_et;
-      AutoCompleteTextView regisVolCityEt = rootView.findViewById(id);
-      if (regisVolCityEt == null) {
-        break missingId;
-      }
-
-      id = R.id.regisVolCity_til;
-      TextInputLayout regisVolCityTil = rootView.findViewById(id);
-      if (regisVolCityTil == null) {
-        break missingId;
-      }
-
       id = R.id.send_btn;
       MaterialButton sendBtn = rootView.findViewById(id);
       if (sendBtn == null) {
@@ -419,12 +325,10 @@ public final class FragmentNewInfoDonationNeedBinding implements ViewBinding {
           conditionsCheckbox, guidelineH1, guidelineV1, guidelineV2, nwAccNdDonAgeEt,
           nwAccNdDonAgeTil, nwAccNdDonAttachmentBtn, nwAccNdDonFamilyMembersEt,
           nwAccNdDonFamilyMembersTil, nwAccNdDonFullAddressEt, nwAccNdDonFullAddressTil,
-          nwAccNdDonGovActv, nwAccNdDonGovTil, nwAccNdDonHelpTypeEt, nwAccNdDonHelpTypeTil,
-          nwAccNdDonIDEt, nwAccNdDonIDTil, nwAccNdDonIncomeSourceEt, nwAccNdDonIncomeSourceTil,
-          nwAccNdDonLocationBtn, nwAccNdDonMonthlyIncomeEt, nwAccNdDonMonthlyIncomeTil,
-          nwAccNdDonNameEt, nwAccNdDonNameTil, nwAccNdDonNationalityEt, nwAccNdDonNationalityTil,
-          nwAccNdDonPensionTypeEt, nwAccNdDonPensionTypeTil, nwAccNdDonPhoneEt, nwAccNdDonPhoneTil,
-          regisVolCityEt, regisVolCityTil, sendBtn);
+          nwAccNdDonHelpTypeEt, nwAccNdDonHelpTypeTil, nwAccNdDonIDEt, nwAccNdDonIDTil,
+          nwAccNdDonIncomeSourceEt, nwAccNdDonIncomeSourceTil, nwAccNdDonMonthlyIncomeEt,
+          nwAccNdDonMonthlyIncomeTil, nwAccNdDonNationalityEt, nwAccNdDonNationalityTil,
+          nwAccNdDonPensionTypeEt, nwAccNdDonPensionTypeTil, sendBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

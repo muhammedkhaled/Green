@@ -1,5 +1,5 @@
-com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
- com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding
+com/muhammad/green/databinding/FragmentDetailsBinding.java
+ com.muhammad.green.databinding.FragmentDetailsBinding
 com/muhammad/green/databinding/CaseReportItemBinding.java
  com.muhammad.green.databinding.CaseReportItemBinding
 com/muhammad/green/databinding/FragmentFavoriteBinding.java
@@ -90,5 +90,5 @@ com/muhammad/green/databinding/DonationCasesItemBinding.java
  com.muhammad.green.databinding.DonationCasesItemBinding
 com/muhammad/green/databinding/MyNeedsItemBinding.java
  com.muhammad.green.databinding.MyNeedsItemBinding
-com/muhammad/green/databinding/FragmentDetailsBinding.java
- com.muhammad.green.databinding.FragmentDetailsBinding
+com/muhammad/green/databinding/FragmentNewInfoDonationNeedBinding.java
+ com.muhammad.green.databinding.FragmentNewInfoDonationNeedBinding

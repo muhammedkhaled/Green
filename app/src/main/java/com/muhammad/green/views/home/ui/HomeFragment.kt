@@ -55,7 +55,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         binding.casesOfDonationsRv.layoutManager = manager1
 
         casesAdapter = homeDonaCasesAdapter(arrayListOf()){
-            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToCaseDetailsFragment())
+            findNavController().navigate(HomeFragmentDirections.actionNavigationHomeToCaseDetailsFragment(it.id))
         }
         binding.casesOfDonationsRv.adapter = casesAdapter
 

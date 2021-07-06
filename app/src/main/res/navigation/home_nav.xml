@@ -74,6 +74,9 @@
         <argument
             android:name="categoryId"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_detailsFragment_to_caseDetailsFragment"
+            app:destination="@id/caseDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/donateDeviceFragment"
@@ -92,6 +95,9 @@
         <action
             android:id="@+id/action_caseDetailsFragment_to_caseReportsFragment"
             app:destination="@id/caseReportsFragment" />
+        <argument
+            android:name="caseID"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/aboutUsFragment"

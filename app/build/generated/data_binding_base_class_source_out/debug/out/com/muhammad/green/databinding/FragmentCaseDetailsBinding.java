@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -56,7 +57,7 @@ public final class FragmentCaseDetailsBinding implements ViewBinding {
   public final TextView donationtitleTv;
 
   @NonNull
-  public final ImageView headerImg;
+  public final ProgressBar loadingProgress;
 
   @NonNull
   public final ImageView mastercardImg;
@@ -83,9 +84,10 @@ public final class FragmentCaseDetailsBinding implements ViewBinding {
       @NonNull TextView caseDetailsRemainedTv, @NonNull TextView caseDetailsTotalAmountTv,
       @NonNull ShapeableImageView casePImgShapeableImg, @NonNull MaterialButton caseReportsBtn,
       @NonNull TextView donationtitle2Tv, @NonNull TextView donationtitleTv,
-      @NonNull ImageView headerImg, @NonNull ImageView mastercardImg, @NonNull ImageView paypalImg,
-      @NonNull TextView totalPayedTv, @NonNull TextView totalRemainedTv,
-      @NonNull TextView totalTitleAmountTv, @NonNull ImageView visaImg) {
+      @NonNull ProgressBar loadingProgress, @NonNull ImageView mastercardImg,
+      @NonNull ImageView paypalImg, @NonNull TextView totalPayedTv,
+      @NonNull TextView totalRemainedTv, @NonNull TextView totalTitleAmountTv,
+      @NonNull ImageView visaImg) {
     this.rootView = rootView;
     this.caseDetailsDonationMethodsCardV = caseDetailsDonationMethodsCardV;
     this.caseDetailsDonationStateCardV = caseDetailsDonationStateCardV;
@@ -98,7 +100,7 @@ public final class FragmentCaseDetailsBinding implements ViewBinding {
     this.caseReportsBtn = caseReportsBtn;
     this.donationtitle2Tv = donationtitle2Tv;
     this.donationtitleTv = donationtitleTv;
-    this.headerImg = headerImg;
+    this.loadingProgress = loadingProgress;
     this.mastercardImg = mastercardImg;
     this.paypalImg = paypalImg;
     this.totalPayedTv = totalPayedTv;
@@ -200,9 +202,9 @@ public final class FragmentCaseDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.header_img;
-      ImageView headerImg = rootView.findViewById(id);
-      if (headerImg == null) {
+      id = R.id.loadingProgress;
+      ProgressBar loadingProgress = rootView.findViewById(id);
+      if (loadingProgress == null) {
         break missingId;
       }
 
@@ -245,7 +247,7 @@ public final class FragmentCaseDetailsBinding implements ViewBinding {
       return new FragmentCaseDetailsBinding((NestedScrollView) rootView,
           caseDetailsDonationMethodsCardV, caseDetailsDonationStateCardV, caseDetailsInfoTv,
           caseDetailsNameTv, caseDetailsPayedTv, caseDetailsRemainedTv, caseDetailsTotalAmountTv,
-          casePImgShapeableImg, caseReportsBtn, donationtitle2Tv, donationtitleTv, headerImg,
+          casePImgShapeableImg, caseReportsBtn, donationtitle2Tv, donationtitleTv, loadingProgress,
           mastercardImg, paypalImg, totalPayedTv, totalRemainedTv, totalTitleAmountTv, visaImg);
     }
     String missingId = rootView.getResources().getResourceName(id);

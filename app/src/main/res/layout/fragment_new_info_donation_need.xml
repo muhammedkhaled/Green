@@ -69,7 +69,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/guideline_v2"
                 app:layout_constraintStart_toStartOf="@id/guideline_v1">
-
+<!--
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/nwAccNdDonLocation_btn"
                     android:layout_width="0dp"
@@ -86,7 +86,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/regisVolCity_til" />
 
 
-<!--                <TextView
+                <TextView
                     android:id="@+id/newAccTitle_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />-->
 
-                <com.google.android.material.textfield.TextInputLayout
+<!--                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/nwAccNdDonName_til"
                     style="@style/TextInputLayout.EditText.FilledBox"
                     android:layout_width="0dp"
@@ -183,7 +183,7 @@
                         android:textColor="@color/ebony_clay"
                         android:textSize="14sp" />
 
-                </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>-->
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/nwAccNdDonAge_til"
@@ -193,7 +193,7 @@
                     android:hint="@string/Age"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/nwAccNdDonLocation_btn">
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <EditText
                         android:id="@+id/nwAccNdDonAge_et"

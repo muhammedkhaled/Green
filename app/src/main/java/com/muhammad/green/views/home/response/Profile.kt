@@ -9,6 +9,7 @@ data class Profile(
 
 data class UserCasePay(
     val address: String,
+    val id: Int,
     val city: String,
     val favorite: Int,
     val government: String,
